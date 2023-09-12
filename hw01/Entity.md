@@ -1,20 +1,24 @@
 ## Описание суженостей БД
 
+[Схема сущностей БД](Entity.png)
+
+[Скрипты создания схемы и таблиц БД](postgreSqlScript.sql)
+
 ### 1. Склад - composition
 * _id_ - Идентификатор записи, serial NOT NULL
 * _name_ - Имя склада, VARCHAR(255) NOT NULL
 * _address_ - Aдресс, TEXT NOT NULL
-* _worker_ids_ - Идентификатор сотрудника, serial NOT NULL
-* _item_ids_ - Идентификаторы номенклатурных позиций, serial NOT NULL
+* _fk_worker_ - Идентификатор сотрудника, INTEGER NOT NULL
+* _fk_item_ - Идентификаторы номенклатурных позиций, INTEGER NOT NULL
 * _description_ - Описание,  TEXT
 
 ### 2. Номенклатурная позиция - item
 * _id_ - Идентификатор записи, serial NOT NULL
 * _catalogue_number_ - Каталожный номер, VARCHAR(255) NOT NULL,
 * _name_ - Наименование, VARCHAR(255) NOT NULL,
-* _manufacturer_id_ - Идентификатор производителя, serial NOT NULL,
-* _status_id_ - Статус номенклатурной позиции, serial NOT NULL,
-* _provider_id_ - Поставщик, serial NOT NULL,
+* _fk_manufacturer_ - Идентификатор производителя, INTEGER NOT NULL,
+* _fk_status_ - Статус номенклатурной позиции, INTEGER NOT NULL,
+* _fk_provider_ - Поставщик, INTEGER NOT NULL,
 * _description_ - Описание,  TEXT
 
 ### 3. Производитель - manufacturer
@@ -27,7 +31,7 @@
 ### 4. Сотрудник - worker
 * _id_ - Идентификатор записи, serial NOT NULL
 * _name_ - Имя склада, VARCHAR(255) NOT NULL
-* _position_id_ - Идентификатор долджность, serial NOT NULL,
+* _fk_position_ - Идентификатор долджность, INTEGER NOT NULL,
 * _phone_ - Контактный телефон, VARCHAR(255) NOT NULL UNIQUE,
 
 ### 5. Статус номенклатурной позиции - status
@@ -49,9 +53,9 @@
 
 ### 8. История номенклатурной позиции - item_history
 * _id_ - Идентификатор записи, serial NOT NULL
-* _operation_id_ - Идентификатор операция, serial NOT NULL,
-* _item_id_ - Идентификатор номенклатурной позиции, serial NOT NULL,
-* _worker_id_ - Идентификатор сотрудника, serial NOT NULL,
+* _fk_operation_ - Идентификатор операция, INTEGER NOT NULL,
+* _fk_item_ - Идентификатор номенклатурной позиции, INTEGER NOT NULL,
+* _fk_worker_ - Идентификатор сотрудника, INTEGER NOT NULL,
 * _time_ - Время выполнения операции, DATE NOT NULL
 
 ### 9. Операция над номенклатурной позицией - operation
