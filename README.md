@@ -17,8 +17,11 @@
 3. [Проблемы миграции](hw03/lecture.md)
 4. [Теорема CAP](hw04/lecture.md)
 5. [Семинар: проектирование](hw05/lecture.md)
-6. [Внутренняя архитектура СУБД PostgreSQL](hw05/lecture.md)
-7. [DDL: создание, изменение и удаление объектов в PostgreSQL](hw06/lecture.md)
+6. [Внутренняя архитектура СУБД PostgreSQL](hw06/lecture.md)
+7. [DDL: создание, изменение и удаление объектов в PostgreSQL](hw07/lecture.md)
+8. [Транзакции, MVCC, ACID](hw08/lecture.md)
+9. [DML: вставка, обновление, удаление, выборка данных](hw09/lecture.md)
+10. [Индексы](hw10/lecture.md)
 
 ### Справочники и полезные ресурсы
 1. 
