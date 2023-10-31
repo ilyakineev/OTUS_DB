@@ -15,3 +15,4 @@
 ### Преподаватель
 Виктор Коробков
 
+https://postgrespro.ru/docs/postgresql/15/sql-createindex

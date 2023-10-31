@@ -101,7 +101,7 @@
         "fk_operation" integer NOT NULL,
         "fk_item" integer NOT NULL,
         "fk_worker" integer NOT NULL,
-        "time" DATE NOT NULL,
+        "time" timestamp NOT NULL,
         CONSTRAINT "item_history_pk" PRIMARY KEY ("id")
     ) WITH (
         OIDS=FALSE

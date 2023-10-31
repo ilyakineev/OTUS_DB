@@ -45,15 +45,15 @@ INSERT INTO irk_."position" ("position", description, fk_role) VALUES('Завх�
 
 --- Добавить строки в таблицу worker - "Работник"
 
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Сергеев', 'Прохор', 'Артёмович', '+7(967)746-60-46', 1, '1');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Шубин', 'Варлам', 'Семёнович', '+7(967)309-20-14', 1, '1');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Кузнецов', 'Остап', 'Миронович', '+7(967)343-97-95', 3, '3');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Пономарёв', 'Егор', 'Федотович', '+7(967)176-69-80', 2, '2');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Елисеев', 'Авраам', 'Валерьянович', '+7(967)263-21-00', 5, '5');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Ефимов', 'Владлен', 'Иванович', '+7(967)006-01-12', 3, '7');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Баранова', 'Татьяна', 'Юлиановна', '+7(967)655-35-00', 7, '7');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) values('Ефремова', 'Габриэлла', 'Дмитрьевна', '+7(967)872-85-25', 8, '8');
-INSERT INTO irk_.worker (first_name, middle_name, "last name", phone, fk_position, description) VALUES('Дьячкова', 'Жюли', 'Мэлоровна', '+7(967)990-09-15', 11, '11');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Сергеев', 'Прохор', 'Артёмович', '+7(967)746-60-46', 1, '1');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Шубин', 'Варлам', 'Семёнович', '+7(967)309-20-14', 1, '1');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Кузнецов', 'Остап', 'Миронович', '+7(967)343-97-95', 3, '3');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Пономарёв', 'Егор', 'Федотович', '+7(967)176-69-80', 2, '2');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Елисеев', 'Авраам', 'Валерьянович', '+7(967)263-21-00', 5, '5');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Ефимов', 'Владлен', 'Иванович', '+7(967)006-01-12', 3, '7');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Баранова', 'Татьяна', 'Юлиановна', '+7(967)655-35-00', 7, '7');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) values('Ефремова', 'Габриэлла', 'Дмитрьевна', '+7(967)872-85-25', 8, '8');
+INSERT INTO irk_.worker (first_name, middle_name, "last_name", phone, fk_position, description) VALUES('Дьячкова', 'Жюли', 'Мэлоровна', '+7(967)990-09-15', 11, '11');
 
 --- Добавить строки в таблицу operation - "Операций с номенклатурной позицией"
 
@@ -102,11 +102,11 @@ INSERT INTO irk_.price (fk_item, price) VALUES(13, 765);
 
 --- Добавить строки в таблицу item_history - "История изменения номенклатуры"
 
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 1, 1, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 3, 2, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 2, 3, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 4, 4, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 5, 2, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(2, 1, 3, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 2, 5, '2001-02-16 20:38:40');
-INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 3, 1, '2001-02-16 20:38:40');
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 1, 1, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 3, 2, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 2, 3, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 4, 4, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(3, 5, 2, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(2, 1, 3, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 2, 5, clock_timestamp());
+INSERT INTO irk_.item_history (fk_operation, fk_item, fk_worker, "time") VALUES(1, 3, 1, clock_timestamp());

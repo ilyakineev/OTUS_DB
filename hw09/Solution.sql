@@ -15,7 +15,7 @@
                 s."name" as Статус,
                 w.first_name as Имя,
                 w.middle_name as Отчество,
-                w."last name" as Фамилия
+                w."last_name" as Фамилия
         from irk_.item i
             join irk_.item_history ih on ih.fk_item = i.id
             join irk_.worker w on w.id = ih.fk_worker
@@ -25,7 +25,7 @@
 -- 2. Написать запрос с добавлением данных INSERT INTO
 
     -- 2.1 Выдать номенклатурную позицию рабочему:
-        insert into irk_.item_history (fk_operation, fk_item, fk_worker, "time") values(1, 3, 4, current_time);
+        insert into irk_.item_history (fk_operation, fk_item, fk_worker, "time") values(1, 3, 4, clock_timestamp());
 
 -- 3. Написать запрос с обновлением данных с UPDATE FROM
     -- 3.1 Изменить статус номенклатурной позиции:
@@ -55,7 +55,7 @@
     returning *;
 -- 8. Напишите запрос с обновлением данные используя UPDATE FROM.
     -- 8.1 Сотрудница сменила фамилию
-        UPDATE irk_.worker w SET "last name"='Владиславовна' WHERE w.phone like '+7(967)990-12-56';
+        UPDATE irk_.worker w SET "last_name"='Владиславовна' WHERE w.phone like '+7(967)990-12-56';
 -- 9. Напишите запрос для удаления данных с оператором DELETE используя join с другой таблицей с помощью using.
     delete from irk_.worker w using (select * from irk_."position") p where p.id = w.fk_position and p.position = 'Бухгалтер';
 -- 10. Задание со *: Приведите пример использования утилиты COPY

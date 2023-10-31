@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS irk_.worker (
                                 	"id" serial NOT NULL,
                                 	"first_name" varchar(255) NOT NULL,
                                 	"middle_name" varchar(255) NOT NULL,
-                                	"last name" varchar(255),
+                                	"last_name" varchar(255),
                                 	"phone" varchar(255) UNIQUE,
                                 	"fk_position" integer NOT NULL,
                                 	"description" TEXT NOT NULL,
@@ -112,7 +112,7 @@ CREATE TABLE IF NOT EXISTS irk_.item_history (
                                 	"fk_operation" integer NOT NULL,
                                 	"fk_item" integer NOT NULL,
                                 	"fk_worker" integer NOT NULL,
-                                	"time" TIME,
+                                	"time" timestamp NOT NULL,
                                 	CONSTRAINT "item_history_pk" PRIMARY KEY ("id")
                                 ) WITH (
                                   OIDS=FALSE
