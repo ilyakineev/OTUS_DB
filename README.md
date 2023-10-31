@@ -10,6 +10,7 @@
 1. [Описание сущностей БД](hw01/Entity.md)
 2. [Компоненты современной СУБД](hw02/Script.md)
 3. [DDL скрипты для postgres](hw07/Script.md)
+4. [Тестовые данные](hw09/createTestDate.sql)
 
 ### Лекции
 1. [Проектирование БД](hw01/lecture.md)
