@@ -64,10 +64,10 @@ ORDER BY year_game;
 
 ```sql
 SELECT
-    s.player_id as Id,
-    s.player_name as Name,
-    s.year_game as Yeae,
-    s.points as Point, 
+    s.player_id as id,
+    s.player_name as name,
+    s.year_game as year,
+    s.points as point, 
     LAG(s.points, 1, 0) OVER (PARTITION BY s.player_id ORDER BY s.year_game) AS prev_year_points
 FROM statistic s
 ```
