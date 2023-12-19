@@ -32,4 +32,6 @@
 1. [Описание сущностей БД](hw01/Entity.md)
 2. [Компоненты современной СУБД](hw02/Script.md)
 3. [DDL скрипты для postgres](hw07/Script.md)
-4. [Тестовые данные](hw09/createTestDate.sql)
+4. [Скрипты инициализации БД](docker/postgresql/1.initBD.sql)
+5. [Скрипты заполнения БД тестовыми данными](docker/postgresql/2.testDate.sql)
+6. [Скрипт Docker-Compose](docker/postgresql/docker-compose.yml)
