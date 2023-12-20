@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   postgres:
-    image: postgres:13.3
+    image: postgres:14
     environment:
       POSTGRES_DB: "OTUS_DB"
       POSTGRES_USER: "student"
