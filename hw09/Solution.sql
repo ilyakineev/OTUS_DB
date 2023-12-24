@@ -59,5 +59,5 @@
 -- 9. Напишите запрос для удаления данных с оператором DELETE используя join с другой таблицей с помощью using.
     delete from irk_.worker w using (select * from irk_."position") p where p.id = w.fk_position and p.position = 'Бухгалтер';
 -- 10. Задание со *: Приведите пример использования утилиты COPY
-    --10.1 Сохранить данные таблицы worker
+    -- 10.1 Сохранить данные таблицы worker
         copy (select * from irk_.worker) to '/Users/ilyakineev/IdeaProjects/OTUS_DB/hw09/worker.copy';
