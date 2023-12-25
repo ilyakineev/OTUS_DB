@@ -15,9 +15,13 @@ services:
     expose:
       - "3306"
     volumes:
-      - ./initdb:/docker-entrypoint-initdb.d
+      - ./initdb/init.sql:/init.sql
       - ./custom.conf:/etc/mysql/conf.d
-    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+      - data:/var/lib/mysql
+      - ./date/worker.csv:/worker.csv
+    command:
+      --init-file /init.sql
+      --character-set-server=cp1251 --collation-server=cp1251_general_ci
 
 volumes:
   data:

@@ -1,192 +1,179 @@
-select now();
+CREATE DATABASE IF NOT EXISTS OTUS_DB_MYSQL;
+USE OTUS_DB_MYSQL;
 
--- OTUS_DB_MYSQL.composition определение
-
-CREATE TABLE `composition`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `name`        varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `address`     varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `description` text COLLATE utf8mb4_unicode_ci         NOT NULL,
+/*
+ Создаем таблицу склада
+ */
+CREATE TABLE IF NOT EXISTS `composition` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `address` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.manufacturer определение
-
-CREATE TABLE `manufacturer`
-(
-    `id`           int(11) NOT NULL AUTO_INCREMENT,
-    `name`         varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `phone`        varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `description`  text COLLATE utf8mb4_unicode_ci         NOT NULL,
-    `JSON_address` json                                    NOT NULL,
+/*
+ Создаем таблицу производителей
+ */
+CREATE TABLE IF NOT EXISTS `manufacturer` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `phone` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
+    `JSON_address` JSON NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `name` (`name`),
     UNIQUE KEY `phone` (`phone`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.operation определение
-
-CREATE TABLE `operation`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `name`        varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
+/*
+ Создаем таблицу операций с номенклатурной позицией
+ */
+CREATE TABLE IF NOT EXISTS `operation` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.provider определение
-
-CREATE TABLE `provider`
-(
-    `id`           int(11) NOT NULL AUTO_INCREMENT,
-    `name`         varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `phone`        varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `description`  text COLLATE utf8mb4_unicode_ci,
-    `JSON_address` json NOT NULL,
+/*
+ Создаем таблицу поставщиков
+ */
+ CREATE TABLE IF NOT EXISTS `provider` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `phone` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `description` TEXT COLLATE cp1251_general_ci,
+    `JSON_address` JSON NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `name` (`name`),
     UNIQUE KEY `phone` (`phone`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.`role` определение
-
-CREATE TABLE `role`
-(
-    `id`   int(11) NOT NULL AUTO_INCREMENT,
-    `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+/*
+ Создаем таблицу ролей должности
+ */
+ CREATE TABLE IF NOT EXISTS `role` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.status определение
-
-CREATE TABLE `status`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `name`        varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
+/*
+ Создаем таблицу для хранения статуса номенклатурной позиции
+ */
+ CREATE TABLE IF NOT EXISTS `status` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.batch определение
-
-CREATE TABLE `batch`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `fk_provider` int(11) NOT NULL,
+/*
+ Создаем таблицу партии
+ */
+ CREATE TABLE IF NOT EXISTS `batch` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `fk_provider` INT(11) NOT NULL,
     PRIMARY KEY (`id`),
-    KEY           `fk_provider` (`fk_provider`),
+    KEY `fk_provider` (`fk_provider`),
     CONSTRAINT `batch_ibfk_1` FOREIGN KEY (`fk_provider`) REFERENCES `provider` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.item определение
-
-CREATE TABLE `item`
-(
-    `id`               int(11) NOT NULL AUTO_INCREMENT,
-    `catalogue_number` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `name`             varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `fk_batch`         int(11) NOT NULL,
-    `fk_composition`   int(11) NOT NULL,
-    `fk_manufacturer`  int(11) NOT NULL,
-    `fk_status`        int(11) NOT NULL,
-    `description`      text COLLATE utf8mb4_unicode_ci         NOT NULL,
+/*
+ Создаем таблицу для номенклатурных позиций
+ */
+ CREATE TABLE IF NOT EXISTS `item` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `catalogue_number` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `fk_batch` INT(11) NOT NULL,
+    `fk_composition` INT(11) NOT NULL,
+    `fk_manufacturer` INT(11) NOT NULL,
+    `fk_status` INT(11) NOT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`),
-    KEY                `fk_batch` (`fk_batch`),
-    KEY                `fk_composition` (`fk_composition`),
-    KEY                `fk_manufacturer` (`fk_manufacturer`),
-    KEY                `fk_status` (`fk_status`),
-    KEY                `item_idx` (`catalogue_number`),
+    KEY `fk_batch` (`fk_batch`),
+    KEY `fk_composition` (`fk_composition`),
+    KEY `fk_manufacturer` (`fk_manufacturer`),
+    KEY `fk_status` (`fk_status`),
+    KEY `item_idx` (`catalogue_number`),
     CONSTRAINT `item_ibfk_1` FOREIGN KEY (`fk_batch`) REFERENCES `batch` (`id`),
     CONSTRAINT `item_ibfk_2` FOREIGN KEY (`fk_composition`) REFERENCES `composition` (`id`),
     CONSTRAINT `item_ibfk_3` FOREIGN KEY (`fk_manufacturer`) REFERENCES `manufacturer` (`id`),
     CONSTRAINT `item_ibfk_4` FOREIGN KEY (`fk_status`) REFERENCES `status` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.post определение
-
-CREATE TABLE `post`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `post`        varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
-    `fk_role`     int(11) NOT NULL,
+/*
+ Создаем таблицу для хранения должностей
+ */
+ CREATE TABLE IF NOT EXISTS `post` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `post` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
+    `fk_role` INT(11) NOT NULL,
     PRIMARY KEY (`id`),
-    KEY           `fk_role` (`fk_role`),
+    KEY `fk_role` (`fk_role`),
     CONSTRAINT `post_ibfk_1` FOREIGN KEY (`fk_role`) REFERENCES `role` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.price определение
-
-CREATE TABLE `price`
-(
-    `fk_item` int(11) NOT NULL,
-    `price`   DECIMAL NOT NULL,
-    KEY       `fk_item` (`fk_item`),
+/*
+Создаем таблицу цен
+*/
+CREATE TABLE IF NOT EXISTS `price` (
+    `fk_item` INT(11) NOT NULL,
+    `price` DECIMAL NOT NULL,
+    KEY `fk_item` (`fk_item`),
     CONSTRAINT `price_ibfk_1` FOREIGN KEY (`fk_item`) REFERENCES `item` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
-
--- OTUS_DB_MYSQL.worker определение
-
-CREATE TABLE `worker`
-(
-    `id`          int(11) NOT NULL AUTO_INCREMENT,
-    `first_name`  varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `middle_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-    `last_name`   varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `phone`       varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-    `fk_post`     int(11) NOT NULL,
-    `description` text COLLATE utf8mb4_unicode_ci         NOT NULL,
+/*
+ Создаем таблицу сотрудников
+ */
+ CREATE TABLE IF NOT EXISTS `worker` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `first_name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `middle_name` VARCHAR(255) COLLATE cp1251_general_ci NOT NULL,
+    `last_name` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `phone` VARCHAR(255) COLLATE cp1251_general_ci DEFAULT NULL,
+    `fk_post` INT(11) NOT NULL,
+    `description` TEXT COLLATE cp1251_general_ci NOT NULL,
     PRIMARY KEY (`id`),
     UNIQUE KEY `phone` (`phone`),
-    KEY           `worker_idx` (`fk_post`),
+    KEY `worker_idx` (`fk_post`),
     CONSTRAINT `worker_ibfk_1` FOREIGN KEY (`fk_post`) REFERENCES `post` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
+    ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
 -- OTUS_DB_MYSQL.item_history определение
 
-CREATE TABLE `item_history`
-(
-    `id`           int(11) NOT NULL AUTO_INCREMENT,
-    `fk_operation` int(11) NOT NULL,
-    `fk_item`      int(11) NOT NULL,
-    `fk_worker`    int(11) NOT NULL,
-    `time`         timestamp NOT NULL,
+CREATE TABLE IF NOT EXISTS `item_history` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `fk_operation` INT(11) NOT NULL,
+    `fk_item` INT(11) NOT NULL,
+    `fk_worker` INT(11) NOT NULL,
+    `time` TIMESTAMP NOT NULL,
     PRIMARY KEY (`id`),
-    KEY            `fk_operation` (`fk_operation`),
-    KEY            `fk_item` (`fk_item`),
-    KEY            `fk_worker` (`fk_worker`),
+    KEY `fk_operation` (`fk_operation`),
+    KEY `fk_item` (`fk_item`),
+    KEY `fk_worker` (`fk_worker`),
     CONSTRAINT `item_history_ibfk_1` FOREIGN KEY (`fk_operation`) REFERENCES `operation` (`id`),
     CONSTRAINT `item_history_ibfk_2` FOREIGN KEY (`fk_item`) REFERENCES `item` (`id`),
     CONSTRAINT `item_history_ibfk_3` FOREIGN KEY (`fk_worker`) REFERENCES `worker` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-select now();
+    ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=cp1251 COLLATE=cp1251_general_ci;
 
 -- Тестовые данные
 
 -- OTUS_DB_MYSQL.`role`
-INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (1, 'worker');
-INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (2, 'Supervisor');
-INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (3, 'Engineer');
-INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (4, 'Warehouse employee');
+     INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (1, 'worker');
+     INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (2, 'Supervisor');
+     INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (3, 'Engineer');
+     INSERT INTO OTUS_DB_MYSQL.`role` (id, name) VALUES (4, 'Warehouse employee');
+
 
 -- OTUS_DB_MYSQL.status
-
 INSERT INTO OTUS_DB_MYSQL.status
     (id, name, description)
 VALUES (1, 'storage', 'Номенклатурная позиция хранится на складе.');
