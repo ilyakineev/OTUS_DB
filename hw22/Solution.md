@@ -22,7 +22,7 @@
 
 Адреса из формата 'text' были переделаны в формат 'JSON'
 
-[Актуальный скрипт с коректированными типами данных и адреса в формате JSON](../hw21/docker/initdb/init.sql)
+[Актуальный скрипт с коректированными типами данных и адреса в формате JSON](../docker/mysql/initdb/init.sql)
 
-### [Docker-compose](../hw21/docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 

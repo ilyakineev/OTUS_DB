@@ -53,7 +53,7 @@ COMMIT;
 
 ```
 
-### [Docker-compose](../hw21/docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 
 Чтобы загрузить данные из CSV-файла в таблицу `worker` в MySQL, нужно выполнить следующие шаги:
 

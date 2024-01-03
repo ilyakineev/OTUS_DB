@@ -21,7 +21,7 @@
 
 ## Решение:
 
-### [Docker-compose](../hw21/docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 
 Для отображения SQL-запросов в формате Markdown (MD), вы можете структурировать каждый запрос и добавить форматирование для лучшего восприятия. Ниже представлены ваши SQL-запросы, оформленные в формате Markdown:
 

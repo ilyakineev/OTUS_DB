@@ -22,7 +22,7 @@
 
 ## Решение:
 
-### [Docker-compose](../hw21/docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 
 Для создания пользователей в MySQL, мы можете использовать команду `CREATE USER` в сочетании с командой `GRANT` для предоставления прав доступа.
 

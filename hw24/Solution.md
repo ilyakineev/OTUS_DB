@@ -112,5 +112,5 @@ LEFT JOIN
     post p ON p.fk_role = r.id;
 ```
 
-### [Docker-compose](../hw21/docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 

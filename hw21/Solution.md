@@ -23,8 +23,8 @@
 
 ## Решение:
 
-### [Docker-compose](docker/docker-compose.yml)
+### [Docker-compose](../docker/mysql/docker-compose.yml)
 
-### [Настройка сервера MySQL](docker/custom.conf/my.cnf)
+### [Настройка сервера MySQL](../docker/mysql/custom.conf/my.cnf)
 
-### [Настройка и запуск Sysbench](docker/README.md)
+### [Настройка и запуск Sysbench](README.md)

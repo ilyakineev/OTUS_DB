@@ -1,0 +1,29 @@
+version: '3'
+
+# Определение службы MySQL
+services:
+  mysql_db:
+    platform: linux/x86_64
+    image: mysql:8.0.15
+    restart: always  # Всегда пытаться перезапускать контейнер при остановке
+    environment:  # Переменные окружения для настройки MySQL
+      MYSQL_DATABASE: OTUS_DB_MYSQL  # Имя базы данных
+      MYSQL_ROOT_PASSWORD: password  # Пароль для root пользователя
+      MYSQL_USER: user  # Имя нового пользователя
+      MYSQL_PASSWORD: user  # Пароль для нового пользователя
+    ports:  # Проброс портов
+      - "3306:3306"  # Проброс порта 3306 с хоста на 3306 контейнера
+    expose:  # Экспозиция портов (не обязательно, если соединение только с хоста)
+      - "3306"  # Экспозиция порта 3306
+    volumes:  # Примонтированные тома и файлы
+      - ./initdb/init.sql:/init.sql  # Инициализационный SQL-файл
+      - ./custom.conf:/etc/mysql/conf.d  # Пользовательский конфигурационный файл
+      - data:/var/lib/mysql  # Том для хранения данных MySQL
+      - ./date/worker.csv:/worker.csv  # CSV-файл
+    command:  # Дополнительные команды для запуска контейнера
+      --init-file /init.sql  # Использовать инициализационный файл
+      --character-set-server=cp1251 --collation-server=cp1251_general_ci  # Установить кодировку и сортировку
+
+# Определение именованного тома для хранения данных
+volumes:
+  data:
