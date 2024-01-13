@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   postgres:
-    image: postgres:14
+    image: postgres:16
     environment:
       POSTGRES_DB: "OTUS_DB"
       POSTGRES_USER: "student"
@@ -9,4 +9,4 @@ services:
     volumes:
       - .:/docker-entrypoint-initdb.d
     ports:
-      - "5432:5432"
+      - "5555:5432"

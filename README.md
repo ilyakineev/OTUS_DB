@@ -58,4 +58,5 @@
 5. [Скрипты заполнения БД тестовыми данными](docker/postgresql/testDate.sql)
 6. [Скрипт Docker-Compose для PostgreSQL](docker/postgresql/docker-compose.yml)
 7. [Скрипт Docker-Compose для MySQL](docker/mysql/docker-compose.yml)
+8. [Скрипт для генерации тестовых данных](hw27/PROCEDURE.sql)
 
