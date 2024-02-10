@@ -1,3 +1,5 @@
 /.idea/
 /hw21/docker/data/
 /project/
+/hw18/docker/primary/data/
+/hw18/docker/replica/data/

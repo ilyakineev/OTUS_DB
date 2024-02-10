@@ -1,12 +1,42 @@
 version: "3.9"
+
 services:
-  postgres:
-    image: postgres:16
+  primary:
+    image: postgres:latest
+    container_name: primary
+    # restart: always
     environment:
-      POSTGRES_DB: "OTUS_DB"
-      POSTGRES_USER: "student"
+      POSTGRES_DB: "primary_db"
+      POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "password"
     volumes:
-      - .:/docker-entrypoint-initdb.d
+      - ./primary/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./primary/data/postgresql:/var/lib/postgresql/data
+      - ./primary/data/basebackup:/basebackup
     ports:
-      - "5555:5432"
+      - "5433:5432"
+    networks:
+      - app-network
+
+  replica:
+    image: postgres:latest
+    container_name: replica
+    # restart: always
+    environment:
+      POSTGRES_DB: "replica_db"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+    volumes:
+      - ./replica/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./replica/data/postgresql:/var/lib/postgresql/data
+      - ./replica/data/basebackup:/basebackup
+    depends_on:
+      - primary
+    ports:
+      - "5434:5432"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

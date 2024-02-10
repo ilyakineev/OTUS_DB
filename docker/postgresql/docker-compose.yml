@@ -5,9 +5,9 @@ services:
   postgres:
     image: postgres:13.3  # Используем образ PostgreSQL версии 13.3
     environment:  # Переменные окружения для настройки PostgreSQL
-      POSTGRES_DB: "OTUS_DB"  # Имя базы данных
-      POSTGRES_USER: "student"  # Имя пользователя
-      POSTGRES_PASSWORD: "password"  # Пароль пользователя
+      POSTGRES_DB: "toolstorageroom"  # Имя базы данных
+      POSTGRES_USER: "app_user"  # Имя пользователя
+      POSTGRES_PASSWORD: "user_password"  # Пароль пользователя
     volumes:  # Примонтированные тома и директории
       - .:/docker-entrypoint-initdb.d  # Примонтировать текущую директорию к директории инициализации контейнера
     ports:  # Проброс портов
