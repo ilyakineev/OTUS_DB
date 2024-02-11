@@ -29,7 +29,7 @@ services:
     volumes:
       - ./replica/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
       - ./replica/data/postgresql:/var/lib/postgresql/data
-      - ./replica/data/basebackup:/basebackup
+      ## - ./replica/data/basebackup:/basebackup
     depends_on:
       - primary
     ports:

@@ -33,133 +33,40 @@
 
 Да, конечно. Вот пошаговые скрипты для выполнения указанных операций:
 
+## Пошаговая инструкция для настройки репликации в PostgreSQL с использованием Docker
+
+### 1. Запуск контейнеров
+
 ```shell
-cd docker/
+docker-compose -f docker/docker-compose.yml up
 ```
-1. **Запуск docker-compose в папке ../docker:**
+
+### 2. Проверка запущенных контейнеров
+
 ```shell
-docker-compose -f ./docker/docker-compose.yml up -d
+docker ps
 ```
-Если есть нужда удалить контейнеры
+
+### 3. Вход в контейнер primary
+
 ```shell
-docker-compose down
-```   
-Если перезапустить
-```shell
-docker-compose restart 
-```
-
-2. **Проверка запушенных контейнеров**
-```shell
-docker ps 
-```
-
-3. **Подключение к командной строке мастера:**
-```bash
-docker exec -it primary bash
-```
-Вход в интерактивную оболочку PostgreSQL от имени пользователя student.
-```shell
-psql -U student -d primary_db
-```
-
-Создаем пользователяч для репликации
-```shell
-create user replica with replication encrypted password 'replica_pas';
-```
-
-Необходимо поправить postgresql.conf для primary
- 
-```
-
-```
-
-Необходимо поправить postgresql.conf для replica
-
-```
-
-```
-
-4. **Подключение к командной строке реплики:**
-    ```bash
-    docker exec -it replica bash
-    ```
-   Вход в интерактивную оболочку PostgreSQL от имени пользователя student.
-    ```shell
-    psql -U student -d replica_db
-    ```
-
-5. **Проверка, является ли сервер мастером или репликой:**
-    ```sql
-    select pg_is_in_recovery();
-    ```
-
-6. **Вывод информации о состоянии репликации:**
-    ```sql
-    select * from pg_stat_replication;
-    ```
-
-7. **Вывод списка баз данных:**
-    ```shell
-    \l
-    ```
-
-8. **Вывод списка пользователей:**
-    ```shell
-    \du
-    ```
-
-9. **Создание каталога для репликации:**
-    ```shell
-    rm -rf /var/lib/postgresql/data/*
-    ```
-
-10. **Использование pg_basebackup для создания реплики:**
-    ```shell
-    pg_basebackup -h primary -U student -D /var/lib/postgresql/data -P -Xs -R
-    ```
-
-Эти скрипты предполагают, что вы уже находитесь в нужной директории перед выполнением каждой команды. Убедитесь, что у
-вас установлен Docker и Docker Compose для успешного выполнения этих операций.
-
-запускаме обновление системы и установку некоторых утилит
-```shell
-apt update
-apt install sysv-rc
-apt install sudo
-sudo pg_createcluster 16 main
-```
-
-1) **Подключение к командной строке мастера:**
-```bash
 docker exec -it primary bash
 ```
 
-От имини пользователя postgres мы создаем пользователя для репликации
+### 4. Создание пользователя для репликации
+
 ```shell
 su - postgres
-createuser --replication -P rep_user
+createuser --replication -P repluser
 ```
 
-Ввводим параль password для нового пользователя c с паролем password
-```shell
-postgres@047f1db57f98:~$ createuser --replication -P rep_user
-Enter password for new role: 
-Enter it again: 
-```
+Запоминаем пароль.
 
-Далее, смотрим расположение conf файла:
-```shell
-psql -c 'SHOW config_file;'
+### 5. Настройка параметров конфигурации PostgreSQL
 
-               config_file                
-------------------------------------------
- /var/lib/postgresql/data/postgresql.conf
-(1 row)
-```
+Открываем файл postgresql.conf и добавляем следующие строки:
 
-в файл postgresql.conf вводим 
-```
+```conf
 wal_level = replica
 max_wal_senders = 2
 max_replication_slots = 2
@@ -167,62 +74,58 @@ hot_standby = on
 hot_standby_feedback = on
 ```
 
-в файл pg_hba.conf вводим
-```
-host replication rep_user 0.0.0.0:5434 scram-sha-256
+### 6. Просмотр подсети Docker
+
+```shell
+docker network inspect bridge | grep Subnet
 ```
 
-Перезапустим postgresql
+Ожидаемый результат:
+```
+  "Subnet": "172.17.0.0/16",
+```
+
+### 7. Добавление строки в файл pg_hba.conf
+
+```conf
+host replication all 172.17.0.2/16 trust
+```
+
+### 8. Перезапуск контейнера primary
+
 ```shell
 docker restart primary
 ```
 
-Переходим на настройку replica
+### 9.Делаем pg_basebackup внутри контейнера primary
+```shell
+pg_basebackup -h primary -U repluser -D /basebackup -P -Xs -R
+```
+
+### 10. Обновление данных на реплике
 
 ```shell
-docker exec -it replica bash
+rm -rf docker/replica/data/postgresql 
+cp -r docker/primary/data/basebackup docker/replica/data/postgresql/
 ```
 
-Удаляем содержимое 
-```shell
-rm -r var/lib/postgresql/data/*
+На primary_db можно проверить состояние репликации
+
+```sql
+select * from pg_stat_replication;
 ```
 
-
-
-
-
-
-Настройка бэкапа primary 
-```bash
-docker exec -it primary bash
 ```
-Переключаемся на имя другого пользователя
-```shell
-su - postgres
-```
-Выполняем ёбэкап
-```bash
-pg_basebackup --pgdata=/basebackup -R
-```
-"-R" сформирует настройки для репликации
-
-
-```shell
-docker exec -it primary su - postgres 
+pid|usesysid|usename |application_name|client_addr|client_hostname|client_port|backend_start                |backend_xmin|state    |sent_lsn |write_lsn|flush_lsn|replay_lsn|write_lag      |flush_lag      |replay_lag     |sync_priority|sync_state|reply_time                   |
+---+--------+--------+----------------+-----------+---------------+-----------+-----------------------------+------------+---------+---------+---------+---------+----------+---------------+---------------+---------------+-------------+----------+-----------------------------+
+ 80|   16389|repluser|walreceiver     |172.21.0.3 |               |      38464|2024-02-11 15:58:02.450 +0300|747         |streaming|0/30136B8|0/30136B8|0/30136B8|0/30136B8 |00:00:00.000908|00:00:00.001365|00:00:00.001366|            0|async     |2024-02-11 16:00:12.730 +0300|```
 ```
 
-Копируем бэкап из одной директории в другую
-```shell
-docker stop replica
-rm -rf replica/data/postgresql/
-mv primary/data/basebackup/ replica/data/postgresql/
-docker restart replica
-chown -R postgres:postgres 
+```sql
+select * from pg_stat_wal_receiver
 ```
-
-```shell
-docker exec -it primary su - postgres 
-pg_createcluster 16 replica
-pg_ctlcluster 16 replica start
+```
+ pid|status   |receive_start_lsn|receive_start_tli|written_lsn|flushed_lsn|received_tli|last_msg_send_time           |last_msg_receipt_time        |latest_end_lsn|latest_end_time              |slot_name|sender_host|sender_port|conninfo                                                                                                                                                                                                                                                       |
+---+---------+-----------------+-----------------+-----------+-----------+------------+-----------------------------+-----------------------------+--------------+-----------------------------+---------+-----------+-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+ 30|streaming|0/3000000        |                1|0/30136B8  |0/30136B8  |           1|2024-02-11 16:00:12.728 +0300|2024-02-11 16:00:12.729 +0300|0/30136B8     |2024-02-11 16:00:12.728 +0300|         |primary    |       5432|user=repluser passfile=/root/.pgpass channel_binding=prefer dbname=replication host=primary port=5432 fallback_application_name=walreceiver sslmode=prefer sslcompression=0 sslcertmode=allow sslsni=1 ssl_min_protocol_version=TLSv1.2 gssencmode=prefer krbsr|
 ```
