@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <menu-config xmlns="http://jmix.io/schema/flowui/menu">
 
-    <menu id="application" title="msg://com.company.toolstorageroom/menu.application.title" opened="true">
-        <item view="User.list" title="msg://com.company.toolstorageroom.view.user/UserListView.title"/>
+    <menu id="application" title="msg://com.company.toolstorageroom/menu.application.title" opened="false">
+        <item view="User.list"
+              title="msg://com.company.toolstorageroom.view.user/UserListView.title"/>
+    </menu>
+
+    <menu id="warehouse" title="msg://com.company.toolstorageroom/menu.warehouse.title" opened="false">
+        <item view="InventoryItem.list"
+              title="msg://com.company.toolstorageroom.view.inventoryitem/inventoryItemListView.title"/>
+        <item view="ItemHistory.list"
+              title="msg://com.company.toolstorageroom.view.itemhistory/itemHistoryListView.title"/>
+        <item view="Batch.list"
+              title="msg://com.company.toolstorageroom.view.batch/batchListView.title"/>
+    </menu>
+
+    <menu id="reference" title="msg://com.company.toolstorageroom/menu.reference.title" opened="false">
+        <item view="Manufacturer.list"
+              title="msg://com.company.toolstorageroom.view.manufacturer/manufacturerListView.title"/>
+        <item view="Provider.list"
+              title="msg://com.company.toolstorageroom.view.provider/providerListView.title"/>
+        <item view="Employees.list"
+              title="msg://com.company.toolstorageroom.view.employees/employeesListView.title"/>
+        <item view="Warehouse.list"
+              title="msg://com.company.toolstorageroom.view.warehouse/warehouseListView.title"/>
     </menu>
 
 </menu-config>

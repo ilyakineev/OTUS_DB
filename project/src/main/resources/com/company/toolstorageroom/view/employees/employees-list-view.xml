@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://employeesListView.title"
+      focusComponent="employeesesDataGrid">
+    <data readOnly="true">
+        <collection id="employeesesDc"
+                    class="com.company.toolstorageroom.entity.Employees">
+            <fetchPlan extends="_base"/>
+            <loader id="employeesesDl">
+                <query>
+                    <![CDATA[select e from Employees e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="employeesesDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createBtn" action="employeesesDataGrid.create"/>
+            <button id="editBtn" action="employeesesDataGrid.edit"/>
+            <button id="removeBtn" action="employeesesDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="employeesesDl"/>
+        </hbox>
+        <dataGrid id="employeesesDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="employeesesDc">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns>
+                <column property="first_name"/>
+                <column property="last_name"/>
+                <column property="email"/>
+                <column property="phone_number"/>
+                <column property="department"/>
+                <column property="position"/>
+                <column property="hire_date"/>
+                <column property="address"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectBtn" action="selectAction"/>
+            <button id="discardBtn" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

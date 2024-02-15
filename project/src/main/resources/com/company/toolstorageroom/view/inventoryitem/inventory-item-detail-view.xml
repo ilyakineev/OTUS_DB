@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://inventoryItemDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="inventoryItemDc"
+                  class="com.company.toolstorageroom.entity.InventoryItem">
+            <fetchPlan extends="_base">
+                <property name="batch" fetchPlan="_base"/>
+                <property name="warehouse" fetchPlan="_base"/>
+                <property name="manufactory" fetchPlan="_base"/>
+                <property name="price" fetchPlan="_base"/>
+            </fetchPlan>
+            <loader/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="inventoryItemDc">
+            <textField id="inventoryCodeField" property="inventoryCode"/>
+            <textField id="inventoryNameField" property="inventoryName"/>
+            <entityPicker id="batchField" property="batch">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+            <entityPicker id="warehouseField" property="warehouse">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+            <entityPicker id="manufactoryField" property="manufactory">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+            <comboBox id="statusField" property="status"/>
+            <entityPicker id="priceField" property="price">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+            <textField id="descriptionField" property="description"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseBtn" action="saveAction"/>
+            <button id="closeBtn" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

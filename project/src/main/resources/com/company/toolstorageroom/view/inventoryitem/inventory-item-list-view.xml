@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://inventoryItemListView.title"
+      focusComponent="inventoryItemsDataGrid">
+    <data readOnly="true">
+        <collection id="inventoryItemsDc"
+                    class="com.company.toolstorageroom.entity.InventoryItem">
+            <fetchPlan extends="_base"/>
+            <loader id="inventoryItemsDl">
+                <query>
+                    <![CDATA[select e from InventoryItem e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="inventoryItemsDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createBtn" action="inventoryItemsDataGrid.create"/>
+            <simplePagination id="pagination" dataLoader="inventoryItemsDl"/>
+        </hbox>
+        <dataGrid id="inventoryItemsDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="inventoryItemsDc">
+            <actions>
+                <action id="create" type="list_create"/>
+            </actions>
+            <columns>
+                <column property="inventoryCode"/>
+                <column property="inventoryName"/>
+                <column property="status"/>
+                <column property="description"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectBtn" action="selectAction"/>
+            <button id="discardBtn" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

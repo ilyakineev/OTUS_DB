@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://employeesDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="employeesDc"
+                  class="com.company.toolstorageroom.entity.Employees">
+            <fetchPlan extends="_base"/>
+            <loader/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="employeesDc">
+            <textField id="first_nameField" property="first_name"/>
+            <textField id="last_nameField" property="last_name"/>
+            <textField id="emailField" property="email"/>
+            <textField id="phone_numberField" property="phone_number"/>
+            <textField id="departmentField" property="department"/>
+            <textField id="positionField" property="position"/>
+            <textField id="hire_dateField" property="hire_date"/>
+            <textField id="addressField" property="address"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseBtn" action="saveAction"/>
+            <button id="closeBtn" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

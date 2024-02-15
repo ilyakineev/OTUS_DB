@@ -31,7 +31,6 @@ public class Warehouse {
     private String address;
 
     @Column(name = "DESCRIPTION", nullable = false)
-    @NotNull
     private String description;
 
     public String getDescription() {
