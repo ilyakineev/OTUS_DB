@@ -31,7 +31,6 @@
             <properties include=".*"/>
         </genericFilter>
         <hbox id="buttonsPanel" classNames="buttons-panel">
-            <button id="createBtn" action="inventoryItemsDataGrid.create"/>
             <simplePagination id="pagination" dataLoader="inventoryItemsDl"/>
         </hbox>
         <dataGrid id="inventoryItemsDataGrid"
@@ -39,13 +38,12 @@
                   minHeight="20em"
                   dataContainer="inventoryItemsDc">
             <actions>
-                <action id="create" type="list_create"/>
             </actions>
             <columns>
                 <column property="inventoryCode"/>
                 <column property="inventoryName"/>
                 <column property="status"/>
-                <column property="description"/>
+                <column property="warehouse"/>
             </columns>
         </dataGrid>
         <hbox id="lookupActions" visible="false">

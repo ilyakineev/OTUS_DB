@@ -32,8 +32,6 @@
         </genericFilter>
         <hbox id="buttonsPanel" classNames="buttons-panel">
             <button id="createBtn" action="itemHistoriesDataGrid.create"/>
-            <button id="editBtn" action="itemHistoriesDataGrid.edit"/>
-            <button id="removeBtn" action="itemHistoriesDataGrid.remove"/>
             <simplePagination id="pagination" dataLoader="itemHistoriesDl"/>
         </hbox>
         <dataGrid id="itemHistoriesDataGrid"
@@ -46,8 +44,10 @@
                 <action id="remove" type="list_remove"/>
             </actions>
             <columns>
-                <column property="operation"/>
                 <column property="time"/>
+                <column property="operation"/>
+                <column property="inventoryitem"/>
+                <column property="responsibleUser"/>
                 <column property="description"/>
             </columns>
         </dataGrid>

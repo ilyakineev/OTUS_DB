@@ -9,7 +9,6 @@
                 <property name="batch" fetchPlan="_base"/>
                 <property name="warehouse" fetchPlan="_base"/>
                 <property name="manufactory" fetchPlan="_base"/>
-                <property name="price" fetchPlan="_base"/>
             </fetchPlan>
             <loader/>
         </instance>
@@ -44,12 +43,6 @@
                 </actions>
             </entityPicker>
             <comboBox id="statusField" property="status"/>
-            <entityPicker id="priceField" property="price">
-                <actions>
-                    <action id="entityLookup" type="entity_lookup"/>
-                    <action id="entityClear" type="entity_clear"/>
-                </actions>
-            </entityPicker>
             <textField id="descriptionField" property="description"/>
         </formLayout>
         <hbox id="detailActions">

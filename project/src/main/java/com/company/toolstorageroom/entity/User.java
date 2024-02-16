@@ -8,13 +8,7 @@ import io.jmix.core.metamodel.annotation.DependsOnProperties;
 import io.jmix.core.metamodel.annotation.InstanceName;
 import io.jmix.core.metamodel.annotation.JmixEntity;
 import io.jmix.security.authentication.JmixUserDetails;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Index;
-import jakarta.persistence.Table;
-import jakarta.persistence.Transient;
-import jakarta.persistence.Version;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import org.springframework.security.core.GrantedAuthority;
 

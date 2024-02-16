@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1" author="toolstorageroom">
+        <sql>
+            CREATE OR REPLACE PROCEDURE generate_item_data() LANGUAGE plpgsql AS '
+            DECLARE
+            catalogue_numbers varchar[] := ARRAY[00012313445, 00023424556, 00034535667, 00045646778, 00056757889];
+                    item_names varchar[] := ARRAY[''Токарный резец'', ''Твердосплавная фреза'', ''Токарная пластина'', ''Резьбовая пластина'', ''Сборная фреза'', ''Фрезерная пластина'', ''Сверло'', ''Метчик'', ''Зенкер''];
+                    batch_ids uuid[];
+                    warehouse_ids uuid[];
+                    manufacturer_ids uuid[];
+                    status varchar := ''Размещен на складе''; -- Одно значение статуса для всех строк
+            BEGIN
+            FOR i IN 1..10000 LOOP
+                 -- Выбираем случайные идентификаторы партий из таблицы batch
+            SELECT array_agg(id) INTO batch_ids FROM (SELECT id FROM public.batch ORDER BY random() LIMIT 1) AS random_batch_ids;
+
+            -- Выбираем случайные идентификаторы складов из таблицы warehouse
+            SELECT array_agg(id) INTO warehouse_ids FROM (SELECT id FROM public.warehouse ORDER BY random() LIMIT 1) AS random_warehouse_ids;
+
+            -- Выбираем случайные идентификаторы производителей из таблицы manufacturer
+            SELECT array_agg(id) INTO manufacturer_ids FROM (SELECT id FROM public.manufacturer ORDER BY random() LIMIT 1) AS random_manufacturer_ids;
+
+            INSERT INTO public.item (id, catalogue_number, "name", fk_batch, fk_warehouse, fk_manufactory, status, description)
+            VALUES (uuid_generate_v4(),
+                    (catalogue_numbers[floor(random() * array_length(catalogue_numbers, 1)) + 1]),
+                    (item_names[floor(random() * array_length(item_names, 1)) + 1]),
+                    (SELECT unnest(batch_ids)),
+                    (SELECT unnest(warehouse_ids)),
+                    (SELECT unnest(manufacturer_ids)), status, NULL);
+            END LOOP;
+            END;
+            '
+        </sql>
+    </changeSet>
+    <changeSet id="2" author="toolstorageroom">
+        <sql>
+            CREATE OR REPLACE PROCEDURE generate_item_history_data() LANGUAGE plpgsql AS '
+            DECLARE
+            operations varchar[] := ARRAY[''Размещение на складе''];
+                    users uuid[] := ARRAY[''60885987-1b61-4247-94c7-dff348347f93''];
+                    item_row record;
+            BEGIN
+            FOR item_row IN SELECT * FROM public.item LOOP insert INTO public.item_history (id, operation, fk_item, time_, fk_user, description)
+                            VALUES (uuid_generate_v4(), operations[floor(random() * array_length(operations, 1)) + 1], item_row.id, NOW() - interval ''1'' year * random(), users[floor(random() * array_length(users, 1)) + 1], NULL);
+            END LOOP;
+            END;
+            '
+        </sql>
+    </changeSet>
+    <changeSet id="3" author="toolstorageroom">
+        <sql>
+            CALL generate_item_data();
+            CALL generate_item_history_data();
+        </sql>
+    </changeSet>
+</databaseChangeLog>

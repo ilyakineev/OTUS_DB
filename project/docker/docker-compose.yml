@@ -4,11 +4,14 @@ version: "3.9"
 services:
   postgres:
     image: postgres:13.3  # Используем образ PostgreSQL версии 13.3
+    container_name: IRK
     environment:  # Переменные окружения для настройки PostgreSQL
       POSTGRES_DB: "toolstorageroom"  # Имя базы данных
       POSTGRES_USER: "app_user"  # Имя пользователя
       POSTGRES_PASSWORD: "app_password"  # Пароль пользователя
     volumes:  # Примонтированные тома и директории
-      - .:/docker-entrypoint-initdb.d  # Примонтировать текущую директорию к директории инициализации контейнера
+      - ./primary/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d   # Примонтировать текущую директорию к директории инициализации контейнера
+      - ./primary/data/postgresql:/var/lib/postgresql/data # Это примонтированная директория для хранения данных PostgreSQL
+      - ./primary/data/basebackup:/basebackup # Директория для хранения резервных копий базы данных
     ports:  # Проброс портов
       - "5432:5432"  # Проброс порта 5432 с хоста на 5432 контейнера

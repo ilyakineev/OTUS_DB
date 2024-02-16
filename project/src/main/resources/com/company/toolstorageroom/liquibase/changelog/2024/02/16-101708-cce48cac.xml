@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1" author="toolstorageroom">
+        <sql>
+            INSERT INTO public.manufacturer
+                (id, "name", phone, address, description)
+            VALUES ('3d85b8da-6e35-35d2-9c92-0f28695f779b'::uuid, 'Московский Инструментальный Завод (МИЗ)', '+7 (499) 369-07-50',
+                    'г. Москва, ул. Большая Cемёновская, 42''', 'Отечественный инструмент');
+            INSERT INTO public.manufacturer
+                (id, "name", phone, address, description)
+            VALUES ('a0906230-02f1-4b1b-c0f2-46453e2948df'::uuid, 'Iscar', '+7 (495) 660-9125',
+                    'Россия, 129085, г. Москва, ул. Годовикова, д. 9, стр. 9',
+                    'ООО «Искар» является дочерней компанией ISCAR LTD (Израиль)');
+            INSERT INTO public.manufacturer
+                (id, "name", phone, address, description)
+            VALUES ('2f3ac5a8-d975-5184-d31e-d4085fffa02f'::uuid, 'Томский Инстурментальный Завод (ТИЗ)', '+4445556666',
+                    'Улица Советская, 1/2 Лоскутово д., Кировский район, д. Лоскутово, Томск городской округ, Томская область, 634526',
+                    'Отечественный инструмент');
+            INSERT INTO public.manufacturer
+                (id, "name", phone, address, description)
+            VALUES ('ffbb97e1-b02d-eddd-17f5-db07e24f4d58'::uuid, 'Отечественный инструмент', '+7 4722 78-93-93',
+                    '308519, Белгородская область, Белгородский район, поселок городского типа Северный, территория Промышленный Парк Северный, здание 7, помещение 1',
+                    'Отечественный инструмент');
+
+            INSERT INTO public.provider
+                (id, "name", phone, address, description)
+            VALUES('1c9b949b-4ec1-d5ba-6a8b-7d1e517384b0'::uuid, 'ООО "Интехника"', '+7 (495) 560-48-88', '129085, Москва, ул. Годовикова, д. 9, стр. 25', NULL);
+            INSERT INTO public.provider
+                (id, "name", phone, address, description)
+            VALUES('361a7218-f115-d302-1ba8-c70f390f7c1a'::uuid, 'Московский инструментальный завод (МИЗ)', '+7 (499) 369-07-50', 'г. Москва, ул. Большая Cемёновская, 42', NULL);
+            INSERT INTO public.provider
+                (id, "name", phone, address, description)
+            VALUES('4cded3c6-af0e-a645-85e6-5c00f9daba56'::uuid, 'KORLOY INC.', '+7 (812) 309-1133', 'Россия, 193230, г. Санкт-Петербург, пер. Челиева, д. 13, БЦ «Мак Тауэр»', NULL);
+
+            -- Генерация тестовых данных для таблицы employees
+            INSERT INTO public.employees (id, first_name, last_name, email, phone_number, department, position_, hire_date, address)
+            VALUES
+                ('da19384a-1e6c-8604-87ea-f303677dc891'::uuid, 'Иван', 'Иванов', 'ivan.ivanov@example.com', '123-456-7890', 'Производство', 'Инженер', '2023-01-01', 'ул. Главная, д. 1'),
+                ('da21384a-1e6c-8604-87ea-f120677dc890'::uuid, 'Мария', 'Петрова', 'maria.petrova@example.com', '987-654-3210', 'Отдел кадров', 'Ассистент по кадрам', '2022-05-15', 'ул. Березовая, д. 2'),
+                ('da39384a-1e6c-8604-87ea-f332677dc890'::uuid, 'Алексей', 'Смирнов', 'alexey.smirnov@example.com', '555-555-5555', 'Производство', 'Наладчик', '2023-03-10', 'ул. Дубовая, д. 3'),
+                ('da49384a-1e6c-8234-87ea-f302677dc890'::uuid, 'Елена', 'Сидорова', 'elena.sidorova@example.com', '111-222-3333', 'Снабжение', 'Снабженец', '2022-11-20', 'ул. Сосновая, д. 4'),
+                ('da59384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Александр', 'Кузнецов', 'alexandr.kuznetsov@example.com', '777-888-9999', 'Производство', 'Финансовый аналитик', '2023-02-28', 'ул. Кедровая, д. 5'),
+                ('da62384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Ольга', 'Иванова', 'olga.ivanova@example.com', '333-333-3333', 'Производство', 'Рабочий на линии', '2022-12-12', 'пр. Лесной, д. 6'),
+                ('da72384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Дмитрий', 'Попов', 'dmitriy.popov@example.com', '444-444-4444', 'Отдел кадров', 'HR менеджер', '2023-05-20', 'ул. Полярная, д. 7'),
+                ('da89384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Татьяна', 'Смирнова', 'tatiana.smirnova@example.com', '555-666-7777', 'Маркетинг', 'Копирайтер', '2022-08-15', 'ул. Зеленая, д. 8'),
+                ('da99384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Игорь', 'Морозов', 'igor.morozov@example.com', '777-777-7777', 'IT', 'Системный администратор', '2023-04-30', 'ул. Солнечная, д. 9'),
+                ('da11384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Анастасия', 'Казакова', 'anastasia.kazakova@example.com', '888-888-8888', 'Финансы', 'Бухгалтер', '2022-07-25', 'ул. Молодежная, д. 10'),
+                ('da12384a-1e6c-8604-87ea-f302677dc890'::uuid, 'Павел', 'Волков', 'pavel.volkov@example.com', '999-999-9999', 'Производство', 'Инженер', '2023-06-05', 'ул. Центральная, д. 11'),
+                ('da13384a-1e6c-8124-87ea-f302677dc890'::uuid, 'Светлана', 'Новикова', 'svetlana.novikova@example.com', '111-111-1111', 'Отдел кадров', 'Рекрутер', '2022-09-18', 'ул. Строителей, д. 12'),
+                ('da14384a-1e6c-8644-87ea-f302677dc890'::uuid, 'Владимир', 'Алексеев', 'vladimir.alekseev@example.com', '222-222-2222', 'Производство', 'Оператор ЧПУ', '2023-07-10', 'ул. Южная, д. 13'),
+                ('da15384a-1e6c-8654-87ea-f302677dc890'::uuid, 'Евгения', 'Михайлова', 'evgeniya.mikhaylova@example.com', '333-444-5555', 'Производство', 'Контроллер', '2022-10-05', 'ул. Северная, д. 14'),
+                ('da16384a-1e6c-8664-87ea-f302677dc890'::uuid, 'Артем', 'Егоров', 'artem.egorov@example.com', '444-555-6666', 'Производство', 'Директор', '2023-08-20', 'ул. Восточная, д. 15');
+
+            INSERT INTO public.warehouse
+                (id, "name", address, description)
+            VALUES('2258d85d-9a17-a60f-16a4-8b6398ba9cd5'::uuid, 'ИРК №1', 'Цех №1', 'ИРК №1 Токарный участок');
+            INSERT INTO public.warehouse
+                (id, "name", address, description)
+            VALUES('2214d85d-9a17-a60f-16a4-8b6398ba9cd5'::uuid, 'ИРК №2', 'Цех №1', 'ИРК №2 Фрезерный участок');
+            INSERT INTO public.warehouse
+                (id, "name", address, description)
+            VALUES('1238d85d-9a17-a60f-16a4-8b6398ba9cd5'::uuid, 'ИРК №3', 'Цех №1', 'ИРК №3 Слесарный участок');
+
+            INSERT INTO public.batch
+                (id, fk_provider, description)
+            VALUES('21ec95a3-1045-ac38-bfcd-2bc4b7db8a06'::uuid, '1c9b949b-4ec1-d5ba-6a8b-7d1e517384b0'::uuid, 'Поставка токарного инстурмента');
+            INSERT INTO public.batch
+                (id, fk_provider, description)
+            VALUES('fb7c1b5a-edeb-faa8-515e-67bdaea9dfc1'::uuid, '4cded3c6-af0e-a645-85e6-5c00f9daba56'::uuid, 'Поставка токарных пластин');
+            INSERT INTO public.batch
+                (id, fk_provider, description)
+            VALUES('6d613c4d-e857-6b6a-d104-8a529c75a36b'::uuid, '361a7218-f115-d302-1ba8-c70f390f7c1a'::uuid, 'Поставка резьбовых пластин');
+
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>
+
+

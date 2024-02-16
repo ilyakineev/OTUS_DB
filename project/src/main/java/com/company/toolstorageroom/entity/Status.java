@@ -5,20 +5,20 @@ import io.jmix.core.metamodel.datatype.EnumClass;
 import javax.annotation.Nullable;
 
 public enum Status implements EnumClass<String> {
-    PLACE_ON_STOCK("Размещение на складе"),
-    ISSUE_TO_USER("Выдача пользователю"),
-    START_USE("Начало использования"),
-    SEND_FOR_SHARPENING("Отправка на заточку"),
-    SEND_FOR_REPAIR("Передача на ремонт"),
-    MARK_AS_FAULTY("Пометка как неисправный"),
-    RESERVE("Бронирование"),
-    STORE_ON_STOCK("Хранение на складе"),
-    INSPECT("Проверка"),
-    RETURN("Возврат"),
-    DISPOSE("Утилизация"),
-    MARK_AS_LOST("Пометка как потерянный"),
-    WRITE_OFF("Списание"),
-    MOVE("Перемещение");
+    PLACE_ON_STOCK("Размещен на складе"),
+    ISSUE_TO_USER("Выдан пользователю"),
+    START_USE("Используется"),
+    SEND_FOR_SHARPENING("Затачивается"),
+    SEND_FOR_REPAIR("Ремонтируется"),
+    MARK_AS_FAULTY("Поломка"),
+    RESERVE("Забронирован"),
+    STORE_ON_STOCK("Хранится на складе"),
+    INSPECT("На поверке"),
+    RETURN("Возвращен"),
+    DISPOSE("Утилизирован"),
+    MARK_AS_LOST("Утерян"),
+    WRITE_OFF("Списан"),
+    MOVE("Перемещен");
 
     private final String id;
 

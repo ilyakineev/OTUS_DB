@@ -35,3 +35,4 @@ vite.generated.ts
 webpack.generated.js
 
 .DS_Store
+/project/docker/primary/data/
