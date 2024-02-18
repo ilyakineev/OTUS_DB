@@ -19,6 +19,18 @@
     <layout>
         <formLayout id="form" dataContainer="itemHistoryDc">
             <comboBox id="operationField" property="operation"/>
+            <entityPicker id="inventoryitemField" property="inventoryitem">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+            <entityPicker id="responsibleUserField" property="responsibleUser">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
             <dateTimePicker id="timeField" property="time"/>
             <textField id="descriptionField" property="description"/>
         </formLayout>

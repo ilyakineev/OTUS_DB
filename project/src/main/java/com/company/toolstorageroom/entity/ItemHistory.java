@@ -29,8 +29,9 @@ public class ItemHistory {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     private InventoryItem inventoryitem;
 
-    @JoinColumn(name = "FK_USER")
-    @OneToOne(fetch = FetchType.LAZY)
+    @NotNull
+    @JoinColumn(name = "FK_USER", nullable = false)
+    @OneToOne(fetch = FetchType.LAZY, optional = false)
     private User responsibleUser;
 
     @Column(name = "TIME_", nullable = false)

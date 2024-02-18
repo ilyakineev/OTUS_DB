@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1" author="toolstorageroom">
+        <sql>
+            CREATE OR REPLACE PROCEDURE generate_storage_cell() LANGUAGE plpgsql AS '
+            DECLARE
+            cell_size varchar[] := ARRAY[''1'', ''2'', ''3'', ''4'', ''5''];
+  				warehouse_ids uuid[];
+            begin
+            FOR i IN 1..350 LOOP
+				-- Выбираем случайные идентификаторы складов из таблицы warehouse
+                SELECT array_agg(id) INTO warehouse_ids FROM (SELECT id FROM public.warehouse ORDER BY random() LIMIT 1) AS random_warehouse_ids;
+                INSERT INTO public.storage_cell (id, warehouse_id, cell_number, cell_size) VALUES(uuid_generate_v4(), (SELECT unnest(warehouse_ids)), i, (cell_size[floor(random() * array_length(cell_size, 1)) + 1]));
+            END LOOP;
+            END;
+            '
+        </sql>
+    </changeSet>
+
+    <changeSet id="2" author="toolstorageroom">
+        <sql>
+            CALL generate_storage_cell();
+        </sql>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://storageCellListView.title"
+      focusComponent="storageCellsDataGrid">
+    <data readOnly="true">
+        <collection id="storageCellsDc"
+                    class="com.company.toolstorageroom.entity.StorageCell">
+            <fetchPlan extends="_base">
+                <property name="warehouse" fetchPlan="_base"/>
+                <property name="item" fetchPlan="_base"/>
+            </fetchPlan>
+            <loader id="storageCellsDl">
+                <query>
+                    <![CDATA[select e from StorageCell e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="storageCellsDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="editBtn" action="storageCellsDataGrid.edit"/>
+            <simplePagination id="pagination" dataLoader="storageCellsDl"/>
+        </hbox>
+        <dataGrid id="storageCellsDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="storageCellsDc">
+            <actions>
+                <action id="edit" type="list_edit"/>
+            </actions>
+            <columns>
+                <column property="warehouse"/>
+                <column property="cellNumber"/>
+                <column property="cellSize"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectBtn" action="selectAction"/>
+            <button id="discardBtn" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

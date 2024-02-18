@@ -6,13 +6,16 @@
               title="msg://com.company.toolstorageroom.view.user/UserListView.title"/>
     </menu>
 
+    <menu id="operation" title="msg://com.company.toolstorageroom/menu.operation.title" opened="false">
+    </menu>
+
     <menu id="warehouse" title="msg://com.company.toolstorageroom/menu.warehouse.title" opened="false">
         <item view="InventoryItem.list"
               title="msg://com.company.toolstorageroom.view.inventoryitem/inventoryItemListView.title"/>
         <item view="ItemHistory.list"
               title="msg://com.company.toolstorageroom.view.itemhistory/itemHistoryListView.title"/>
-        <item view="Batch.list"
-              title="msg://com.company.toolstorageroom.view.batch/batchListView.title"/>
+        <item view="StorageCell.list"
+              title="msg://com.company.toolstorageroom.view.storagecell/storageCellListView.title"/>
     </menu>
 
     <menu id="reference" title="msg://com.company.toolstorageroom/menu.reference.title" opened="false">
@@ -24,6 +27,8 @@
               title="msg://com.company.toolstorageroom.view.employees/employeesListView.title"/>
         <item view="Warehouse.list"
               title="msg://com.company.toolstorageroom.view.warehouse/warehouseListView.title"/>
+        <item view="Batch.list"
+              title="msg://com.company.toolstorageroom.view.batch/batchListView.title"/>
     </menu>
 
 </menu-config>
