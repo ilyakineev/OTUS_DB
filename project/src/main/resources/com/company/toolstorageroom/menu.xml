@@ -14,8 +14,6 @@
               title="msg://com.company.toolstorageroom.view.inventoryitem/inventoryItemListView.title"/>
         <item view="ItemHistory.list"
               title="msg://com.company.toolstorageroom.view.itemhistory/itemHistoryListView.title"/>
-        <item view="StorageCell.list"
-              title="msg://com.company.toolstorageroom.view.storagecell/storageCellListView.title"/>
     </menu>
 
     <menu id="reference" title="msg://com.company.toolstorageroom/menu.reference.title" opened="false">
@@ -29,6 +27,8 @@
               title="msg://com.company.toolstorageroom.view.warehouse/warehouseListView.title"/>
         <item view="Batch.list"
               title="msg://com.company.toolstorageroom.view.batch/batchListView.title"/>
+        <item view="StorageCell.list"
+              title="msg://com.company.toolstorageroom.view.storagecell/storageCellListView.title"/>
     </menu>
 
 </menu-config>
