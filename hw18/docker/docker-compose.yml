@@ -4,7 +4,7 @@ services:
   primary:
     image: postgres:latest
     container_name: primary
-    # restart: always
+    restart: always
     environment:
       POSTGRES_DB: "primary_db"
       POSTGRES_USER: "postgres"
@@ -21,7 +21,7 @@ services:
   replica:
     image: postgres:latest
     container_name: replica
-    # restart: always
+    restart: always
     environment:
       POSTGRES_DB: "replica_db"
       POSTGRES_USER: "postgres"
