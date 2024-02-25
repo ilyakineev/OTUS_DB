@@ -1,0 +1,50 @@
+# Указываем базовый образ
+FROM amd64/ubuntu:22.04
+
+# Копируем внешний файл внутрь образа
+COPY backup_des.xbstream.gz-195395-1e696d.des3 /path/inside/container/
+
+# Обновляем список пакетов
+RUN apt update
+
+# Устанавливаем пакеты wget, gnupg, lsb-release, curl, nano
+RUN apt-get install -y wget gnupg lsb-release curl nano
+
+# Устанавливаем пакет mysql-server-8.0
+RUN apt install -y mysql-server-8.0
+
+# Снова обновляем список пакетов
+RUN apt update
+
+# Очищаем кэш пакетов
+RUN apt-get clean all
+
+# Исправляем возможные проблемы в установке пакетов
+RUN apt --fix-broken install
+
+# Загружаем пакет percona-release_latest.generic_all.deb
+RUN curl -O https://repo.percona.com/apt/percona-release_latest.generic_all.deb
+
+# Устанавливаем пакеты gnupg2 и lsb-release из ранее загруженного пакета и обновляем список пакетов
+RUN apt install -y gnupg2 lsb-release ./percona-release_latest.generic_all.deb && apt update
+
+# Настраиваем репозиторий Percona для версии 8.0
+RUN percona-release setup pdps-8.0
+
+# Устанавливаем пакет percona-xtrabackup-80
+RUN apt install -y percona-xtrabackup-80
+
+# Устанавливаем пакет mc
+RUN apt install -y mc
+
+# Очищаем кэш пакетов
+RUN apt-get clean all
+
+# Проверяем версию xtrabackup
+RUN xtrabackup --version
+
+# Прокидываем порт 3306 для доступа к MySQL серверу извне
+EXPOSE 3306
+
+# Команда для запуска MySQL Server при запуске контейнера
+CMD ["mysqld", "--port=3306", "--bind-address=0.0.0.0"]

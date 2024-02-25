@@ -196,9 +196,7 @@ replica_slot|pgoutput|logical  | 16384|primary_db|false    |false |          |  
 ### 17. На replica оформляем подписку(где 172.25.0.2 API адрес БД primary)
 
 ```sql
-CREATE SUBSCRIPTION replica_slot
-CONNECTION 'host=172.19.0.2 user=replication_user password=your_password dbname=primary_db'
-PUBLICATION replica_slot;
+CREATE SUBSCRIPTION db_sub CONNECTION 'host=172.20.0.2 user=replication_user password=your_password dbname=primary_db' PUBLICATION db_pub;
 ```
 ### 17. На replica можно проверить состояние репликации
 ```sql
