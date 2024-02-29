@@ -15,35 +15,35 @@ CREATE TABLE IF NOT EXISTS Countries
 CREATE TABLE IF NOT EXISTS Cities
 (
     city_id INT PRIMARY KEY AUTO_INCREMENT,
-    city    VARCHAR(255) NOT NULL
+    city    VARCHAR(100) NOT NULL
 );
 
 -- Создание таблицы "Улицы" (Streets)
 CREATE TABLE IF NOT EXISTS Streets
 (
     street_id INT PRIMARY KEY AUTO_INCREMENT,
-    street    VARCHAR(255) NOT NULL
+    street    VARCHAR(100) NOT NULL
 );
 
 -- Создание таблицы "Почтовые индексы" (Postal_Codes)
 CREATE TABLE IF NOT EXISTS Postal_Codes
 (
     postal_code_id INT PRIMARY KEY AUTO_INCREMENT,
-    postal_code    VARCHAR(50) NOT NULL
+    postal_code    VARCHAR(20) NOT NULL
 );
 
 -- Создание таблицы "Регионы" (Regions)
 CREATE TABLE IF NOT EXISTS Regions
 (
     region_id INT PRIMARY KEY AUTO_INCREMENT,
-    region    VARCHAR(50) NOT NULL
+    region    VARCHAR(100) NOT NULL
 );
 
 -- Создание таблицы "Здания" (Buildings)
 CREATE TABLE IF NOT EXISTS Buildings
 (
     building_id     INT PRIMARY KEY AUTO_INCREMENT,
-    building_number VARCHAR(50) NOT NULL
+    building_number VARCHAR(20) NOT NULL
 );
 
 -- Создание таблицы "Адреса" (Addresses)
@@ -68,13 +68,13 @@ CREATE TABLE IF NOT EXISTS Addresses
 CREATE TABLE IF NOT EXISTS Customers
 (
     customer_id             INT PRIMARY KEY AUTO_INCREMENT,
-    title                   VARCHAR(50),
-    first_name              VARCHAR(255),
-    last_name               VARCHAR(255),
+    title                   VARCHAR(20),
+    first_name              VARCHAR(50),
+    last_name               VARCHAR(50),
     correspondence_language VARCHAR(50),
-    birth_date              VARCHAR(255),
+    birth_date              DATE,
     gender                  VARCHAR(10),
-    marital_status          VARCHAR(50),
+    marital_status          VARCHAR(20),
     address_id              INT,
     FOREIGN KEY (address_id) REFERENCES Addresses (address_id)
 );
@@ -248,27 +248,3 @@ LOAD DATA INFILE '/some_customers.csv'
                      FROM Streets
                      WHERE street = @street
                      LIMIT 1);
-
-LOAD DATA INFILE '/some_customers.csv'
-    INTO TABLE Customers
-    FIELDS TERMINATED BY ','
-    ENCLOSED BY '"'
-    LINES TERMINATED BY '\n'
-    IGNORE 1 LINES
-    (title, first_name, last_name, correspondence_language, birth_date, gender, marital_status, @country, @postal_code,
-     @region, @city, @street, @building_number)
-    SET address_id = (SELECT a.address_id
-                      FROM Addresses a
-                               JOIN Countries c ON a.country_id = c.country_id
-                               JOIN Cities ci ON a.city_id = ci.city_id
-                               JOIN Postal_Codes pc ON a.postal_code_id = pc.postal_code_id
-                               JOIN Regions r ON a.region_id = r.region_id
-                               JOIN Streets s ON a.street_id = s.street_id
-                               JOIN Buildings b ON a.building_id = b.building_id
-                      WHERE (c.country = @country OR @country like '""')
-                        AND (ci.city = @city OR @city like '""')
-                        AND (pc.postal_code = @postal_code OR @city like '""')
-                        AND (r.region = @region OR @city like '""')
-                        AND (b.building_number = @building_number OR @city like '""')
-                        AND (s.street = @street OR @city like '""')
-                      LIMIT 1);

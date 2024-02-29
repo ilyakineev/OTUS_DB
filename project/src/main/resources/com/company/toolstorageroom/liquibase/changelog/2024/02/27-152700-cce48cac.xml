@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1" author="toolstorageroom">
+        <sql>
+            -- Создание роли для резервного копирования и репликации
+            CREATE ROLE backup_replication_user WITH
+                SUPERUSER
+                NOCREATEDB
+                NOCREATEROLE
+                INHERIT
+                LOGIN
+                REPLICATION
+                NOBYPASSRLS
+                CONNECTION LIMIT -1;
+
+            -- Создание пользователя на основе роли
+            CREATE USER backup_user PASSWORD 'backup_password';
+
+            -- Назначение созданной роли пользователю
+            GRANT backup_user TO backup_replication_user;
+
+            -- Создание роли для аналитиков
+            CREATE ROLE Analyst;
+
+            -- Назначение прав доступа для роли аналитиков
+            GRANT SELECT ON ALL TABLES IN SCHEMA public TO Analyst;  -- Предоставление прав на чтение всех таблиц в схеме public
+            GRANT USAGE ON SCHEMA public TO Analyst;  -- Предоставление прав на использование схемы public
+
+            -- Создание роли для разработчиков
+            CREATE ROLE Developer;
+
+            -- Назначение прав доступа для роли разработчиков
+            GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO Developer;  -- Предоставление прав на все таблицы в схеме public
+            GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO Developer;  -- Предоставление прав на все последовательности в схеме public
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>
