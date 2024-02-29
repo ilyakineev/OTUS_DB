@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  mysql_db:
+    container_name: my_db
+    platform: linux/x86_64
+    image: mysql:8.0.15
+    restart: always
+    environment:
+      MYSQL_DATABASE: my_db
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - ./initdb/init.sql:/init.sql
+      - ./custom.conf:/etc/mysql/conf.d
+      - data:/var/lib/mysql
+      - ./date/some_customers.csv:/some_customers.csv
+    command:
+      --init-file /init.sql
+      --character-set-server=cp1251 --collation-server=cp1251_general_ci
+
+volumes:
+  data:

@@ -1,0 +1,1155 @@
+title,first_name,last_name,correspondence_language,birth_date,gender,marital_status,country,postal_code,region,city,street,building_number
+Dr.,Danilo,Ambrosini,IT,1900-01-01,Unknown,"",IT,21100,"",Varese,Via dolomiti,13
+Mrs,Deborah,Thomas,,,Female,"",GB,RH16 3TQ,"",Haywards heath,Cobbetts mead,31
+Herr,Markus,Hönninge,DE,1900-01-01,Male,"",DE,69493,"",Hirschberg an der bergstraße,Breitgasse 5a,""
+Mrs,Sheila,Spiller,EN,,Unknown,"",GB,TN6 1ST,East sussex,Crowborough,Ghyll road,""
+Mrs,Rosemary,Bailey,EN,,Unknown,"",GB,NR34 7SH,"",Beccles,Pepys avenue,24
+Mr,G,Russell,EN,1900-01-01,Male,"",GB,FK6 6BW,"",Denny,Leslie park,""
+Mr,Mark,Robins,EN,,Male,"",GB,BS7 0EY,"",Horfield,Flat 6,""
+Mrs,Elaine,Thomson,EN,1900-01-01,Female,"",GB,NG24 3LL,"",Newark,38 main street,""
+"",Mario,Bartolucci,IT,1900-01-01,Male,"",IT,60018,Ancona,Montemarciano,Via dei larici,23
+Herr,Marvin,Brockob,DE,1900-01-01,Male,"",DE,40233,"",Düsseldorf,Langerstr 51,""
+Mrs,Kathleen,Renshaw,EN,,Female,"",GB,YO31 7YG,"",York,East parade,134
+Frau,Katharina,Meyer,DE,1900-01-01,Female,"",DE,01309,"",Dresden,Geisingstr 29,""
+Pan,Krzysztof,Gres,PL,1900-01-01,Male,"",PL,70-812,"",Szczecin,Ul pomorska 105/1,""
+Frau,Ivonne,Sommer,DE,1900-01-01,Female,"",DE,24106,"",Kiel,Charles-roß-ring 20,""
+Mr,P,Page,EN,1900-01-01,Male,"",GB,TN37 7QF,"",St leonards-on-sea,85 seven acre close,""
+Miss,D,France,EN,,Female,"",GB,BL5 3WA,"",Bolton,Madison park,11
+Mrs,Jean,Blonfield,EN,,Female,"",GB,TR1 2DZ,Cornwall,Truro,Carclew street,39
+Monsieur,Frederic,Locquet,FR,1900-01-01,Male,"",BE,7191,"",Ecaussinnes-lalaing,Rue de l'hayette /ca correspond a la rue du poirier 35 gps/,8
+Frau,"",A0230326,DE,1900-01-01,Female,"",DE,03460,"","",6230320a,""
+Frau,Susann,Wiffler,DE,1900-01-01,Female,"",DE,65201,"",Wiesbaden,Rheingaustr 16,""
+"","",Haugen pål,NO,1900-01-01,Unknown,"",NO,4280,"",Skudeneshavn,Alterfjellet 18b,""
+Miss,Hayley,Walden,EN,1900-01-01,Female,"",GB,RH4 3QR,Surrey,Dorking,Bailey road,47
+Frau,Linda,Sabi,DE,1900-01-01,Female,"",DE,22419,"",Hamburg,Dortmunder str 52,""
+Mr,Kyle,Richardson,,,Unknown,"",GB,PR5 6EL,"",Preston,Station road,380
+Mr,Simon,Pritchard,EN,,Male,"",GB,WV6 8LF,"",Wolverhampton,Sandy hollow,31
+Mrs,Nazia,Ilyas,EN,,Female,"",GB,PR1 5NP,"",Preston,Wilbraham street,102
+Pan,Zbigniew,Kaczmarek,PL,1900-01-01,Male,"",PL,77-330,"",Czarne,Kościuszki,42
+Mr,Philip,Wales,EN,1900-01-01,Unknown,"",IE,"",Offaly,Birr,Eden cottages,4
+Monsieur,Fabien,Legrand,FR,1900-01-01,Male,"",FR,60190,"",Moyvillers,175 rue du pre st martin,""
+Mrs,E,Shuttleworth,EN,1900-01-01,Female,"",GB,BB6 7TH,"",Great harwood,17 worston lane,""
+"",Live,New,FR,1900-01-01,Unknown,"",BE,4081,"",Esch/alzette,Dicks,13
+Herr,Florian,Streb,DE,1900-01-01,Male,"",DE,65550,"",Limburg,Habichtstr 3,""
+"","",Spronk,NL,1900-01-01,Unknown,"",NL,3641 BA,Utrecht,Mijdrecht,Bucho van montzimastraat,19
+Paní,Iveta,Piskackova,CS,1900-01-01,Female,"",CZ,267 62,"",Osek,Osek 2,""
+"","","",,,"","",IT,29027,Piacenza,Podenzano,Via papa giovanni xxiii,1 - 29
+Frau,Gabriele,Guidi,DE,1900-01-01,Female,"",DE,65439,"",Flörsheim am main,Hauptstr 38,""
+Mevr.,"",Klejn,NL,1900-01-01,Female,"",NL,2625 RL,"",Delft,Beethovenlaan,155
+Monsieur,Yann,Malavaud,FR,1900-01-01,Male,"",FR,69600,"",Oullins,13 rue salvador allende,""
+Mrs,M,Aylesbury,EN,,Female,"",IE,R93 E3H7,"",Carlow,Crossneen manor leighlin road,36
+Mr,"",Joynson,EN,,Unknown,"",GB,ST6 8AN,"",Stoke-on-trent,Hesketh avenue,1
+Sig.,Gianni,Gilardi,IT,1900-01-01,Male,"",IT,23857,"",Valgreghentino,Via alessandro manzoni,1
+Mr,M,Smajgor,EN,,Unknown,"",GB,G43 2RJ,"",Glasgow,Hillpark drive,165
+Mr,A,Ali,EN,,Male,"",GB,DY2 8EF,West midlands,Dudley,Buffery road,90
+Monsieur,"",Grignet,FR,1900-01-01,Male,"",BE,4190,"",My,Rue du vieux tilleul,1
+Frau,Susan,Korakli-watfe,DE,1900-01-01,Female,"",DE,10585,"",Berlin,Richard wagner str 44,""
+Madame,Elodie,Tremblay,FR,1900-01-01,Unknown,"",FR,44230,"",Saint-sébastien-sur-loire,22 rue du général duez,""
+Pani,M,S,PL,1900-01-01,Female,"",PL,99-999,"",Bpdeletion,W,4
+Mr,D,Bowers,EN,,Unknown,"",GB,AB21 9DD,"",Aberdeen,University court,22
+Mrs,A,Jones,EN,,Unknown,"",GB,LL18 4QA,Clwyd,Rhyl,Maes y gog,24
+Mrs,G,Hewson,EN,,Female,"",GB,CR5 3NH,"",Coulsdon,Sunnyfield,""
+Mademoiselle,Maurizio,Dangelo,FR,,Female,"",BE,1150,"",Bruxelles,Rue konkel,171/8
+Mrs,"",Hillyard,EN,,Unknown,"",GB,CO4 9SY,"",Colchester,Fir tree close,8
+Fam.,"",Blommaert,NL,1900-01-01,Unknown,"",BE,1502,"",Lembeek,Prinsenbos,269
+Sig.na,Gabriella,Gabrielli,IT,1900-01-01,Female,"",IT,55049,"",Viareggio,Via dei lecci 71,""
+Mrs,P,Mcminn,EN,,Female,"",GB,PO16 7YF,Hampshire,Fareham,Coghlan close,4
+"","","",,,"","",CH,8330,"",Pfaeffikon,Mattenstr 22,""
+"",Martial,Poitevin,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Mrs,R,Singh,EN,,Unknown,"",GB,B27 6PL,"",Birmingham,Warwick road,1234
+Mr,Dm,Hazzard,EN,1900-01-01,Male,"",GB,PO21 5NA,"",Bognor regis,17 mayfield road,""
+Monsieur,"",Monsieur & madame monchalin,FR,1900-01-01,Male,"",FR,26240,"",Ponsas,315 rue des potiers,""
+Mrs,"",Daniel,EN,,Female,"",GB,B31 1TF,"",Birmingham,Flat 2 55 honiton crescent,""
+Madame,Colette,Witz,FR,1900-01-01,Female,"",FR,95870,"",Bezons,6 rue ambroise pare,""
+Frau,Anja,Hennrich,DE,1900-01-01,Female,"",DE,68259,"",Mannheim,Wingertsau 9,""
+Monsieur,"",Le fer remy,FR,,Male,"",FR,22520,"",Binic,21 rue jean-louis heurtel,""
+Mr,G,Smith,EN,1900-01-01,Male,"",GB,S71 3DS,"",Barnsley,83 ollerton road,""
+Monsieur,Dominique,Giraud,FR,1900-01-01,Male,"",FR,17000,"",La rochelle,87 avenue aristide briand,""
+Mrs,H,Mason,EN,,Female,"",GB,BH1 4HD,"",Bournemouth,Walpole road,18
+Mr,Mc,Rolph,EN,1900-01-01,Male,"",GB,CB5 8LY,"",Cambridge,128a whitehill road,""
+Mrs,G,Chodha,EN,,Unknown,"",GB,RG12 7YX,"",Bracknell,Orion,13
+Mrs,"",Edwards,EN,,Unknown,"",GB,HD5 8BN,"",Huddersfield,Ravensknowle road,30
+Sig.ra,Loredana,Cappello,IT,,Female,"",IT,21052,Varese,Busto arsizio,Piazza giuseppe garibaldi,1
+Mrs,Avril,Mcmenamin,EN,1900-01-01,Female,"",IE,DON013,Donegal,Buncrana,Clonbeg,""
+Mrs,"",Bowen,EN,1900-01-01,Female,"",GB,MK5 7GD,"",Milton keynes,51 walbank grove,""
+Ms,K,Seal,EN,1900-01-01,Female,"",GB,WA16 0EB,"",Knutsford,16 cranford avenue,""
+Sig.,Antonio,Romano,IT,1900-01-01,Male,"",IT,73013,Lecce,Galatina,Via gallipoli,329
+Dr.,Enzo,Lusini,IT,1900-01-01,Unknown,"",IT,50141,"",Firenze,Via aligi barducci,44
+Mrs,To,Haworth,EN,,Female,"",GB,SW9 8DW,"",London,Flat 10 daisy dormer court,""
+Sig.,Matteo,Lazzari,IT,1900-01-01,Male,"",IT,40050,"",Argelato,Via quattro portoni 9,""
+Mr,Stuart,Duncan,EN,,Male,"",GB,SP9 7FE,"",Tidworth,Clarendon court,4
+Miss,Nuria,Carrera torrent,ES,1900-01-01,Female,"",ES,08015,"",Barcelona,Tarragona 106 7-2,""
+Mr,M,Aarons,EN,,Unknown,"",GB,N12 9TJ,"",London,Torrington park,""
+"",Ernani,Ritrovato,IT,,Unknown,"",IT,89013,Reggio calabria,Gioia tauro,Viale don sturzo,23 bis
+Frau,Michaela,Cardillo,DE,1900-01-01,Female,"",DE,73540,"",Heubach,Beurener str 24/1,""
+Pani,Henryka,Jędrzejewska,PL,1900-01-01,Female,"",PL,27-530,"",Ożarów,Wojciechówka 2,""
+Frau,Ina,Schaller,DE,1900-01-01,Female,"",DE,09306,"",Wechselburg,Rochlitzer str 18,""
+Sig.ra,Maria immacolata,Amorelli,IT,1900-01-01,Female,"",IT,07100,"",Sassari,Via crispatzu 5,""
+Monsieur,Henriette,Camacho,FR,1900-01-01,Male,"",FR,94400,"",Vitry sur seine,8 all de la croix du mont,""
+Mrs,Wendy,Lord,EN,,Unknown,"",GB,OL11 5TG,"",Rochdale,Harewood road,2
+Mr,Naseer,Ahmed,EN,,Male,"",GB,SL1 2QT,"",Slough,King edward street,25
+Frau,Jasmin,Fyed jasmin,DE,1900-01-01,Female,"",DE,49448,"",Lemförde,Hauptstr 69,""
+Pan,Roman,Brada,CS,1900-01-01,Male,"",CZ,108 00,"",Praha,Malesicka 96,""
+Frau,"",A0107853,DE,1900-01-01,Female,"",DE,10407,"","",3587010a,""
+Mr,A,Ball,EN,,Male,"",GB,LL53 7ET,"",Pwllheli,Rhianfa,""
+"","",Bojana radovic,SV,1900-01-01,Unknown,"",SE,117 32,"",Stockholm,Heleneborgsgatan 10 b 3tr,""
+Mrs,Jane,Bragg,EN,,Female,"",GB,SS6 8HQ,"",Rayleigh,Nelson road,59
+Mrs,G,Singh,EN,,Unknown,"",GB,B26 3ST,"",Birmingham,Cranes park road,100/100
+Frau,"",A0078254,DE,1900-01-01,Female,"",DE,02733,"","",4528700a,""
+Mr,P,Davies,EN,,Male,"",GB,CF37 4AG,"",Pontypridd,Mackintosh road,1
+Frau,"",A0056255,DE,1900-01-01,Female,"",DE,01330,"","",5526500a,""
+Madame,Janine,Brale,FR,1900-01-01,Female,"",FR,92130,"",Issy-les-moulineaux,41 rue marcel miquel,""
+Mrs,Kathleen,Murry,EN,,Unknown,"",IE,"",Limerick,Limerick,Hogan avenue,35
+"",Xavier,Mary,FR,1900-01-01,Unknown,"",FR,85310,"",Nesmy,11 rue st joseph,""
+"",Németh,Lajos,HU,1900-01-01,Unknown,"",HU,9421,Vmm - no state,Fertőrákos,Fő utca 6 /b,""
+Mrs,C,Speirs,EN,,Female,"",GB,KA3 2EG,"",Kilmarnock,Todhill avenue,1
+Sig.,Antonio,Feroldi,IT,1900-01-01,Male,"",IT,26032,"",Ostiano,Via molini 25,""
+Pan,R,R,PL,1900-01-01,Male,"",PL,99-999,"",Bpdeletion,N,2
+Mademoiselle,Solenne,Prieur,FR,1900-01-01,Female,"",FR,74960,"",Meythet,9 allee des cedres,""
+Frau,Camilla,Wolf,DE,1900-01-01,Female,"",DE,64560,"",Riedstadt,Lessingstrasse 17,""
+"",- 049673864,Darty,FR,1900-01-01,Unknown,"",FR,57365,"",Ennery,Rue alexandre borrelly,""
+Sig.ra,Elena,Bollani,IT,1900-01-01,Female,"",IT,27010,Pavia,Borgarello,Via enrico berlinguer,""
+Frau,Mendi,Harm,DE,1900-01-01,Female,"",DE,18147,"",Rostock,Zum lebensbaum 20,""
+Frau,Bernadette,Jonas,DE,1900-01-01,Female,"",DE,52445,"",Titz,Lindenstraße 1f,""
+"",Léa,Lafargue,FR,1900-01-01,Unknown,"",FR,"","","","",""
+"","",Allindre,FR,1900-01-01,Unknown,"",FR,91340,"",Ollainville,48 chaemin du bois robert,""
+Mr,A,Kennedy,EN,,Unknown,"",GB,G33 1RH,"",Glasgow,Briarcroft road,120
+Frau,Donata,Röttger,DE,1900-01-01,Female,"",DE,50678,"",Köln,Severinstr 58,""
+Pani,Helena,Ciba,PL,1900-01-01,Female,"",PL,26-020,"",Chmielnik,Kotlice 32,""
+Mr,Martin,Hawes,EN,,Unknown,"",GB,CT21 5SH,Kent,Hythe,Springfield way,21
+Sr.,Javier,Rincon,ES,1900-01-01,Male,"",ES,28939,"",Arroyo molinos,C/ jabia no 16,""
+Frau,Gabriele,Hasse,DE,1900-01-01,Female,"",DE,15566,"",Schöneiche,Stockholmer straße,13
+Sig.,Giovanni,Mancini,IT,,Male,"",CH,6962,"",Viganello,Via al fiume,3b
+"","","",,,"","",FR,75015,"",Paris,-,""
+Ms,G,Wright,EN,,Female,"",GB,SN11 0HJ,"",Calne,North street,99
+Mevr.,H,Kock,NL,1900-01-01,Female,"",NL,1063 XT,"",Amsterdam,Hermanus coenradistraat,22
+Frau,Irene,Piethe,DE,1900-01-01,Female,"",DE,10319,"",Berlin,Balatonstr 2,""
+Mr,D,Burton,EN,,Unknown,"",GB,ST5 3RQ,Staffordshire,Newcastle,Beresford crescent,63
+Sig.,Francesco,Bertolucci,IT,1900-01-01,Male,"",IT,24122,Bergamo,Bergamo,Via sant'alessandro,6
+Mr,Emanuel,Al-guwary,EN,,Male,"",GB,TA1 5FF,"",Taunton,Desmond rochford way,64
+Mr,Mohamed,Aldirahi,,,Male,"",GB,TW4 6AB,"",Hounslow,Gloucester road,14
+Mr,S,Papantonio,EN,1900-01-01,Male,"",GB,BS1 5SP,"",Bristol,38 college green,""
+Ms,L,O'sullivan,EN,,Female,"",GB,RM2 6HX,"",Romford,Upper brentwood road,546
+Mrs,Bj,Coton,EN,1900-01-01,Female,"",GB,CV8 1FZ,"",Kenilworth,26 leycester road,""
+Mrs,Jane,Byatt colantuono,EN,,Unknown,"",GB,RH15 9UL,"",Burgess hill,Sparrow way,42
+Mr,R,Williams,EN,1900-01-01,Male,"",GB,TS20 2PA,"",Stockton-on-tees,68 greylands avenue,""
+Sra.,Sergio,Montes molina,ES,1900-01-01,Female,"",ES,08800,"",Vilanova i la geltru,Calle joan llaverias 1 1 2,""
+Mr,Fr,Curry,EN,1900-01-01,Male,"",GB,JE2 3LX,"",Tower road st helier,6 orchard mews,""
+"","",Basorini,IT,1900-01-01,Unknown,"",IT,25040,Brescia,Malonno,Via battista polonioli,3
+"","","",,,"","",BE,2250,Transportzone 1,Olen,Industrielaan 18,""
+Frau,Giuseppina,Brehm,DE,1900-01-01,Female,"",DE,68535,"",Edingen-neckarhausen,Heinrich-heine-str 15,""
+Frau,Ilse,Braune,DE,1900-01-01,Female,"",DE,06712,"",Schnaudertal,Görnitzer str 66,""
+Mrs,C,Lawson,EN,1900-01-01,Female,"",GB,LS18 5DT,"",Horsforth,13 broadgate avenue,""
+Sig.,Alfio,Pulvirenti,IT,1900-01-01,Male,"",IT,20077,Milan,Melegnano,Via marsala,21
+Mr,R,Smithwick,EN,1900-01-01,Male,"",IE,COR177,Cork,Middleton,Avoch,""
+Herr,Hugo,Baumann,DE,1900-01-01,Male,"",CH,3665,"",Wattenwil,Postgasse 12,""
+Ms,Cv,Smith,EN,1900-01-01,Female,"",GB,BR1 4QS,"",Bromley,15 roslin way,""
+Miss,Seunice,Kanengoni,EN,,Unknown,"",GB,AL10 0JQ,Hertfordshire,Hatfield,Corncroft,4
+Mr,John,Fullarton,EN,,Unknown,"",GB,KA9 1TU,Ayrshire,Prestwick,Pleasantfield road,28
+Mrs,"",Herley,EN,,Unknown,"",IE,"",Limerick,Ballyneety,Knockbrine,""
+Frau,Brigitte,Gänsicke,DE,1900-01-01,Female,"",DE,74372,"",Sersheim,Ludwigstr 12/1,""
+Frau,Sarah lena,Grahn,DE,1900-01-01,Female,"",DE,10115,"",Berlin,Invalidenstr 150,""
+Mr.,A,A,NO,1900-01-01,Male,"",NO,0000,"",A,A,""
+Mr,T,Lawrence,EN,,Male,"",GB,CM15 8BN,Essex,Brentwood,Shenfield crescent,6
+Sig.na,F,"",IT,1900-01-01,Female,"",IT,"","","","",""
+Mevr.,"",Rijsdijk,NL,1900-01-01,Female,"",NL,7328 AS,"",Apeldoorn,Rietdekkersdreef,933
+Frau,Christine,Worschech,DE,,Female,"",DE,06343,"",Mansfeld,Obere dorfstr,15
+"",Isabelle,Mayer,FR,1900-01-01,Unknown,"",FR,59220,"",Denain,34 bis rue roger salengro,""
+Mr,"",Richards,EN,,Unknown,"",GB,CV32 7JS,Warwickshire,Leamington spa,Broadway,65
+Miss,Hele,Jones,EN,,Female,"",GB,SA32 7DU,"",Carmarthen,Old school house,""
+Madame,Annie,Vieuxbled,FR,1900-01-01,Female,"",FR,14600,"",La riviere st sauveur,8 lotissement beerblock,""
+Doctor,D,Ojar,EN,,Unknown,"",GB,PO6 4TD,"",Portsmouth,Cadgwith place,19
+Miss,Fiona,East,EN,,Female,"",GB,DN21 2PR,Lincolnshire,Gainsborough,Burns street,36
+"","",El hafsi,FR,1900-01-01,Unknown,"",FR,93000,"",Bobigny,119 av jean jaures,""
+Mrs,L,Crielly,EN,,Female,"",GB,KY11 8FH,"",Dunfermline,Inverewe place,21
+Mr,Colin,Higginson,EN,,Unknown,"",GB,ST5 7SF,"",Newcastle,Smallwood close,8
+Frau,Katja,Wehner,DE,1900-01-01,Female,"",DE,39435,"",Wolmirsleben,Krumme str 1,""
+Frau,Tanja,Flach,DE,1900-01-01,Female,"",DE,37619,"",Hehlen,Poststr 13,""
+Mr,"",Packer,EN,1900-01-01,Male,"",GB,TA6 6DQ,"",Bridgwater,2 carpathian way,""
+Frau,"",A0281478,DE,1900-01-01,Female,"",DE,02182,"","",8741820a,""
+Mrs,P,Donnovan,EN,,Female,"",GB,CF5 3DJ,"",Cardiff,Everswell road,66
+Mr,Kevin,Murphy,EN,,Male,"",IE,H53 YV50,Galway,Ballinasloe,Garbally oaks,44
+Mrs,A,Large,EN,,Unknown,"",GB,NG10 1AP,"",Langheaton,Lodge road,57
+Mr.,Johan,Klevfors,NO,,Male,"",NO,0554,"",Oslo,Markveien 21b,""
+Mr,Brian,Richards,EN,,Unknown,"",GB,BN26 8DX,"",Eastbourn,Bembridgeroad,7
+Société,"",Prologe sprl,FR,1900-01-01,Unknown,"",BE,4430,"",Ans,Rue lambert dewand,217
+"",Karine,Angenault,FR,1900-01-01,Unknown,"",FR,75019,"",Paris,04 rue du général brunet,""
+Dhr.,"",Asrob,NL,1900-01-01,Male,"",NL,6841 BB,"",Arnhem,Gelderse rooslaan,173
+Mrs,R,Keast,EN,,Female,"",GB,TR6 0DB,"",Perranporth,Budnic estate,24
+Nicht verwendet,Kerstin,Rudolph,DE,1900-01-01,Female,"",DE,26723,"",Emden,Robert-bunsen-straße 1b,1b
+Madame,Chantal,Thiebaud,FR,1900-01-01,Female,"",FR,35400,"",St malo,26 rue de verdun,""
+Mr,D,Skipper,EN,,Male,"",GB,E17 4PR,"",London,Bromley road,35
+Ms,Susan,Mort,EN,,Female,"",GB,PR26 9SD,"",Leyland,Coniston way,9
+Mrs,X,Walker,EN,,Unknown,"",GB,NE5 5NQ,"",Newcastle upon tyne,Brendale avenue,26
+Herr,Björn,Gersema,DE,1900-01-01,Male,"",DE,42719,"",Solingen,Karl-haberland-str 23,""
+Mr,D,Bennett,EN,,Unknown,"",GB,L14 7PF,"",Liverpool,Churchdown road,97
+Dhr.,Bw,Middelkoop,NL,1900-01-01,Male,"",NL,4141 CX,"",Leerdam,Jan van arkelstraat,5
+Miss,Lorna,Mccoll,EN,,Female,"",GB,KY1 3AT,Fife,Kirkcaldy,Quarry brae,7
+Mr,N,Saeed,EN,,Male,"",GB,RM10 9XX,"",Dagenham,Wellington drive,16
+Mrs,"",Giles,EN,1900-01-01,Female,"",GB,SS9 2AH,"",Leigh-on-sea,1166a london road,""
+Mr,Mc,Clark,EN,1900-01-01,Male,"",GB,"","","",90 shipman road,""
+Ms.,Mervi,Turunen,FI,1900-01-01,Female,"",FI,83150,"",Roukalahti,Haiskuntie 19 b,""
+Mrs,Margaret,Sutcliffe,EN,,Female,"",GB,BD17 6JH,"",Shipley,Crowtree close,1
+Mr,M,Harris,EN,1900-01-01,Male,"",GB,NG15 7GN,"",Nottingham,79 sandy lane,""
+Madame,Michelle,Wolff,FR,1900-01-01,Female,"",FR,55200,"",Commercy,5 rue de la gare,""
+Mrs,Hannah elizabeth,May,EN,,Female,"",GB,TR20 8JW,Cornwall,Penzance,Godolphin road,5
+Frau,Andrea,Paul,DE,1900-01-01,Female,"",DE,26382,"",Wilhelmshaven,Schillerstr 13,""
+Mrs,"",Owens,EN,,Unknown,"",GB,NW10 8BA,"",London,Harley road,25
+Mrs,Charlotte,Taylor,EN,,Female,"",GB,BA3 3NB,"","",Manor park,4
+Mrs,M,Cannon,EN,,Female,"",GB,YO12 5RA,North yorkshire,Scarborough,Lady ediths avenue,69
+Bedrijf,"",Stomerij groovy,NL,1900-01-01,Unknown,"",NL,2643 KJ,"",Pijnacker,Speenkruid,2
+Mr,Denis,Wilkin,EN,1900-01-01,Male,"",GB,SS9 4JY,"",Leigh on sea,12 shirley road,""
+Paní,Andrea,Kerelova,CS,,Female,"",CZ,671 78,"",Jirice u miroslavi,Litobratrice,176
+Sra.,Matilde,Alonso alcala,ES,1900-01-01,Female,"",ES,08780,"",Fontpineda palleja,Calle argentina 1,""
+"",Bruna,Dal monte,IT,1900-01-01,Female,"",IT,40026,Bologna,Imola,Viale innocenzo francucci,8
+Mrs,H,Collins,EN,,Female,"",GB,GU5 9EG,"",Guildford,Oakley cottage,""
+Mr,Bj,Thomson,EN,1900-01-01,Male,"",GB,FK2 0GJ,"",Brightons,9 standrigg gardens,""
+Mr,Tim,Brown,EN,,Male,"",GB,BH21 1UR,"",Wimborne,Flat 18 marlborough court,""
+Frau,Ursula,Ritter,DE,1900-01-01,Female,"",DE,65597,"",Hünfelden,Mühlstr 42,""
+Herr,Rolf,Gabriel,DE,1900-01-01,Male,"",DE,98529,"",Suhl,Richard-strauss-str 41a,""
+"",Miira,Porvali,FI,,Unknown,"",FI,02230,"","","",""
+Monsieur,Annick,Leroi,FR,1900-01-01,Male,"",FR,06100,"",Nice,4 av julien,""
+Monsieur,Gregory,Carvalho,FR,1900-01-01,Male,"",FR,68200,"",Mulhouse,3 avenue dmc,""
+Ms,Vd,Miller,EN,1900-01-01,Female,"",GB,N18 2TJ,"",London,210 langhedge lane,""
+Mr,John,Roomes,EN,,Male,"",GB,CR8 5BY,"","",Valley road,59
+Mrs,I,Mccormack,EN,,Unknown,"",GB,MK42 0HW,"",Bedford,Hazelwood road,32
+Frau,Alice,Kersci,DE,,Female,"",DE,90766,"",Fürth,Vacher str,12
+Miss,L,Aitken,EN,,Female,"",GB,KY7 6XP,"","",Mearns court,152/152
+Mrs,S,Brooks,EN,,Female,"",GB,SE12 9HX,"",London,Pitfold road,28
+Frau,Susan,Korakli-watfe,DE,1900-01-01,Female,"",DE,10585,"",Berlin,Richard wagner,str 44
+Monsieur et  Madame,Daniel,Guerf,FR,1900-01-01,Unknown,"",BE,1640,"",Sint-genesius-rode,Francinelaan,6
+Mrs,Margaret,Hatliff,EN,,Female,"",GB,YO31 1EE,"","",Elmlands grove,4
+Mrs,"",Barnard,EN,,Unknown,"",GB,NW9 7AT,"",London,Stuart avenue,58
+Miss,"",Anu,EN,,Unknown,"",GB,SE16 7TT,"",London,Plover way,56
+Mrs,Micheal,Phelan,EN,,Unknown,"",GB,RG14 6SL,Berkshire,Newbury,Meldrum close,11
+Mr,J,Hughes,EN,1900-01-01,Male,"",GB,NE61 2XS,"",Morpeth,10 marden close,""
+Mrs,T,Hey,EN,,Female,"",GB,LL31 9AU,Gwynedd,Llandudno junction,Cilgwyn,5
+Mrs,Deb,Hume,EN,,Female,"",GB,G15 6DQ,"",Glasgow,Stonedyke grove,22
+Herr,Simon,Klejner,DE,,Male,"",DE,33106,"",Paderborn,Germanenstr,14
+Pan,Adam,Krupa,PL,1900-01-01,Male,"",PL,37-514,"",Munina,Południowa 73,""
+Frau,Bianka,Bachmann,DE,,Female,"",DE,56072,"",Koblenz,Gulisastr 53,""
+Mr,Steve,Hampson,EN,,Unknown,"",GB,TS12 2WN,"",Skelton,Wensleydale,12
+Mrs,J,Edmunds,EN,,Female,"",GB,B17 9RE,"",Birmingham,Serpentine road,28
+Miss,H,Nuttall,EN,,Female,"",GB,S70 4SS,"",Barnsley,Pantry green,10
+"",Riviere,"",FR,1900-01-01,Unknown,"",FR,16430,"",Balzac,Route de coursac 25,""
+Mrs,E,Connelly,EN,,Female,"",GB,CM7 5RB,"",Braintree,Glebe avenue,34
+Mrs,Charmaine,Gilgis,EN,,Female,"",GB,G66 4AQ,"",Glasgow,Westergreens avenue,43
+Mr,M,Flanagan,EN,,Unknown,"",GB,DN4 6AL,South yorkshire,Doncaster,Highbury crescent,24
+Mrs,C,Mcginn,EN,,Female,"",GB,BT54 6BE,"",Ballycastle,The everglades,4a
+Monsieur,A,Grosse corinne,FR,1900-01-01,Male,"",FR,54121,"",Vandieres,5 bis rue des vignes,""
+Frau,Ingeborg,Pröhl,DE,,Female,"",DE,39539,"",Havelberg,Breite str,4
+"",Aurel,Tugui,IT,1900-01-01,Male,"",IT,01030,Viterbo,Faleria,Localitçä sandali snc,""
+Mrs,Katie,Dawson,EN,,Female,"",GB,MK44 1SG,"",Bedford,Riverside view,2
+Pan,Mariusz,Jaroń,PL,1900-01-01,Male,"",PL,32-065,"",Krzeszowice,Zimna woda 11,""
+Sr.,Emilio,Cisneros,ES,1900-01-01,Male,"",ES,28028,"",Madrid,Calle cartagena 34 3b,""
+Miss,W,Thomas,EN,,Unknown,"",GB,PE19 2TZ,Cambridgeshire,St neots,Ferrars avenue,57
+"",Francois,Szymalka,FR,1900-01-01,Unknown,"",FR,71150,"",Fontaines,2 b rue des champs,""
+"",Luigi,Brusati pier,IT,1900-01-01,Unknown,"",IT,28061,Novara,Biandrate,Via san nazzaro 22,""
+Mrs,Bhavini,Munro,EN,,Unknown,"",GB,SE26 6UG,"",London,Crystal palace park road,54
+Frau,Tamar,Khutsidze,DE,1900-01-01,Female,"",DE,50931,"",Köln,Theresienstr,59
+Mrs,"",Harris,EN,,Unknown,"",GB,CM15 0AX,Essex,Brentwood,Great fox meadow,65
+Miss,Sarah,Paice,EN,,Unknown,"",GB,SO32 1AQ,"",Bishops waterm,Garfield close,11
+Pan,Andrzej,Dolicher,PL,1900-01-01,Male,"",PL,86-022,"",Dobrcz,Tęczowa 20a,""
+Pani,Ilona,Wieczorek,PL,1900-01-01,Female,"",PL,"","","","",""
+Pan,Karel,Fryda,CS,1900-01-01,Male,"",CZ,468 01,"",Jablonec nad nisou,Kastanova 4485,""
+Mrs,N,Trevelyan,EN,,Unknown,"",GB,FY4 4XY,"",Blackpool,West side,15
+Pan,Josef,Váchal,CS,1900-01-01,Male,"",CZ,344 01,"",Draženov,Draženov 67,""
+Dr.,Pietro,Ciprietti,IT,1900-01-01,Unknown,"",IT,64018,"",Tortoreto,Via panoramica,23
+Mrs,"",Robertson,EN,,Female,"",GB,LS25 1LQ,"",Leeds,Grangefield court,22
+Mrs,A,Laughlin,EN,,Unknown,"",GB,BT78 3SR,County tyrone,Omagh,Woodview crescent,27
+Mrs,Leonora,Burrows,EN,1900-01-01,Female,"",GB,BS4 2JP,"",Bristol,48 cleeve road knowle,""
+Mrs,K,Muxworthy,EN,1900-01-01,Female,"",GB,TN22 5NX,"",Uckfield,South view,""
+Ms,Rosemary,Grahame,EN,,Unknown,"",GB,LE2 7JL,"",Leicester,Burnmoor street,69
+"",Жанна анатол,Трофимова,UK,1900-01-01,Unknown,"",UA,"","",Московський р-он,Прт гагарина 176 корп 8 кв 63,""
+"","","",,,"","",DE,54516,Trier,Wittlich,Petrusstr 20,""
+Monsieur,Marcel,Bucher,FR,1900-01-01,Male,"",FR,47270,"",La sauvetat de saveres,Lieu dit st damien,""
+"",Laura,Longo,IT,1900-01-01,Female,"",IT,36070,Vicenza,Vicenza,Via fondo valle 5,trissino
+Herr,Heinz,Lorra,DE,1900-01-01,Male,"",DE,44628,"",Herne,Diedrichstr 40,""
+Miss,S,Madhori,EN,,Female,"",GB,CV23 9DD,Warwickshire,Rugby,Tee tong road,56
+Mr,David,Flaherty,EN,,Male,"",IE,"","",Lisdoonvarna,Ardeamush,""
+Mrs,Janet,Hayward,EN,,Female,"",GB,CT7 0NA,Kent,Birchington,Frost lane,""
+Paní,Drahomira,Pestova,CS,1900-01-01,Female,"",CZ,264 01,"",Sedlcany,28 rijna 176,""
+Monsieur,Hanan,Ait bouazza,FR,1900-01-01,Male,"",FR,34070,"",Montpellier,816 rue de centrayrargues,""
+Fam.,H,Grootjen,NL,1900-01-01,Unknown,"",NL,8271 JZ,"",Ijsselmuiden,Laanzicht,81
+Mevr.,Frauke,Cambré,NL,1900-01-01,Female,"",BE,"","","","",""
+"","",D haeseleer,NL,1900-01-01,Unknown,"",BE,0000,"","","",""
+Mr.,Jens b,Kyed,NO,1900-01-01,Male,"",NO,8215,"",Valnesfjord,Trivselsveien 215,""
+Pan,Vítězslav,Kareš,CS,1900-01-01,Male,"",CZ,561 63,"",Nekoř,Nekoř 361,""
+Monsieur,Ghislaine,Scherrer,FR,1900-01-01,Male,"",FR,68460,"",Lutterbach,3 rue de l''hiver,""
+Fam.,R,Randolph,NL,1900-01-01,Unknown,"",NL,1213 TR,"",Hilversum,Utrechtseweg,209
+Mrs,P,Ashaw,EN,,Female,"",GB,CH1 4DG,"",Chester,Whipcord lane,123
+"",Aschenbrenner,Marion,DE,,Unknown,"",DE,37235,"",Hessisch lichtenau,Magdeburger strasse,7
+Mr,Anthony,Barr,EN,,Unknown,"",GB,ML1 3NE,"",Motherwell,Lamlash place,28
+Mr,Bd,Oatley,EN,1900-01-01,Male,"",GB,UB4 9EB,"",Hayes,128 larch crescent,""
+Monsieur,"",Piquet,FR,1900-01-01,Male,"",FR,53350,"",Ballots,Le hardas,""
+"",Fatos,Haska,IT,1900-01-01,Unknown,"",IT,29122,Piacenza,Piacenza,Via ferruccio tansini,18
+Pani,Marta,Kapica,PL,1900-01-01,Female,"",PL,23-440,"",Frampol,Sokołówka,73
+Mr.,Per kjell,Hovland,NO,1900-01-01,Male,"",NO,6963,"",Dale i sunnfjord,Bjerkelia,""
+Frau,Bianka,Bachmann,DE,,Female,"",DE,56072,"",Koblenz,Gulisastr,53
+Frau,Naile,Schmitz,DE,1900-01-01,Female,"",DE,40764,"",Langenfeld (rheinland),Wiesenstr 12,""
+Mrs,G,Jacobs,EN,,Female,"",GB,WD6 5PT,"",Borehamwood,Sunnyside cottage,""
+Mrs,C,Terry,EN,,Female,"",GB,CT19 5TL,"",Folkestone,William avenue,11
+Sra.,Odile,Cadete,ES,1900-01-01,Female,"",ES,15871,"",Portomouro,C entre pontes n34 casa,""
+Herr,Torsten,Kreuter,DE,1900-01-01,Male,"",DE,56133,"",Fachbach,Gartenweg 3,""
+Sig.ra,Daniela,Maier,IT,1900-01-01,Female,"",IT,20865,Monza e brianza,Usmate velate,Via cottolengo,2
+Mr,"",Enkel,EN,,Unknown,"",GB,NR28 9TH,Norfolk,North walsham,Bears road,10
+Miss,"",Boujettif,,,Unknown,"",GB,W6 0JS,"",London,Studland street,36
+Mr,Timothy,Collings,EN,,Unknown,"",GB,MK16 8SR,"",Newport pagnell,Flora thompson drive,55
+Mr,D,Tynan,EN,,Male,"",IE,D08 W8X0,"",Dublin 8,Greenville terrace,47
+Dr.,Gabriele,Gardin,IT,1900-01-01,Unknown,"",IT,25040,"",Corte franca,Via cesare battisti,7
+Mrs,X,Edgar,EN,,Female,"",GB,IV30 6UQ,Morayshire,Elgin,Edgar road,""
+Herr,Frank,Roick,DE,1900-01-01,Male,"",DE,30982,"",Pattensen,Hornfeld 14a,""
+Monsieur,Frederic,Souchal,FR,1900-01-01,Male,"",FR,63100,"",Clermont ferrand,11 rue montorcier,""
+Mrs,A l,Sagnier,EN,,Unknown,"",GB,B33 9RA,"",Birmingham,Hurstcroft road,115
+Mr,M,Moran,EN,,Male,"",IE,"",Dublin,Dublin,"",""
+Mr,T,Hurley,EN,,Male,"",GB,B77 4DF,Staffordshire,Tamworth,Goldsborough,79
+Monsieur,Cyril,Tiers,FR,1900-01-01,Male,"",FR,78370,"",Plaisir,2100 rue de la boissiere,""
+Mr,Kieran,Oliver,EN,,Unknown,"",GB,PA72LU,"",Whittlesey,Slate barn,""
+Mr,S,Brown,EN,,Male,"",GB,B76 2UU,West midlands,Sutton coldfield,Berryfields road,52
+"",Patrizia,Milani,IT,1900-01-01,Female,"",IT,46032,Mantova,Castelbelforte,Via giuseppe franchetti,41
+Mr,Ian,Reece,EN,,Unknown,"",GB,RH12 4SQ,West sussex,Horsham,Faygate lane,""
+"",Mhealden,Soran,EN,,Unknown,"",SE,415 09,"",Göteborg,Fullmånegatan 32,""
+Frau,"",A0204325,DE,1900-01-01,Female,"",DE,03588,"","",5234020a,""
+Miss,Sandra,Cove,EN,,Unknown,"",GB,BN3 5LB,"",Hove,Ingram crescent east,""
+Miss,S,Jhonstone,EN,1900-01-01,Female,"",GB,HD3 4QX,"",Huddersfield,19 dale view,""
+Mr,W,Muir,EN,,Male,"",GB,G74 2BX,"",Glasgow,Skye,53
+Mr,A,Knight,EN,,Unknown,"",GB,GU35 8ND,Hampshire,Bordon,Churchill crescent,8
+Mr,John,Morrison,EN,,Male,"",GB,DD9 7TA,"",Brechin,High street,49
+Dhr.,"",Yannick,NL,1900-01-01,Male,"",BE,9000,"",Gent,Ambachtstraat,5
+"","","",,,"","",DE,53474,"",Bad neuenahr - ahrweiler,Max - planck - strasse 1,""
+Herr,Tobias,Funke,DE,,Male,"",DE,46149,"",Oberhausen,Lindnerstr,178a
+"",Jacques,Moliner,FR,1900-01-01,Unknown,"",FR,13127,"",Vitrolles,14 rue cisampe,""
+Frau,"",Mücke,DE,1900-01-01,Female,"",DE,12527,"",Berlin,Dahmestr 1,""
+Frau,Ursula,Hilpert,DE,1900-01-01,Female,"",DE,55411,"",Bingen am rhein,Rochusallee 48,""
+Pani,Katarzyna,Sęk,PL,1900-01-01,Female,"",PL,97-200,"",Tomaszów maz,Dzieci polskich 27 m 16,""
+Miss,Mary,Ferris,EN,,Unknown,"",GB,BT13 2QH,"",Belfast,Ross mill avenue,4
+Ms,Andrea,Earl,EN,,Female,"",IE,"",Dublin,Dublin,Grove paddock,5
+Mej.,"",Verhallen,NL,1900-01-01,Female,"",NL,5708 JK,"",Helmond,Braakweg,28
+Miss,N,Comber,EN,,Female,"",GB,LS11 6AW,"",Leeds,Beeston road,157
+Monsieur,"",Campistrouts,FR,1900-01-01,Male,"",FR,33610,"",Cestas,11 chemin des teules,""
+Ms,Sandra,Ellis,EN,,Unknown,"",GB,M8 9LN,"",Manchester,Greenhill road,31
+Mr,D,Robinson,EN,1900-01-01,Male,"",GB,SG7 6SF,"",Baldock,Hanslor,""
+Monsieur,A,Vincent jean-louis,FR,1900-01-01,Male,"",FR,12100,"",Millau,31 a rue des lilas,""
+Paní,Monika,Sifrova,CS,1900-01-01,Female,"",CZ,755 01,"",Vsetin,Stara cesta 1786,""
+Mr,D,Wilkinson,EN,,Unknown,"",GB,TF2 9NY,Shropshire,Telford,Priors gate,1
+Mr,Am,Yehia,EN,,Male,"",GB,L19 2RT,"",Liverpool,Master's way,6
+Sig.,Paolo,Crognaletti,IT,1900-01-01,Male,"",IT,22066,"",Mariano comense,Grigna,14
+Sig.,Marino,Ruggeri,IT,1900-01-01,Male,"",IT,20099,"",Sesto san giovanni,Via foscolo 29,""
+Monsieur,"",Perdreau bernar,FR,1900-01-01,Male,"",FR,85000,"",La roche sur yon,73 rue du general castelneau,""
+Frau,Sylvia,Jung,DE,1900-01-01,Female,"",DE,37242,"",Bad sooden-allendorf,Sudetenstr 9,""
+Mrs,S,Dolan,EN,,Female,"",GB,G22 6PF,"",Glasgow,Hillend road,143
+Herr,Alexander,Stepanov,DE,1900-01-01,Male,"",DE,31157,"",Sarstedt,Gleiwitzer weg 7,""
+Mrs,"",Howell,EN,,Unknown,"",GB,SA18 3PR,Dyfed,Ammanford,Fforest fach,""
+Mr.,Florian,Szabo,RO,1900-01-01,Male,"",RO,"",Cluj,Gilau,Peter,523
+"","",Epting karl architekt,DE,1900-01-01,Unknown,"",CH,8634,"",Hombrechtikon,"",""
+Herr,Dirk,Seifert,DE,1900-01-01,Male,"",DE,65439,"",Flörsheim am main,Spessartstr,24
+Dhr.,F,Padts,NL,1900-01-01,Male,"",BE,2580,"",Beerzel,Houwstr,19
+Mevr.,Ravoet jozef,Ravoet jozef,NL,,Female,"",BE,3012,"",Wilsele,Francois demarsinstraat,38
+Frau,Bettina,Wenderhold,DE,1900-01-01,Female,"",DE,24941,"",Flensburg,Jägerweg 10,""
+Mrs,J,Hemming,EN,,Unknown,"",GB,WR2 4SD,"",Worcester,Bowling green road,4
+Herr,Kai-wilhelm,Prange,DE,1900-01-01,Male,"",DE,22307,"",Hamburg,Andreas-knack-ring 11b,""
+Mrs,Linda,Berry,EN,1900-01-01,Female,"",GB,OX14 1JD,"",Abingdon,32 wootton road,""
+Mr,Kieran,Oliver,EN,,Unknown,"",GB,PE7 2LU,"",Peterborough,Slate barn drove,""
+"",Hennes-kurzke,Ursula,DE,1900-01-01,Unknown,"",DE,45133,"",Essen,Weg zur platte 15,""
+"",Mirko,Di anne,IT,1900-01-01,Unknown,"",IT,00053,"",Civitavecchia,Via fratelli rosselli 1,""
+Sig.,Enrico,Assunto,IT,1900-01-01,Male,"",IT,87100,Cosenza,Cosenza,Via antonio lanza,5
+Miss,K,Marshall,EN,,Female,"",GB,KA3 6BH,"",Kilmarnock,Wallacetown avenue,40
+Mr,Melvin,Kent,EN,,Unknown,"",GB,DN16 3RX,"",Scunthorpe,Redwood court,9
+Mrs,"",Louw,EN,,Unknown,"",GB,NN12 6YH,Northamptonshire,Towcester,Belle baulk,6
+Mrs,R,Collins,EN,,Female,"",GB,M32 0GR,"",Manchester,Fleming drive,13
+"",Camusso,Patricia,FR,1900-01-01,Unknown,"",FR,32500,"",Fleurance,Chemin de mieht,""
+Mrs,C,Fleming,EN,,Female,"",GB,FK3 8XW,"","",Stuart grove,8
+"","",Desprez,FR,1900-01-01,Unknown,"",FR,93120,"",La courneuve,43 rue jollois,""
+Pan,Katarzyna,Barańska,PL,1900-01-01,Male,"",PL,41-400,"",Mysłowice,Morcinka 7/7,""
+Miss,Lucy,Kent,EN,,Female,"",GB,DE6 1SR,"","",Cavendish drive,37
+Monsieur,Francis,Schmitt,FR,1900-01-01,Male,"",FR,67540,"",Ostwald,3 rue de sand,""
+Mrs,X,Thomas,EN,,Unknown,"",GB,CF64 4DN,South glamorgan,Dinas powys,The gables the southra,25
+"","",Mee,EN,,Unknown,"",GB,M21 8BQ,"",Manchester,Beech road,2
+Mrs,M,Garrard,EN,,Female,"",GB,IP2 9RD,"",Ipswich,Radcliffe drive,96
+Mr,Stephen,Mcmahon,EN,,Male,"",GB,FK17 8JE,"",Callander,Vorlich crescent,48
+Monsieur,Alain,Foulon,FR,1900-01-01,Male,"",FR,59180,"",Cappelle la grande,5 rue mailevelde,""
+Herr,Thomas,Zimmer,DE,1900-01-01,Male,"",DE,45883,"",Gelsenkirchen,Andersenstraße,18
+Madame,Huguette,Chauvin,FR,1900-01-01,Female,"",FR,61300,"",L\'aigle,21 la cote douce,""
+Mr,James,Laurie,EN,,Male,"",GB,NN18 8PH,"",Corby,Lyveden way,407
+Frau,Ehrentraud,Gurgel,DE,1900-01-01,Female,"",DE,13125,"",Berlin,Straße 67,""
+Sra.,Paula,Paixão,PT,1900-01-01,Female,"",PT,8400,"",Lagoa,Cercas de s jose - lagoa,""
+Monsieur,Jean claude,Comte,FR,1900-01-01,Male,"",FR,01150,"",Lagnieu,848 avenue du port,""
+Pán,Vieroslava,Fusková,SK,1900-01-01,Male,"",SK,951 42,"",Zbehy,Zbehy,356
+Monsieur,Cornet,Jean francois,FR,1900-01-01,Male,"",FR,51430,"",Tinqueux,17 avenue roger salengro,""
+Sig.,Luigi,Cauteruccio,IT,1900-01-01,Male,"",IT,80024,Naples,Cardito,Via tommaso campanella,snc
+Mrs,Bj,Webb,EN,,Female,"",GB,SS15 5GF,"",Basildon,Spire road,44
+"",Hennes-kurzke,Ursula,DE,1900-01-01,Unknown,"",DE,45133,"",Essen,Weg zur platte,15
+Miss,S,Baxendale,EN,,Unknown,"",GB,MK6 2ES,"",Milton keynes,Padstow avenue,30
+"","",Liv lilleheil,NO,,Unknown,"",NO,6518,"",Kristiansund n,Hvitlyngen 2,""
+Mrs,J,Whitiker,EN,,Unknown,"",GB,DY6 0HS,"",Kings winford,Beech croft road,186
+Frau,Edeltraud,Horst,DE,1900-01-01,Female,"",DE,44866,"",Bochum,Friedrichstr 2,""
+"",Maria teresa,Toldo,IT,1900-01-01,Female,"",IT,04100,Latina,Latina,Strada acque alte,41
+Monsieur,Fabrice,Favre,FR,1900-01-01,Male,"",FR,01220,"",Divonne les bains,L intemporel appart 334,""
+Sig.,Oronzo,Pagliara,IT,1900-01-01,Male,"",IT,47923,"",Rimini,Via p ghinelli 20,""
+Frau,Marilete,Krause,DE,1900-01-01,Female,"",DE,74354,"",Besigheim,Helfensteinerweg 4,""
+Mr,Ken,Pullan,EN,,Male,"",GB,DH4 6TR,"",Houghton le spring,Glamis court,16
+Sig.,Adam,Tudorita,IT,1900-01-01,Male,"",IT,37138,Verona,Verona,Via albere,23
+Herr,Frank,Janke,DE,,Male,"",DE,65582,"",Diez,Steubingstraße,12
+Mr,A,Brivio,EN,,Male,"",GB,TN27 9DS,Kent,Ashford,Elm close,1
+Dhr.,H,Wilting,NL,,Male,"",NL,7848 AH,"",Schoonoord,Slenerweg,20
+Sig.ra,Valeria,Girolimoni,IT,1900-01-01,Female,"",IT,50142,"",Isolotto,Via amos cassioli n 26\1,""
+Mrs,Janet,Whitehead,EN,,Female,"",GB,M33 5HP,"",Sale,Okehampton crescent,1
+Herr,Erik,Schneider,DE,1900-01-01,Male,"",DE,70469,"",Stuttgart,Werner-haas-weg 5,""
+Sig.,Gerardo,Iannone,IT,1900-01-01,Male,"",IT,10142,Turin,Torino,Via crea,3
+Sig.ra,Lucia,Amoroso,IT,1900-01-01,Female,"",IT,04027,"",Santa maria,Via guanini 35,""
+Dr.,Marco,Tognoni,IT,1900-01-01,Unknown,"",IT,54033,"",Carrara,Via antonio bertoloni,29
+Herr,Ali,Otsekin,DE,1900-01-01,Male,"",DE,45144,"",Essen,Busehofstr 63,""
+Madame,Monique,Montarou,FR,1900-01-01,Female,"",FR,56450,"",St armel,Route de saint colombier,""
+Mr,T i,Scott,EN,,Unknown,"",GB,PO20 0LZ,West sussex,Chichester,Manor farm close,3
+Sr.,Daniel,Andrade spencer,PT,1900-01-01,Male,"",PT,2815-672,"",Sobreda,Praceta quinta do bau-bau n 10,""
+Mrs,"",Roby,EN,,Unknown,"",GB,L7 7ES,"",Liverpool,Bedford close,2a
+Mr,D,Foster,EN,,Male,"",GB,TN21 8RU,East sussex,Heathfield,Burwash road,""
+"",Osvaldo,Spanu,IT,1900-01-01,Male,"",IT,90144,Palermo,Palermo,Via giovanni zappalà,19
+Mrs,Elizabeth,Bryce,EN,,Female,"",IE,"","",Dublin 16,Knocklyon avenue,29
+Monsieur,Hamed,Khedher,FR,1900-01-01,Male,"",FR,75017,"",Paris,15 bis boulevard gouvion saint cyr,""
+Пан,Віктор,Козарив,UK,,Male,"",UA,"",Mikolaivs'ka,Миколаїв,Васляєва,51
+Mademoiselle,Paivi,Laukkarilen,FR,1900-01-01,Female,"",FR,92200,"",Neuilly sur seine,109 rue de longchamp,""
+Mrs,Karen,Fielding,EN,,Unknown,"",GB,BB5 4NF,"",Accrington,Norman road,""
+Madame,Nicole,Tauriac,FR,1900-01-01,Female,"",FR,31400,"",Toulouse,53 route de revel app 15,""
+Mevr.,R,Ramlal,NL,,Female,"",NL,5343 HP,"",Oss,Potgieterstraat,11
+"",Joaquim,Carvalho,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Mr,"",Resident,,,Male,"",GB,SL6 4HN,"",Maidenhead,Longleat gardens,25
+Mr.,Tatyana,Jansson,SV,1900-01-01,Male,"",SE,531 54,"",Lidköping,Stenportsgatan 51c,""
+Mr,Stuart,Mcgregor,EN,,Male,"",GB,PH2 0SP,"",Perth,Latch burn wynd,17
+Mr,Peter,Farthing,EN,,Male,"",GB,NE3 5LD,"",Newcastle upon tyne,Granville road,110
+Ms.,Karin,Nyström,SV,,Female,"",SE,621 77,"",Visby,Endre lilla hulte,815
+Frau,Irene,Schulze,DE,1900-01-01,Female,"",DE,73730,"",Esslingen am neckar,Haldenstrasse 6,""
+Mrs,"",Coe,EN,,Female,"",GB,IP1 5BH,"",Ipswich,Bramford road,728
+Mrs,"",Shaw,EN,,Unknown,"",GB,DE56 0TW,Derbyshire,Belper,Moorside lane,34
+Mrs,"",Louise sansom,EN,1900-01-01,Female,"",GB,SS12 9SF,"",Wickford,14 barbour green,""
+Mrs,S,Duffill,EN,,Female,"",GB,LS26 0HS,"",Leeds,Thorne grove,3
+Sig.,Maria rosaria,Gizzi,IT,1900-01-01,Male,"",IT,80075,Naples,Forio,Via caremma,28
+Mr,R,Gummer,EN,,Male,"",GB,ME5 0SH,"",Chatham,Foxglove crescent,1a
+Mr,E,Ronson,EN,,Unknown,"",GB,PR8 3TT,Merseyside,Southport,Easedale drive,91
+Mr,D,Wightman,EN,1900-01-01,Male,"",GB,S40 2FL,"",Chesterfield,27 horse chestnut close,""
+Mrs,N,Wood,EN,,Female,"",GB,BN14 7LB,"",Worthing,Westland avenue,31
+Mrs,A,Zaidi,EN,,Female,"",GB,GL17 0QQ,Gloucestershire,Longhope,Nupend lane,""
+Mr,"",Tucker,EN,,Male,"",GB,G3 6JB,"",Glasgow,139 st georges road,1/3
+Mr.,Kenneth,Kentlind,SV,,Male,"",SE,311 41,"",Falkenberg,Ekorrstigen 15,""
+Sig.ra,Barbara,Micoli,IT,1900-01-01,Female,"",IT,00045,"",Genzano di roma,Via fratrelli cervi,26
+Mej.,M,Dresden,NL,1900-01-01,Female,"",NL,1083 DD,"",Amsterdam,Van heenvlietlaan,329
+Herr,Karl-heinz,Fesser,DE,,Male,"",DE,24536,"",Neumünster,Dorfstraße,35f
+Monsieur,Eric,Casagrande,FR,1900-01-01,Male,"",FR,01660,"",Mezeriat,132 rte de fay,""
+Mr,"",Oyoes,EN,,Unknown,"",GB,WS4 1SB,"",Walsall,Cartbridge lane,51
+Miss,Emma,Petty,EN,,Unknown,"",GB,BS36 2NS,"","","",""
+Monsieur,Michel,Benavent,FR,1900-01-01,Male,"",FR,95120,"",Ermont,7 allee du clos laisnees,""
+Mrs,P,Fleet,EN,,Unknown,"",GB,LL18 5UL,Clwyd,Rhyl,Nant y faenol road,""
+Herr,Ralf,Celten,DE,1900-01-01,Male,"",DE,33659,"",Bielefeld,Gustavstraße 6,""
+Mr,Im,Ross,EN,,Male,"",GB,NN3 6JT,"",Northampton,Queenswood avenue,57
+Pani,Anna,Maślanka,PL,1900-01-01,Female,"",PL,"","","","",""
+"",Marillina,Fasone,IT,1900-01-01,Unknown,"",IT,90146,"",Palermo,Monte san calogero,9
+Frau,Ursula,Wiesener,DE,1900-01-01,Female,"",DE,15859,"",Storkow,Kurt-fischer-str 16,""
+"",Santa,Vizzari,IT,1900-01-01,Female,"",IT,50038,Florence,Scarperia,Via dell'azzurro,9
+Sig.ra,Graziella,Felicetti,IT,1900-01-01,Female,"",IT,63834,"",Massa fermana,Via manlio massini,12 - 18
+Mrs,"",Cheeseman,EN,1900-01-01,Female,"",GB,NW2 3RH,"",London,62 menelik road,""
+"",Nexa,"",PL,1900-01-01,Unknown,"",PL,38-100,"",Strzyżów,Witosa 17a,""
+Miss,Maria,Sjöqvist,SV,1900-01-01,Female,"",SE,653 48,"",Karlstad,Piparens gata 3,""
+Frau,Gabriele,Hasse,DE,1900-01-01,Female,"",DE,15566,"",Schöneiche,Stockholmer straße 13,""
+Sig.,Manuel,Fontana,IT,1900-01-01,Male,"",IT,23020,"",Mese,Via campello 6/a,""
+Mrs,C,Bailey,EN,1900-01-01,Female,"",GB,SA4 6SW,"",Lloughour,3 heol maes y cerrig lloughour,""
+Mrs,B,Jolley,EN,,Female,"",GB,BA2 2AX,"",Bath,Bloomfield road,244
+Mr,X,Palfrey,EN,,Male,"",GB,EN8 7AA,Hertfordshire,Waltham cross,High street,""
+Frau,"",A0430687,DE,1900-01-01,Female,"",DE,04465,"","",7860340a,""
+Frau,Sonja,Vogel,DE,,Female,"",DE,24244,"",Felm,An de wurth,21
+Madame,Claire,Buomberger,FR,1900-01-01,Female,"",FR,03330,"",Valignat,Le bourg,""
+Dr.,Lorenzo,Michielin,IT,1900-01-01,Unknown,"",IT,30024,"",Musile di piave,Via garibaldi,12
+Herr,Gerd,Schmidt,DE,1900-01-01,Male,"",DE,68229,"",Mannheim,Kolmarer str 28,""
+Monsieur,Christian,Spolmayeur,FR,1900-01-01,Male,"",FR,68740,"",Munchhouse,7 rue des lys,""
+Mrs,X,Williams,EN,,Unknown,"",GB,B78 1BH,"",Tamworth,Bear lane close,47
+Madame,Barout,Laurence,FR,1900-01-01,Female,"",FR,34370,"",Maraussan,74 rue des agaces,""
+Frau,Ilse,Spohr,DE,1900-01-01,Female,"",DE,38312,"",Börßum,Hauptstr 127,""
+Mr,John,Ryan,EN,,Male,"",GB,WN2 4TR,"",Wigan,Calder avenue,5
+Mrs,P,Russell,EN,1900-01-01,Female,"",GB,HU12 8NB,"",Hull,41 adeliza garth,""
+Пані,Світлана,Панченко,UK,1900-01-01,Female,"",UA,"",Donets'ka,Маріуполь,Зелінського,104
+Mrs,Codruta ioana,Elecfi,RO,1900-01-01,Female,"",RO,401002,"",Turda,Ioan opris nr 1,""
+Frau,Alessandra,Carro,DE,1900-01-01,Female,"",DE,81373,"",München,Drachenseestr 14,""
+Madame,Olga,Bluteau,FR,1900-01-01,Female,"",FR,92190,"",Meudon,11 rue abel vacher,""
+Mr,M,Hussain,EN,1900-01-01,Male,"",GB,B32 2RG,"",Birmingham,53 mayswood grove,""
+"",Nicola,Alimonti,IT,1900-01-01,Male,"",IT,65129,Pescara,Pescara,Strada cetrullo,36
+Frau,Aline,Gautschi,DE,1900-01-01,Female,"",CH,3206,"",Biberen,Biberenzelg 37,""
+Monsieur,Jerome,Billiet,FR,1900-01-01,Male,"",FR,58640,"",Varennes-vauzelles,Chemin de cheugny 4,""
+Ms.,Mona kristin,Hyseth,NO,,Female,"",NO,2918,"",Ulnes,Lovegen 970,""
+Mr.,Jørn,Vissing,DA,,Male,"",DK,2670,"",Greve,Plantagevej 4,""
+Ms.,Siv,Brodelius,SV,,Female,"",SE,461 67,"",Trollhättan,Bergkullevägen 150,""
+Madame,Yvon,Courbon,FR,1900-01-01,Female,"",FR,77160,"",Provins,2 rue de barlay,""
+Monsieur,"",Tremblet,FR,1900-01-01,Male,"",FR,06800,"",Cagnes sur mer,Imp renault,""
+Monsieur,Juliette,Berrou,FR,1900-01-01,Male,"",FR,93300,"",Aubervilliers,9 all des lilas,""
+Mr,P,Broxson,EN,,Unknown,"",GB,BB18 5XE,Lancashire,Barnoldswick,Brogden lane,""
+Mrs,Zoe,Elwick,EN,,Female,"",GB,YO12 5RQ,"",Scarborough,Red scar drive,39
+Monsieur et  Madame,Silvie,Horta,FR,1900-01-01,Unknown,"",CH,1004,"",Lausanne,Avenue d' echallens 41,""
+Herr,Arend,Petersdorf,DE,1900-01-01,Male,"",DE,22589,"",Hamburg,Blutbuchenweg 21,""
+Mr,D,Cotton,EN,,Male,"",GB,TN24 0PL,Kent,Ashford,Newtown green,85
+Sig.,Gastone,Toschi,IT,1900-01-01,Male,"",IT,40061,"",Ca' de' fabbri,Via ronchi inferiore 3,""
+Mrs,Phyllis,Hislop,EN,,Female,"",GB,ML4 1ND,"",Bellshill,Bridgeford avenue,5
+"",Federica,Orecchia,IT,1900-01-01,Female,"",IT,16038,Genova,Santa margherita ligure,Salita sant'agostino,15
+"",Juergen,Bressgott,DE,,Unknown,"",DE,42899,"",Remscheid,Klauser feld,19
+Mr,K,Meyt,EN,,Male,"",GB,GL20 8JD,Gloucestershire,Tewkesbury,"",2
+Mrs,Olivia,Bahrani,EN,,Unknown,"",GB,KT22 9QT,"",Leatherhead,Sherwood close,27
+Mrs,Johanna,Lewis,EN,,Unknown,"",GB,CF31 4NW,"",Bridgend,Chantal avenue,60
+Pan,Władysław,Kobylarz,PL,1900-01-01,Male,"",PL,37-433,"",Bojanów,Tarnobrzeska,26
+Herr,Nihal,Labouz,DE,1900-01-01,Male,"",DE,61449,"",Steinbach (taunus),Hessenring 27a,""
+"","","",EN,1900-01-01,Unknown,"",GB,"","","","",""
+Sig.ra,Francesca,Geli,IT,1900-01-01,Female,"",IT,21016,Varese,Luino,Via gioacchino rossini,9
+Frau,Agnes,Meyr,DE,1900-01-01,Female,"",DE,70191,"",Stuttgart,Rümelinstr 43,""
+Mr,N,Collins,EN,,Male,"",GB,SN3 1DY,"",Swindon,Ashwell close,18
+"","","",,,"","",DE,01445,"",Radebeul,August-bebel-str 24,""
+Pani,Danuta,Cieślar,PL,1900-01-01,Female,"",PL,43-450,"",Ustroń,Hutnicza 23,""
+Madame,"",Sellam,FR,1900-01-01,Female,"",FR,59510,"",Hem,33 rue des 3 fermes,""
+Mr,M,Pawlos,EN,,Unknown,"",GB,PE4 7PS,"",Peterborough,Bevishall,4
+Sr.,Sergio,Haddad,PT,1900-01-01,Male,"",PT,4495-102,"",Amorim,Rua das fontes 255,""
+Mrs,"",Timmis,EN,,Female,"",GB,B61 9LT,"",Bromsgrove,Yew tree lane,14
+Mr,Andrew,Robson,EN,,Unknown,"",GB,TS25 2JP,Cleveland,Hartlepool,Spalding road,125
+Mrs,N,Brown,EN,,Female,"",GB,LA4 4RT,"",Morecambe,Wiseman close,4/4
+Sig.,Erminio,Ottolini,IT,1900-01-01,Male,"",IT,21052,"",Busto arsizio,Via palestro n°65,""
+Sr.,Victor,Castro,ES,1900-01-01,Male,"",ES,28050,"",Madrid,C/ francisco javier saenz de oiza 166 7º b,166
+Mej.,Jht,Goedkoop,NL,1900-01-01,Female,"",NL,3238 BG,"",Zwartewaal,Noordeinde,29
+Herr,Stefan,Wittenburg,DE,1900-01-01,Unknown,"",DE,10365,"",Berlin,Wilhelm-guddorf-str 10,""
+Mr,A,Geer,EN,,Male,"",GB,TN4 8TZ,"",Tunbridge wells,Parsonage close,16
+Dhr.,Aj,Langeveld-loos,NL,1900-01-01,Male,"",NL,3181 ET,"",Rozenburg zh,Waalstraat,44
+"","",Magnussdotter disa,NO,,Unknown,"",NO,3047,"",Drammen,Skogliveien 44,""
+Mrs,S,Spiers,EN,,Female,"",GB,CV23 0WS,"",Rugby,Fieldfare close,1
+Miss,Hayley,Walden,EN,1900-01-01,Female,"",GB,RH4 3QR,"",Dorking,47 bailey road,""
+Frau,"",A0044513,DE,1900-01-01,Female,"",DE,03133,"","",3154400a,""
+Fam.,"",Cosijn,NL,1900-01-01,Unknown,"",NL,4817 EH,"",Breda,Hoogeind,71
+Monsieur,Pierre,Schweiter,FR,1900-01-01,Male,"",CH,2520,"",La neuveville,Chemin des aubépines 21,""
+Frau,Marlene,Schwörer,DE,1900-01-01,Female,"",DE,74235,"",Erlenbach,Lerchenstr 12,""
+Frau,Darinka,John,DE,1900-01-01,Female,"",DE,17491,"",Greifswald hansestadt,Lomonossowallee 40,""
+"",Catherine,Barbereau,FR,1900-01-01,Unknown,"",FR,31350,"",Boulogne sur gesse,Cote de navarre azena,""
+Mr,Fc,Wright,EN,1900-01-01,Male,"",GB,OX15 4ED,"",Banbury,Tall trees,""
+Frau,Valbona,Kasami,DE,1900-01-01,Female,"",DE,51373,"",Leverkusen,Manforter str 146,""
+Frau,Ursula,Wenzel,DE,,Female,"",DE,73037,"",Göppingen,Eschenbacher str,28
+Sra.,Antonia,Hidalgo sanchez,ES,1900-01-01,Female,"",ES,06800,"",Merida-badajoz,Avda reina sofia,1 1º c
+Herr,Theodor,Meiringer,DE,1900-01-01,Male,"",AT,2351,"",Wiener neudorf,Schillerstraße 19/st2 t14,""
+Frau,Ute,Leiner,DE,1900-01-01,Female,"",DE,28203,"",Bremen,Schönhausenstr 55,""
+Frau,Gina,Lauer,DE,1900-01-01,Female,"",DE,66538,"",Neunkirchen,Im altseiterstal 4,""
+Mrs,Christine,White,EN,,Female,"",GB,NR30 4AT,"",Great yarmouth,Fremantle road,36
+Frau,"",A0167735,DE,1900-01-01,Female,"",DE,09681,"","",5377610a,""
+Frau,"",A0056758,DE,1900-01-01,Female,"",DE,00814,"","",8576500a,""
+Sig.ra,Roberta,Giacobone,IT,1900-01-01,Female,"",IT,57128,"",Livorno,Viale città del vaticano 68,""
+Fam.,Carly,Holst-mekel,NL,1900-01-01,Male,"",NL,6281 AR,"",Mechelen,Heerenhofweg,30 c
+Mr,M,Johnston,EN,,Male,"",GB,AB43 6SR,"",Fraserburgh,High street,86
+Mr,I,Bowen-morris,EN,,Male,"",GB,OX13 5LA,"",Abingdon,Netherton road,91
+"",- 043550401,Darty,FR,1900-01-01,Unknown,"",FR,59320,"",Englos,Cc d'englos,""
+Mr,Ibrahim,Koshin,EN,,Unknown,"",GB,UB5 6HU,"",Northolt,Broomcroft avenue,0
+Mrs,Yvonne,Mascari,EN,,Female,"",GB,EN7 6LQ,"",Waltham cross,Parkside court,17
+Mr,William,Storey,EN,,Unknown,"",GB,CO7 0RD,"",Colchester,Hythe grove,15
+"",Aimee,Brooks,EN,1900-01-01,Unknown,"",GB,IP9 1JB,"",Ipswich,5 wendy close,""
+"","",Riddell,EN,,Unknown,"",GB,CV11 5UQ,Warwickshire,Nuneaton,Coton road,""
+Sig.,Naiwikun,Centro estetico massaggi,IT,1900-01-01,Male,"",IT,20127,Milan,Milano,Via padova,217
+Mrs,Michelle,Williams,EN,,Female,"",GB,GL54 4NE,"",Cheltenham,Valley view,1
+"",Hottmann,Anke,DE,1900-01-01,Unknown,"",DE,63263,"",Neu-isenberg,Eschenweg 8,""
+Mrs,Sheila,Stott,EN,,Unknown,"",GB,SK13 8SH,"",Glossop,"",82
+Pani,Iwona,Sosnowska,PL,1900-01-01,Female,"",PL,11-100,"",Lidzbark warmiński,Łaniewo 64,""
+Mrs,S,Harper,EN,,Female,"",GB,WF8 2UP,West yorkshire,Pontefract,Chatsworth avenue,25
+Mr.,"",Gigstad bjørn,NO,,Male,"",NO,2917,"",Skrautvål,Skrautvål,""
+Miss,M,Colecozy,EN,,Female,"",GB,L15 4HB,"",Liverpool,Stevenson street,80
+Frau,Tamar,Khutsidze,DE,1900-01-01,Female,"",DE,50931,"",Köln,Theresienstr 59,""
+Mrs,Laura,Hood,EN,,Female,"",GB,CO6 2LQ,"",Colchester,Tey road,65
+Dr.,Alfredo,Pagano,IT,1900-01-01,Male,"",IT,80144,"",Napoli,Corso secondigliano,166
+Miss,J,Duddy,EN,,Female,"",GB,PA19 1TD,Renfrewshire,Gourock,Tower drive,""
+Mr,Gary,Thompson,EN,,Unknown,"",GB,SK2 5BQ,Cheshire,Stockport,Ludlow road,27
+Frau,Olga,Schulz,DE,1900-01-01,Female,"",DE,30559,"",Hannover,Eisteichweg 6a,""
+Mr,C,Priestley,EN,,Male,"",GB,S6 3JU,"",Sheffield,Brandreth road,13
+Dhr.,"",Roosen,NL,1900-01-01,Male,"",BE,2830,"",Blaasveld,Uranusstraat,10
+Monsieur,Sandrine,Baricault,FR,1900-01-01,Male,"",FR,79800,"",Hexoudun,18 rue du minage baglaut,""
+Herr,Thomas,Zimmer,DE,1900-01-01,Male,"",DE,45883,"",Gelsenkirchen,Andersenstraße 18,""
+"",Eugenie,Callegari,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Pan,Zdeněk,Pokorný,CS,1900-01-01,Male,"",CZ,709 00,"",Ostrava mariánské hory,Korunní 40/1193,""
+Mrs,Mary,Wood,EN,,Female,"",GB,HR5 3AA,"","",Greenfields,35
+Sig.ra,Francesca,Bellia,IT,1900-01-01,Female,"",IT,00174,Rome,Roma,Via festo porzio 12,""
+Mrs,J,Spyrou,EN,,Female,"",GB,TN38 9QW,East sussex,St leonards-on-sea,Adam close,40
+Pan,Daniel,Kurowski,PL,1900-01-01,Male,"",PL,87-100,"",Toruń,Zbożowa,45a
+"",Bernard,Godard,FR,1900-01-01,Unknown,"",FR,52100,"",St dizier,3 impasse des marianne,""
+Frau,Waltraud,Ziesing,DE,1900-01-01,Female,"",DE,10779,"",Berlin,Stübbenstr 7,""
+Monsieur,Gabriel,Cabanne,FR,1900-01-01,Male,"",FR,65100,"",Lourdes,8 allee des trois villas,""
+Doctor,A,Docrat,EN,,Unknown,"",GB,SW16 1AG,"",London,Drewstead road,56a
+Pani,Ewa,Leśnicka,PL,,Female,"",PL,34-400,"",Nowy targ,Świętej anny,40
+Frau,Marlene,Lefebure,DE,1900-01-01,Female,"",AT,1150,"",Wien,Pelzgasse 4/3/11,""
+Monsieur,Daniel,Pierre,FR,1900-01-01,Male,"",FR,46230,"",Lalbenque,604 route de laburgade,""
+Mr,P,Moody,EN,,Unknown,"",GB,S80 3JT,Nottinghamshire,Worksop,Ladyfield road,0
+Miss,J,Jones,EN,,Unknown,"",GB,NE3 1NB,"",Newcastle upon tyne,Roseworth avenue,12
+Monsieur,Julien,Le roux,FR,1900-01-01,Male,"",FR,40230,"",Josse,228 rue des artisans,""
+Frau,"",A0013675,DE,1900-01-01,Female,"",DE,00898,"","",5763100a,""
+"","",Bastin,FR,1900-01-01,Unknown,"",BE,5590,"",Corbion,Corbion 23,""
+Mrs,J,Simmons,EN,,Unknown,"",GB,RH6 8EL,Surrey,Horley,Grove road,16
+"","","",,,"","",FR,"","","","",""
+Monsieur,"",Deliner,FR,1900-01-01,Male,"",BE,1450,"",Cortil-noirmont,Rue gaston delvaux,36
+Monsieur,"",Duliege laurence,FR,1900-01-01,Male,"",FR,95000,"",Cergy,8 f les plans bruns,""
+Herr,Matthias,Grobe,DE,1900-01-01,Male,"",DE,10119,"",Berlin,Brunnenstr 196,""
+Madame,Marie hélène,Girard,FR,1900-01-01,Female,"",FR,42380,"",Perigneux,Le bourg,""
+"",Ruth,Alexsandersen,NO,1900-01-01,Unknown,"",NO,1684,"",Vesterøy,Utgårdsveien 104,""
+Sig.ra,Antonella,Caputo,IT,1900-01-01,Female,"",IT,98070,"",Torrenova,Via dante alighieri n 29,""
+"","",Mccol,NL,1900-01-01,Unknown,"",NL,6418 JA,"",Heerlen,Egstraat,23
+Mr,Gerard,Mcchrystal,EN,,Male,"",GB,LE2 0JE,"",Leicester,Brookhouse avenue,37
+Mr,Lee,Webb,EN,,Male,"",GB,TN23 3GA,"",Ashford,Sir john fogge avenue,25
+Dhr.,T,Stuut,NL,,Male,"",NL,9591 BK,"",Onstwedde,Boslaan,36
+Miss,N,Patel,EN,,Female,"",GB,SE5 0SP,"",London,Flat 16 corbet house,""
+Herr,Francesco,Cucuzza,DE,1900-01-01,Male,"",CH,5610,"",Wohlen ag,Zentralstrasse 28,""
+Frau,Julia,Meinecke,DE,1900-01-01,Female,"",DE,35236,"",Breidenbach,Steinackerstr 28,""
+Miss,R,Hales,EN,,Female,"",GB,SS15 4FA,Essex,Basildon,River view close,18
+Frau,Barbara sybill,Kirchner,DE,1900-01-01,Female,"",DE,04564,"",Böhlen,Hauptstr 63,""
+Pani,Piechocka,Wiesława,PL,1900-01-01,Female,"",PL,61-698,"",Poznań,Wichrowe wzgórze,30
+Pán,Zlata,Valcová,SK,1900-01-01,Male,"",SK,094 21,"",Vranou nad toplov,Klazany 161,""
+Madame,Lauriane,Brial,FR,1900-01-01,Female,"",FR,66380,"",Pia,23 rue du terme de baix,""
+"","",Hospes,DE,1900-01-01,Unknown,"",AT,1220,"","","",""
+Mr,Stephen,Selley,EN,,Unknown,"",GB,BS11 0NZ,"",Bristol,Alderdown close,2
+Dhr.,J,Arnolli,NL,1900-01-01,Male,"",NL,9722 PJ,"",Groningen,Colijnlaan,5
+Mr,Richard,Warburton,EN,,Male,"",GB,M34 6AU,"",Manchester,Stockport road,152
+Mr,C,Colella,EN,1900-01-01,Male,"",GB,SK4 5BT,"",Stockport,310 wellington road north,""
+Mrs,Denise,White,EN,1900-01-01,Female,"",GB,DD5 3TL,"",Dundee,14 colliston drive,""
+Mrs,"",Jack,EN,,Unknown,"",GB,KY4 9QA,Fife,Cowdenbeath,High street,65
+Sig.,Angelo,Orioli,IT,1900-01-01,Male,"",IT,20081,"",Abbiategrasso,Via moscati 1 -via verbano,""
+Mrs,Hajra,Mukhtar,EN,,Unknown,"",GB,BB1 1TW,"",Blackburn,Ripon street,116
+Frau,Bernarda,Kokott,DE,1900-01-01,Female,"",DE,92237,"",Sulzbach-rosenberg,Hans-zobel-str 7,""
+Fam.,H,Warmenhoven,NL,1900-01-01,Unknown,"",NL,2596 GD,"",'s-gravenhage,Weissenbruchstraat,127
+Dhr.,Jan,Michiels,NL,1900-01-01,Male,"",BE,3920,"",Lommel,Hees,117
+Sig.ra,Luana,Tarquini,IT,1900-01-01,Female,"",IT,00133,Rome,Roma,Via ferruccio ulivi,21
+Mrs,Ja,Lethby,EN,,Female,"",GB,CT17 9QR,"",Dover,Longfield road,76
+Monsieur,A,Gallo gregory,FR,1900-01-01,Male,"",FR,54150,"",Immonville,8 bis grand rue,""
+Sig.,Angelo,Colletto,IT,1900-01-01,Male,"",IT,30027,Venice,San donà di piave,Via don gnocchi,12
+"",Sophie,Gex,FR,1900-01-01,Unknown,"",FR,92300,"",Levallois-perret,82 rue marius aufan,""
+Mr.,Koponen,Porin gigantti,FI,,Male,"",FI,28100,"",Pori,Paanakedonkatu,18
+Sig.,Matteo,Piu,IT,1900-01-01,Male,"",IT,07100,"",Sassari,Via pietro nenni,30
+Frau,Sabine,Karger,DE,1900-01-01,Female,"",DE,46238,"",Bottrop,Im sundern,34
+Sr.,Jacinto,Mendonça,PT,1900-01-01,Male,"",PT,2000-222,"",Santarém,Rua cova das figueiras,lt 2 c/v
+Pan,Artur,Stefanski,PL,1900-01-01,Male,"",PL,40-228,"",Katowice,Ul nad potokiem 1/ 1,""
+Mr,David,Waldron,EN,,Male,"",IE,D24,Dublin,Dublin,Tymon farm appartments,31
+Frau,Lina,Kobeissi,DE,1900-01-01,Female,"",DE,12249,"",Berlin,Am gemeindepark 40a,""
+Mrs,Pamela,Oder,EN,,Female,"",GB,HD4 7JW,"",Huddersfield,Hawkroyd bank road,12
+Sig.ra,Amalia,Di costanzo,IT,1900-01-01,Female,"",IT,80070,Naples,Barano d'ischia,Via terone-vateliero,2
+Pani,Malwina,Urbaniak,PL,1900-01-01,Female,"",PL,59-700,"",Bolesławiec,Tomaszów bolesławiecki 143g4/6,""
+Miss,T,Holmes,EN,,Female,"",GB,EX20 2HA,Devon,North tawton,Arundell road,20
+Frau,Mainie,Salifou,DE,1900-01-01,Female,"",DE,30519,"",Hannover,Fontainestr 10,""
+Monsieur,"",Madame wagner,FR,1900-01-01,Male,"",FR,90000,"",Belfort,15 rue negrier,""
+Sig.,Massimo,Manna,IT,1900-01-01,Male,"",IT,80040,"",Volla,Via filichito 163,""
+Ms,"",The occupier,EN,1900-01-01,Female,"",GB,AB55 5HZ,"",Keith,10 balloch court,""
+"",Chiara,Ceci,IT,1900-01-01,Unknown,"",IT,43100,"",Parma,Via ugozzolo 51,""
+Mrs,Petrina,White,EN,,Female,"",GB,BA11 1RR,"","",Victoria road,32
+Sig.,Raffaele,Guglielmi,IT,1900-01-01,Male,"",IT,74122,"",Taranto,Via acton 66,""
+Madame,Celine,Psender,FR,1900-01-01,Female,"",FR,60410,"",Verberie,9 rue saint nicolas,""
+Frau,Nicole,Schwinn,DE,,Female,"",DE,66701,"",Beckingen,Im bungert,34
+"","","",,,"","",DE,44149,Dortmund,Dortmund,Wulfshof str 1,""
+Herr,Heiner,Holtmann,DE,1900-01-01,Male,"",DE,59389,"",Nordkirchen,Postfach 1231,""
+Miss,C,Higgins,EN,,Unknown,"",GB,ME12 1DW,Kent,Sheerness,Fleet avenue,8
+Sig.,Wolfango,Graziani,IT,1900-01-01,Male,"",IT,00065,"",Fiano romano,Via del laghetto snc tra il n e e 13,""
+Frau,Angela,Villino,DE,1900-01-01,Female,"",CH,7000,"",Chur,Untere plessurstrasse 150/152,""
+Mrs,R,Roberts,EN,,Unknown,"",GB,L6 2WD,"",Liverpool,Marathon close,5
+Frau,Beate,Kimpel,DE,1900-01-01,Female,"",DE,35619,"",Braunfels,Auf der höh 7,""
+Mr,Philip,Wales,EN,1900-01-01,Unknown,"",IE,EIRE,"",Birr,4 eden cottages,""
+Mr,Derek,Walters,EN,,Unknown,"",GB,BA21 5BZ,"",Yeovil,Compton road,7
+Mrs,C,Rowland,EN,,Female,"",GB,CO10 5EU,Suffolk,Sudbury,Castlings heath,""
+Madame,Lise,Dupuy,FR,1900-01-01,Female,"",FR,13011,"",Marseille,72 avenue vincent andreu,""
+Monsieur,"",Guilbert,FR,1900-01-01,Male,"",FR,14120,"",Mondeville,20 rue d helsinki,""
+Fam.,Jma,Haanen,NL,1900-01-01,Unknown,"",NL,6228 EM,"",Maastricht,Gerckenshaag,4
+Frau,"",A0010365,DE,1900-01-01,Female,"",DE,10365,"","",5630100a,""
+Mrs,Mary,Meechan,EN,,Unknown,"",GB,G72 9EN,"",Glasgow,Holmswood avenue,16
+Firma,"",Do&co,DE,1900-01-01,Unknown,"",AT,1010,"",Wien,Stephansplatz 12,""
+Frau,Katharina,Maier,DE,1900-01-01,Female,"",DE,47906,"",Kempen,Von-baeyer-str 17,""
+Frau,Ivanka,Beljan,DE,1900-01-01,Female,"",DE,90478,"",Nürnberg,Findelwiesenstr 33,""
+Sig.,Carri,Maggioni,IT,1900-01-01,Male,"",IT,24049,Bergamo,Verdello,Via san giovanni bosco,12
+Mrs,S,Wyatt,EN,1900-01-01,Female,"",GB,BD13 2HG,"",Queensbury,8 park close,""
+Herr,Dirk,Seifert,DE,1900-01-01,Male,"",DE,65439,"",Flörsheim am main,Spessartstr 24,""
+Sig.,Amedeo,Alessandrini,IT,1900-01-01,Male,"",IT,63074,"",San benedetto del tronto,V montegrappa 9,""
+Mrs,K,Wilson,EN,,Unknown,"",GB,BH15 4NW,Dorset,Poole,Annet close,4
+Mevr.,"",Verloop,NL,1900-01-01,Female,"",NL,3328 WJ,"",Dordrecht,Toutenburg,26
+"","",Lorenzoni,FR,1900-01-01,Unknown,"",FR,84110,"",Vaison la romaine,Qt courronnades,""
+Mr,A,Tuffnell,EN,1900-01-01,Male,"",GB,YO23 2QN,"",Bishopthorpe,11 temple road,""
+Sig.ra,Giulia,Cotrone,IT,,Female,"",IT,88816,Crotone,Strongoli,Via del ginnasiarca minato,27
+Sig.,Fernando,Ghibellini,IT,1900-01-01,Male,"",IT,52025,Arezzo,Montevarchi,Via giacomo puccini,26
+Sig.,Augustino,Auditore,IT,1900-01-01,Male,"",IT,20056,"",Trezzo sull'adda,Fb,""
+Mr,Thomas,Moore,EN,,Male,"",GB,CB24 3DF,"",Cambridge,Toads acre,5
+"","",Henriksson rune,SV,1900-01-01,Unknown,"",SE,653 51,"",Karlstad,Granlidsvägen 58,""
+Dhr.,Jeroen,Callens,NL,1900-01-01,Male,"",BE,9270,"",Laarne,Kouterdreef,14
+Mr,"","",EN,,Unknown,"",GB,SY5 6QS,"",Shrewsbury,"",""
+Mr,A,Macgregor,EN,,Male,"",GB,IV2 7SN,"",Inverness,Seaforth avenue,9
+Mr,Giovanni,Roman,EN,,Unknown,"",GB,KA11 2FH,Ayrshire,Irvine,Pavilion gardens,6
+"","",Halvorsen synnøve,NO,,Unknown,"",NO,3370,"",Vikersund,Stubben 9,""
+Monsieur,Fabien,Millet,FR,1900-01-01,Male,"",FR,55220,"",Ippécourt,4 rue des procureurs,""
+"",Catherine,Greaume,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Miss,Donna,Veasey,EN,,Unknown,"",GB,SE91AJ,"",Eltom,Glenlyon road,16
+Herr,Johannes,Braun,DE,1900-01-01,Male,"",DE,71409,"",Schwaikheim,Hauptstr 55,""
+"",Alain,Mousquey,FR,1900-01-01,Unknown,"",FR,32310,"",Valence sur baise,8 avenue renee cassin,""
+Monsieur,Philippe,Beille,FR,1900-01-01,Male,"",FR,30420,"",Calvisson,21 route de boissieres,""
+Frau,"",A0067678,DE,1900-01-01,Female,"",DE,03083,"","",8767600a,""
+Miss,Gwynneth,Chappell,,,Unknown,"",GB,NP4 8BU,"",Pont-y-pwl,Folly view,56
+Herr,Andreas,Kutzera,DE,1900-01-01,Male,"",DE,14542,"",Werder (havel),Ziemensstr 69,""
+"",Christophe,Benoit,FR,1900-01-01,Unknown,"",FR,83550,"",Vidauban,175 chemin de blais 2,""
+Herr,Thomas,Müller,DE,1900-01-01,Male,"",DE,53567,"",Buchholz (westerwald),Mittelstr 9,""
+"",Mario,Parisi,IT,1900-01-01,Unknown,"",IT,74011,"",Castellaneta,Del mercato 45,""
+Frau,Sabine,Karger,DE,1900-01-01,Female,"",DE,46238,"",Bottrop,Im sundern 34,""
+Mrs,Antonio,Sousa martins,PT,1900-01-01,Female,"",PT,1495-025,"",Algés,Av bombeiros vol alges n 33 2esq,""
+Mrs,"",Norval,EN,,Unknown,"",GB,CF14 1RA,"",Cardiff,Manor way,11
+Miss,Aisha,Elhajji,EN,,Female,"",GB,HA0 1LB,"",Wembley,Flat 51 grand union heights,""
+"",Martin,Cibulka,CS,1900-01-01,Unknown,"",CZ,664 11,"",Zbýšov,Sportovní 561,""
+"","",Gasparini,FR,1900-01-01,Unknown,"",FR,38320,"",Eybens,01 rue jean jacques rousseau,""
+Mr,R,Russell,EN,,Male,"",GB,HU7 5DE,"",Hull,Aberdovey close,45
+Herr,Lothar,Marchlewski,DE,1900-01-01,Male,"",DE,01157,"",Dresden,Hölderlinstr 36,""
+Herr,Monica,D'urso,DE,1900-01-01,Male,"",DE,38448,"",Wolfsburg,Bartenslebenring,""
+Mrs,I,Mackenzie,EN,1900-01-01,Female,"",GB,KA11 1DE,"",Irvine,27 barra crescent,""
+Mrs,Juan,Fernandez pacheco,ES,1900-01-01,Female,"",ES,13200,"",Manzanares,Jacinto benavente 25 2-d,""
+Sig.ra,Silvana,Sanfilippo,IT,1900-01-01,Female,"",IT,21012,Varese,Cassano magnago,Via confalonieri,12
+Sig.,Claudio,Casalini,IT,1900-01-01,Male,"",IT,73042,"",Casarano,Via irlanda 31,""
+Herr,Herbert,Lang,DE,,Male,"",DE,55283,"",Nierstein,Rheinallee 37a,""
+Pan,Josef,Rosa,CS,1900-01-01,Male,"",CZ,357 51,"",Kisperk nad ohri,Kamenny dvur 10,""
+Herr,Dieter,Gullmann,DE,1900-01-01,Male,"",DE,03096,"",Werben,Guhrower weg 1,""
+Mr,David,Archer,,,Unknown,"",GB,SY16 4PD,Powys,Newtown,The pentre,""
+Mrs,M,Shevlim,EN,,Female,"",GB,BT23 5NT,County down,Newtownards,Heathermount court,7
+Sig.,Luciano,Garolla,IT,1900-01-01,Male,"",IT,05100,"",Terni,Via mario pratesi 19,""
+Madame,Jennifer,Campos,FR,1900-01-01,Female,"",FR,95120,"",Ermont,5 rue raoul sberro,""
+Monsieur,Gilles,Ferez,FR,1900-01-01,Male,"",FR,69480,"",Anse,84 rue du pressoir,""
+"","",Dos reis,FR,1900-01-01,Unknown,"",FR,91100,"",Corbeil,7 rue heloise,""
+Mrs,J,Brooks,EN,,Unknown,"",GB,CB11 4DD,Essex,Saffron walden,Sedop close,2
+Mrs,Cathy,Mccallum,EN,,Female,"",GB,G12 0HL,"","",Highfield drive,28
+Mr,M,Beachey,EN,1900-01-01,Male,"",GB,SN6 7DT,"",Highworth,39 windrush,""
+Mr,B,Ogunkanmi,EN,,Male,"",GB,CM13 1RH,Essex,Brentwood,Boundary drive,25
+Sig.,Gerardo,Oliviero,IT,1900-01-01,Male,"",IT,80056,Naples,Ercolano,Corso resina,109
+Monsieur,"",Snc cogedim mediterranee,FR,1900-01-01,Male,"",FR,06200,"",Nice,400 promenade des anglais,""
+Madame,Fatima,Guermit,FR,1900-01-01,Female,"",FR,75013,"",Paris,129 boulevard massena,""
+Monsieur,Anna,Moscardini,FR,1900-01-01,Unknown,"",FR,33141,"",Villegouge,7 che des fauvettes,""
+"",- 051662347,Darty,FR,1900-01-01,Unknown,"",FR,87280,"",Limoges,39 rue claude henri gorceix,""
+Mr,E,Jones,EN,,Male,"",GB,DE21 6ZG,"",Derby,Enoch stone drive,2
+Monsieur,"",Collart,FR,1900-01-01,Male,"",BE,7331,"",Baudour,Rue d'herchies,25
+Dhr.,Bart,Verloy,NL,1900-01-01,Male,"",BE,2222,"",Itegem,Kerkstraat,""
+"",Luigi massimo,Bruccheri,IT,1900-01-01,Unknown,"",IT,33077,Pordenone,Sacile,Dello stadio 23-b,""
+Mr,C,Hancock,EN,,Male,"",GB,PO9 3HG,"",Havant,Park lane,29
+Herr,Holger,Kind,DE,1900-01-01,Male,"",DE,31157,"",Sarstedt,Bürgermeister-steinweden-str 26a,""
+Miss,J,Stevenson,EN,,Female,"",GB,LU4 9PX,"",Luton,Oakley road,53
+Mr,Steven,Passfield,EN,,Male,"",GB,PO30 2DQ,"","",Staplers road,66a
+Mrs,Pauline,Clayton,EN,,Female,"",GB,SS7 5RJ,"","",Lynn view close,1
+Mr,"",Argent,EN,,Male,"",GB,SW6 2GW,"",London,Flat 17 nacovia house,""
+Sig.,Mariaelena,Cinini,IT,1900-01-01,Male,"",IT,47832,Rimini,San clemente,Via ca' fabbro,54
+Sig.,Luca,Ferrazza,IT,1900-01-01,Male,"",IT,37040,"",Vangadizza,Via po 4,4
+Mr,"",Oliff,EN,,Male,"",GB,SS9 4AE,"","",Mountdale gardens,145
+Frau,Ulrike,Grigo,DE,1900-01-01,Female,"",DE,44388,"",Dortmund,Zweiwiedenstr 14,""
+Mej.,R,Hazes,NL,1900-01-01,Female,"",NL,1421 BK,"",Uithoorn,Prinses christinalaan,26
+Mrs,E,Paterson,EN,1900-01-01,Female,"",GB,CV3 2LE,"",Coventry,11 jim forrest close,""
+Sra.,Tania,Barbosa,PT,1900-01-01,Female,"",PT,4595-317,"",Penamaior,Rua do giestal nº83,""
+Mr.,Emil,Yderskov,DA,,Male,"",DK,9700,"",Brønderslev,Jupitervej 4a,""
+Mrs,Pm,Wilding,EN,,Female,"",GB,EX17 6AA,"",Crediton,Yelverton,""
+"",Friend,Friend,IT,,Unknown,"",IT,"","","","",""
+Mr,A,Maxwell,EN,,Male,"",GB,DG2 9JL,"",Dumfries,Blackley park court,3
+Pan,Leon,Szefler,PL,1900-01-01,Male,"",PL,89-400,"",Niechorz gm śepólno kraj,Niechorz,8d/6
+Mrs,E,Harris,EN,,Female,"",GB,LA11 7BH,Cumbria,Grange-over-sands,Priory lane,43
+Mr,Kieth,Lennard,EN,1900-01-01,Male,"",GB,OX26 6WZ,"",Bicester,6 dunnock close,""
+Mr,Rj,Richardson,EN,,Male,"",GB,NE26 1QB,"",Whitley bay,Ventnor gardens,10
+Madame,Martine,Sigogneau,FR,1900-01-01,Female,"",FR,77600,"",Conches sur gondoire,22 rue du laurençon,""
+Frau,"",A0070875,DE,1900-01-01,Female,"",DE,03711,"","",5780700a,""
+Mrs,Elizabeth,Ojo,EN,,Female,"",GB,CO2 8WW,"",Colchester,John mace road,59
+Mrs,J,Fashey,EN,,Unknown,"",GB,S65 2AH,South yorkshire,Rotherham,Clifton lane,49
+Mr.,Marius,Gabinat,RO,1900-01-01,Male,"",RO,"",Iasi,Sat valea ursilor,Plopilor,""
+Herr,Ulf,Fürster,DE,,Male,"",DE,87629,"",Füssen,Rotwandweg 9,""
+Mr.,"",Gramstad knut åge,NO,,Male,"",NO,4360,"",Varhaug,Skreddarvegen 5b,""
+Mr,J,West,EN,,Unknown,"",GB,SN12 6DW,Wiltshire,Melksham,Semington road,79
+Sig.ra,Caterina,Scacciante,IT,1900-01-01,Female,"",IT,00166,"",Borgata massimina,Via serafino belfanti 66,""
+Mrs,"",Hamilton,EN,,Female,"",GB,DE11 0SP,"",Swadlincote,New road,8
+Sig.ra,Silvia,Saini,IT,1900-01-01,Female,"",IT,00196,"",Roma,Via flaminia 158,""
+Mrs,Mu,Shaw,EN,,Female,"",GB,LE15 6GF,"",Oakham,Tolethorpe close,8
+Herr,Nadine,Groth,DE,1900-01-01,Male,"",DE,40472,"",Düsseldorf,Rather broich 74,""
+Miss,Kerry,Mills,EN,1001-11-07,Female,"",GB,DY6 8EF,"",Kingswinford,131 greenfields road,""
+Miss,Charlotte,Pike,EN,,Female,"",GB,PE1 5AA,"",Peterborough,Hammonds drive,22
+Mrs,N,Blair,EN,,Female,"",GB,BT41 1HR,"","",Brantwood gardens,48
+Ms,Carol,Hindley,EN,,Female,"",GB,L14 1QJ,"","",Warmington road,60
+Herr,Alfonso,Boccia,DE,1900-01-01,Male,"",CH,4564,"",Obergerlafingen,Taubenweg 16,""
+"",Antonio,Cannizzo,IT,1900-01-01,Male,"",IT,20020,Milan,Solaro,Via san pietro,60
+Mrs,Jackie,Corbett,EN,,Unknown,"",GB,CO16 8SJ,Essex,Clacton-on-sea,Seawick road,16
+"",Mariette,Timmermans,NL,1900-01-01,Unknown,"",NL,"","","","",""
+Mrs,Hege,Walle,NO,1900-01-01,Female,"",NO,1430,"",Ås,Rydningen 59,""
+Monsieur,Michael,Sorton,FR,1900-01-01,Male,"",FR,59970,"",Frenes sur escot,31 rue du chemin vert,""
+Mr,D,Lawrance,EN,,Male,"",GB,RG19 3XX,Berkshire,Thatcham,Spurcroft road,29
+Mrs,"",Newton,EN,,Unknown,"",GB,NG4 2JL,"",Nottingham,Caxton close,2
+"",Elga,Pedersoli,IT,,Unknown,"",IT,"","","","",""
+Herr,Andreas,Krause,DE,,Male,"",DE,09247,"",Chemnitz,Jack-london-str,16
+"",Albert,Froetscher,IT,1900-01-01,Unknown,"",IT,39040,"",Vizze,Fraz flaines 209,""
+Mr,P,Crowley,EN,,Male,"",GB,CB6 2TS,Cambridgeshire,Ely,Lawn lane,67
+Herr,Dirk,Hartmann,DE,1900-01-01,Male,"",DE,30916,"",Isernhagen,Dorfstr 80c,""
+Monsieur,Genevievre,Gourdol,FR,1900-01-01,Male,"",FR,26400,"",Aouste sur sye,19 rue chapoutat,""
+Monsieur,Omar,Fares,FR,1900-01-01,Male,"",FR,94400,"",Vitry sur seine,131 rue gabriel perry,""
+Pan,Josef,Červený,CS,1900-01-01,Male,"",CZ,779 00,"",Olomouc,Rožňavská 1,""
+Frau,Bodhaina,Hamdan,DE,,Female,"",DE,13403,"",Berlin,Antonienstr,48a
+Miss,Stephanie,Brereton,EN,,Unknown,"",GB,CW1 4JW,"",Crewe,Crossway,51
+Fam.,A,Wijk,NL,1900-01-01,Unknown,"",NL,9685 HB,"",Blauwestad,Anholt,28
+Fam.,M,Quint,NL,1900-01-01,Unknown,"",NL,3085 RC,"",Rotterdam,Benneveld,40
+Miss,L,Bradbury,EN,,Unknown,"",GB,TQ12 1NJ,Devon,Newton abbot,Ashburton road,20
+Mrs,Nicola,Lewis,EN,,Unknown,"",GB,TN8 6DU,"",Edenbridge,Plough walk,19
+Ms.,Sandra,Skau,DA,,Female,"",DK,6000,"",Kolding,Dyrehavevej 156,""
+Mr,"",Davies,EN,,Unknown,"",GB,PE4 7ZL,"",Peterborough,Campbell drive,38
+Mr,Paul,Gittins,EN,,Male,"",GB,CO15 5HZ,Essex,Clacton-on-sea,Madeira road,1
+Frau,Elena,Alambiaga,DE,1900-01-01,Female,"",CH,8820,"",Wädenswil,Neudorfstrasse 40,""
+Frau,"",A0034767,DE,1900-01-01,Female,"",DE,"","","",7674300a,""
+Miss,Karen,Tracey,EN,,Female,"",GB,EH23 4FT,"","",Whitehouse crescent,60
+Monsieur et  Madame,"",Heuschen,FR,1900-01-01,Unknown,"",BE,4710,"",Lontzen,Kirchstrasse,13
+Mrs,A,Livingston,EN,1900-01-01,Female,"",GB,GU34 5XA,"",Alton,30 reads field,""
+"",Mario,Marchiano,IT,1900-01-01,Male,"",IT,17053,Savona,Laigueglia,Via roccaro,12
+Mrs,A,Critchley,EN,,Female,"",GB,BL8 2LF,Lancashire,Bury,Haig road,82
+Mevr.,Karin,Koehler,NL,,Female,"",NL,1747 SL,"",Tuitjenhorn,Mosterdpot,38
+Mrs,Alison,Mcgiven,EN,,Unknown,"",GB,PE30 5PW,Norfolk,King's lynn,Windsor park,14
+Sig.ra,Klodiana,Lushka,IT,1900-01-01,Female,"",IT,35010,"",Vigonza,Via pastore 36/2,""
+Fam.,"",Claessens,NL,1900-01-01,Unknown,"",BE,2910,"",Essen,Eksterlaan,13
+Pan,Petr,Vyletel,CS,,Male,"",CZ,639 00,"",Brno,Grmalova,9
+Mrs,I,Bonner,EN,,Female,"",GB,SO40 8JS,"",Southampton,Winchester way,48
+Sra.,Maria coelho,Cristina,PT,1900-01-01,Female,"",PT,7240-909,"",Luz meu,Rua mourao 28,""
+Sig.ra,Alunni,Ragni,IT,1900-01-01,Female,"",IT,06122,Perugia,Perugia,Via del roscetto,3
+Pan,Krzysztof,Szypa,PL,1900-01-01,Male,"",PL,51-315,"",Wrocław,Kiełczowska,93
+Mrs,"",Downton,EN,,Female,"",GB,RM15 4NA,"",South ockendon,Tamar drive,27
+"",Amato,Bozzoli,IT,1900-01-01,Male,"",IT,10024,Turin,Moncalieri,Via fratelli cervi,1
+Mr,Mr,Stanbridge,EN,1900-01-01,Male,"",GB,BA3 2RP,"",Radstock,10 greenfield walk,""
+Mrs,"",Beckett,EN,,Unknown,"",GB,BS22 8EH,Avon,Weston-super-mare,Clarkson avenue,15
+Mr,C,Lord,EN,1900-01-01,Male,"",GB,OL12 8QA,"",Rochdale,18 coppice drive,""
+Mej.,Jan,Christians,NL,1900-01-01,Female,"",BE,1770,"",Liedekerke,Meerstraat,40
+Sr.,Carlos,Fernandes,PT,1900-01-01,Male,"",PT,2950-595,"",Quinta do anjo / quinta das flores,Rua 1º de maio lote 85 - olhos de água,""
+Miss,T,Eves,EN,,Female,"",GB,PO21 2DU,"",Bognor regis,Dorset road,20
+Mr,M,Shahid,EN,,Male,"",GB,BS6 7TG,"",Bristol,Cairns road,106
+Mr,R,Allan,EN,1900-01-01,Male,"",GB,EH30 9SG,"",South queensferry,14 shore road,""
+Mr,C,Brown,EN,1900-01-01,Male,"",GB,SR5 4AP,"",Sunderland,5 kenley road,""
+"",Alesandro,Baldi,IT,1900-01-01,Unknown,"",IT,59100,"",Prato,Via ciabatti 42,""
+Mr,Rc,Avis,EN,,Male,"",GB,TN2 5LN,"",Tunbridge wells,Chenies close,42
+Mrs,Debbie,Hall,EN,,Female,"",GB,CO5 0HL,"",Colchester,Elwin road,11
+Mrs,M,Barrow,EN,,Unknown,"",GB,HU19 2QR,"",Withernsea,Elm tree bungalow,""
+Mr,K,Croxford,EN,,Unknown,"",GB,CW7 3JN,Cheshire,Winsford,Alt walk,11
+Mrs,J,Carey,EN,1900-01-01,Female,"",GB,DH7 9QP,"",Durham,Coach house,""
+Mrs,To,Caisley,EN,,Female,"",GB,NE23 6HN,"",Cramlington,Coltpark place,71
+Frau,Michaela,Beinecke,DE,,Female,"",DE,40764,"",Langenfeld (rheinland),Ringweg,44
+Mr,Aj,Mcleman,EN,1900-01-01,Male,"",GB,IV9 8RA,"",Avoch,3 fletcher gardens,""
+Mrs,R,Hughes,EN,,Female,"",GB,LL61 5JF,"",Llanfairpwllgwyngyll,Trem eryri,14
+Mr,"",Lid har,EN,,Male,"",GB,UB1 3AN,"",Southall,Park avenue,204
+Dhr.,"",Doesburg,NL,1900-01-01,Male,"",NL,9727 DM,"",Groningen,Oldambtlaan,29
+Mr,"",Oluigbo,EN,,Unknown,"",GB,SE5 8UX,"",London,Linwood close,99
+Mrs,"",Devaney,EN,,Unknown,"",GB,FK4 1EX,"",Bonnybridge,Dunvegan place,17
+Sig.,Dario,Olivari,IT,1900-01-01,Male,"",IT,25075,"",Nave,Via san marco 5,""
+Mr,Iftakhar,Zafar,EN,,Male,"",GB,HX1 3TA,"",Halifax,Dunkirk house,""
+Mrs,M,Vrabelova,EN,,Female,"",GB,SE7 7EJ,"",London,Shirley house drive,20
+Mrs,Nicola,Allen,EN,,Unknown,"",GB,SA1 8DR,"",Swansea,St elmo avenue,29
+"",Michele,Gabriele,IT,1900-01-01,Unknown,"",IT,"","","","",""
+Mrs,S,Bhaskal,EN,,Unknown,"",GB,NE7 7GD,"",Newcastle upon tyne,Stonecroft gardens,4
+Pan,Grzegorz,Kawula,PL,1900-01-01,Male,"",PL,32-107,"",Radziemice,Kąty 12,""
+Dhr.,"",Willemssens,NL,1900-01-01,Male,"",BE,1170,"",Watermael-boitsfort,Avenue des princes brabançons,37
+Mr,Arkadiusz,Jonik,EN,,Male,"",GB,AB15 6EB,"",Aberdeen,Summerhill drive,139
+"",Bjørne,Guldbrandsen,EN,,Unknown,"",NO,3152,"",Tolvsrød,Ekelyveien 14,""
+Frau,"",A0135426,DE,1900-01-01,Female,"",DE,03645,"","",6245310a,""
+Sig.ra,Rosa,Belotti,IT,1900-01-01,Female,"",IT,24050,"",Palosco,Via isonzo 12,""
+Sr.,Jose maria,Ribeiro macau,PT,1900-01-01,Male,"",PT,2135,"",Samora correia,Rua general vasco gonçalves lote c,""
+Madame,Malika,Bari,FR,1900-01-01,Female,"",BE,7060,"",Soignies,Chaussée de mons,158
+Mrs,Claudia,Ceroni,IT,1900-01-01,Female,"",IT,47521,"",Cesena,Via chiaramonti 91,""
+Mr,I,Kelly,EN,,Male,"",GB,LA21 8EQ,"",Coniston,The garth,18
+Miss,"",Edmondson,EN,,Female,"",GB,CM23 5BH,Hertfordshire,Bishop's stortford,Plaw hatch close,56
+Mr,"",Healey,EN,,Unknown,"",GB,GU1 3QF,Surrey,Guildford,Addison road,58
+Monsieur,Jean yves,Fertard,FR,1900-01-01,Male,"",FR,49800,"",Trelaze,4 rue edith piaf,""
+Miss,H,He,EN,,Female,"",GB,UB6 0QD,"",Greenford,Whitton avenue east,69
+Frau,Petra,Mayr,DE,1900-01-01,Female,"",DE,35043,"",Bauerbach,Lilienstrasse 2,""
+Miss,"",Poole,EN,,Unknown,"",GB,M24 4JA,"",Manchester,Ullock walk,6
+Mr,Bj,Wenham,EN,1900-01-01,Male,"",GB,RH15 8TS,"",Burgess hill,25 howard avenue,""
+Mr,"",Short,EN,,Unknown,"",GB,EN8 7QW,Hertfordshire,Waltham cross,Longcroft drive,135
+"",Salvatore,Cirinnà,IT,1945-03-17,Male,"",IT,"","","","",""
+"",Jeannine,Van hofyen,NL,1900-01-01,Unknown,"",NL,"","","","",""
+Madame,Marine,Le livec,FR,1900-01-01,Female,"",FR,85150,"",Le girouard,2 rue de la sainte emilienne,""
+Miss,K,Bevhandi,EN,,Unknown,"",GB,E3 4AE,"",London,Mornington grove,29
+Mr.,Yngve,Langsrud,NO,,Male,"",NO,2830,"",Raufoss,Pa aannerudsvei 28,""
+Dhr.,Joris,Van vliet,NL,1900-01-01,Male,"",NL,1182 BX,"",Amstelveen,Patrimonium laan 40,""
+Mrs,E,Knowles,EN,,Female,"",GB,TN33 0PY,East sussex,Battle,Eastview terrace,35
+Sr.,Luis,Martinez sanz,ES,1900-01-01,Male,"",ES,28021,"",Madrid,Marta barrientos 8 4º,""
+Pan,Adrian,Stochmal,PL,1900-01-01,Male,"",PL,41-940,"",Piekary śląskie,Kazimierza wielkiego 8/1/8,""
+Mrs,Gw,Lowe,EN,1900-01-01,Female,"",GB,CW9 7TH,"",Northwich,Fields farm,""
+"",Rosario,Cifali,IT,1900-01-01,Unknown,"",IT,"","","","",""
+Paní,Andrea,Kerelova,CS,,Female,"",CZ,671 78,"",Litobratřice,176,""
+Mrs,P,Baker,EN,,Female,"",GB,GU27 1LJ,Surrey,Haslemere,"",""
+Monsieur,Vanessa,Bertrand,FR,1900-01-01,Male,"",FR,38130,"",Echirolles,25 pl beaumarchais,""
+Frau,"",A0186162,DE,1900-01-01,Female,"",DE,10208,"","",2616810a,""
+Mr,"",Brown,EN,1900-01-01,Male,"",GB,LS7 4JS,"",Leeds,7 gledhow park view,""
+Sig.ra,Miglianella,Migliani,IT,1900-01-01,Female,"",IT,62100,"",Macerata,Via gasparri 5,""
+Dr.,Walter,Galli,IT,1900-01-01,Unknown,"",IT,21028,"",Travedona-monate,Via giuseppe mazzini,426
+Ms.,Gabriela,Tomaskova,CS,1900-01-01,Female,"",CZ,753 64,"",Belotin,Lucice 9,""
+Herr,Heinz,Kapusta,DE,1900-01-01,Male,"",DE,86415,"",Mering,Pestalozzistr 55,""
+Pan,Filip,Koller,PL,,Male,"",PL,30-011,"",Kraków,Wrocławska,67/61
+Fam.,T,Laan,NL,1900-01-01,Unknown,"",NL,3134 NB,"",Vlaardingen,Binnensingel,107
+Frau,Stefanie,Broel,DE,1900-01-01,Female,"",DE,42281,"",Wuppertal,Auf dem brahm 99,""
+Frau,Marianne,Bamford,DE,1900-01-01,Female,"",DE,13409,"",Berlin,Am stand 5,""
+Monsieur,"",Beuchon,FR,1900-01-01,Male,"",FR,58200,"",Cosne cours sur loire,139 rue du marechal leclerc,""
+Mr,Charanjeet,Bharya,EN,1960-08-08,Unknown,"",GB,B68 9UL,West midlands,Oldbury,Victoria road,113
+Mrs,P,White,EN,,Female,"",GB,TS13 4DT,Cleveland,Saltburn-by-the-sea,Cliffe avenue,36
+Monsieur,Chantal,Couteaud,FR,1900-01-01,Male,"",FR,23110,"",Evaux les bains,1 chemin des polonais,""
+Mr,H,Zingh,EN,,Male,"",GB,B70 0JL,West midlands,West bromwich,Meyrick road,38
+Mrs,"",Kingham,EN,,Female,"",GB,B38 9RY,"",Birmingham,Greenway gardens,36
+Пані,Наталья михайловна,Костырко,UK,1900-01-01,Female,"",UA,"",Donets'ka,Маріуполь,Тупик рижский,15 чд
+Pani,Grażyna,Musiałowska,PL,1900-01-01,Female,"",PL,66-540,"",Stare kurowo,Wiejska 8,""
+Dhr.,M,Hulst,NL,1900-01-01,Male,"",NL,6541 XK,"",Nijmegen,Kanaalstraat,81
+"",Chiara,Ortolani,IT,1900-01-01,Female,"",IT,00168,Rome,Roma,Via cogoleto,13
+Frau,Antje,Fieß,DE,1900-01-01,Female,"",DE,74613,"",Öhringen,Obere gartenstr 8,""
+Mrs,Sally,Buttifant,EN,,Female,"",GB,CH65 6TH,"",Ellesmere port,Deeside close,1
+Mr,Alan,Jones,EN,,Unknown,"",GB,LL57 4PG,Gwynedd,Bangor,"",""
+"",Stephane,Chevalier,FR,1900-01-01,Unknown,"",FR,35700,"",Rennes,33 rue pierre varin de la brunelière,""
+Monsieur,Patricia,Laine,FR,1900-01-01,Male,"",FR,33230,"",Abzac,32 rue jean jaures,""
+Sig.,Maurizio,Gallucci,IT,1900-01-01,Male,"",IT,84080,Salerno,Pellezzano,Via sabato de vita,47
+Mr,Dermot,Bland,EN,,Unknown,"",IE,"",Longford,Longford,Drumhaughley,""
+Pan,Jacek,Sroka,PL,1900-01-01,Male,"",PL,40-572,"",Katowice,Załęska,49/9
+Mr,A,Henderson,EN,,Male,"",GB,M30 8QH,"",Manchester,Shepway court,22
+Ms,"",Halford,EN,,Female,"",GB,NP22 4PS,"",Tredegar,Green meadow,30
+Madame,Jacqueline,Gigant,FR,1900-01-01,Female,"",FR,88120,"",Vagney,13 route de l'emont,""
+Madame,Elodie,Bouhours,FR,1900-01-01,Female,"",FR,91160,"",Saulx les chartreux,Route de montlhery,""
+Miss,Diana,Perry,EN,,Female,"",GB,DH6 1NA,"",Durham,Moor crescent,57
+Miss,C,Spelaman,EN,,Unknown,"",GB,CV5 6LQ,"",Coventry,Kingston road,115
+Madame,Anne marie,Nguepse,FR,1900-01-01,Female,"",FR,91100,"",Corbeil essonnes,23 avenue du president allende,""
+Sig.,Giovanna benedetta,Leone,IT,1900-01-01,Male,"",IT,00179,Rome,Roma,Via segesta,1
+"","",Lemonnier,EN,1900-01-01,Unknown,"",FR,76190,"",Auzebosc,111 le bourg,""
+Sig.,Claudio,La vita,IT,1900-01-01,Male,"",IT,00132,"",Roma,Via onna n 4 angolo via della riserva nuova n 265,""
+Miss,Teri,Blackburn,EN,,Female,"",GB,NE62 5UY,"",Choppington,River bank,17
+Frau,Salima,Houbban,DE,1900-01-01,Female,"",DE,55545,"",Bad kreuznach,Lindelstr 8,""
+Mrs,Barbara,Ferguson,EN,,Female,"",GB,LN6 0HZ,"","",Meadowlake crescent,34
+Mrs,Jean,Eaves,EN,,Female,"",GB,NR31 8NS,"",Great yarmouth,Homesfield avenue,35
+Pan,Tomasz,Kowalski,PL,1900-01-01,Male,"",PL,30-698,"",Kraków,Lasogórska,8i
+Herr,Heinz,Kapusta,DE,1900-01-01,Male,"",DE,86415,"",Mering,Pestalozzistr,55
+Mrs,I,Patel,,,Female,"",GB,NW6 1BB,"",London,Dennington park road,27
+Mrs,M,Hesketh,EN,,Female,"",GB,LS29 9HF,West yorkshire,Ilkley,Skipton road,63a
+Sig.,Sig,Vivacqua,IT,1900-01-01,Male,"",IT,16154,"",Sestri ponente,Soliman,10/7
+Madame,Beatrice,Tessier,FR,1900-01-01,Female,"",FR,37800,"","",6 rue de la manse,""
+Madame,Clara,Gibert,FR,1900-01-01,Female,"",FR,07230,"",Lablachere,Le plan du four,""
+Mrs,Se,Dutton,EN,1900-01-01,Female,"",GB,LE3 5PU,"",Leicester,37 fosse road central,""
+Miss,Antonia,Garcia lopez,ES,1900-01-01,Female,"",ES,08014,"",Barcelona,C/ moianes 63 1-0 2-a,""
+Frau,"",A0251540,DE,,Female,"",DE,96528,"","",0451520a,""
+Sra.,Rocio,Gutierrez,ES,1900-01-01,Female,"",ES,11368,"",Estacion ferrea san roque,C barrio alto 100,""
+Mrs,Jacqueline,Doyle,EN,,Unknown,"",IE,"",Wicklow,Newcastle,Sea view,""
+Frau,Nicole,Reidelbach,DE,1900-01-01,Female,"",DE,83083,"",Riedering,Austr 5,""
+"",Solaka,Liver,SV,,Unknown,"",SE,633 51,"",Eskilstuna,Uttermarksgatan,39
+Mr,R,Ahmed,EN,,Unknown,"",GB,WF16 0DF,West yorkshire,Heckmondwike,Lascelles road,10
+Madame,Elodie,Tremblay,FR,1900-01-01,Unknown,"",FR,44230,"",Saint sebastien sur loire,22 rue du gal duez,""
+Mrs,Brenda,Eyre,EN,,Female,"",GB,TD15 2BU,"",Berwick-upon-tweed,Prior view,50
+"",Hottmann,Anke,DE,1900-01-01,Unknown,"",DE,63263,"",Neu-isenberg,Eschenweg,8
+Mrs,A,Bayssa,EN,,Unknown,"",GB,M16 7LA,"",Manchester,Elwick close,8
+Frau,Daniel,Gabriele,DE,1900-01-01,Female,"",DE,07381,"",Pößneck,Scheunenstr 1,""
+Monsieur,Thierry,Croyal,FR,1900-01-01,Male,"",FR,44310,"",St philbert de grand lieu,Le grand chemin,""
+Mr,Martin,Mellersh,EN,,Unknown,"",GB,BH20 5AR,Dorset,Wareham,Furzebrook road,132
+Mr,J,Lacey,EN,,Unknown,"",GB,L30 2SD,Merseyside,Bootle,Morgan mews,6
+Mr,Mike,Male,EN,,Unknown,"",GB,RG8 7NE,"",Reading,Short street,2
+Frau,Gerlina,Elzer,DE,1900-01-01,Female,"",DE,87439,"",Kempten (allgäu),Bussardweg 6,""
+Miss,"",Gaffney,EN,,Unknown,"",GB,G71 6DQ,"",Glasgow,Seventh avenue,6
+"","","",,,"","",DE,54429,"",Schillingen,Bahnhofstr 17,""
+Sig.,Suor ester,Comunità monastero santa,IT,1900-01-01,Male,"",IT,06039,Perugia,Trevi,Viale augusto ciuffelli,14
+Herr,Zouhir,Asaad,DE,1900-01-01,Male,"",DE,10249,"",Berlin,Pufendorfstr 6a,""
+Mrs,Ms,Skurr,EN,1900-01-01,Female,"",GB,RM3 0UB,"",Romford,40 ravensbourne crescent,""
+"",Loretta,Permunian,IT,1900-01-01,Unknown,"",IT,36040,"",Alonte,Via san feliciano,""
+Miss,A,Moris,EN,,Female,"",GB,DY3 1PS,West midlands,Dudley,Springfield grove,52
+"","",Vachette,FR,1900-01-01,Unknown,"",FR,38000,"",Grenoble,11 rue charreton,""
+Monsieur,Marie noelle,Ragni,FR,1900-01-01,Male,"",FR,06140,"",Vence,623 che celestin freinet,""
+Pán,Milan,Sekeres,SK,,Male,"",SK,956 15,"",Kovarce,Kovarce 195,""
+Pani,Danuta,Wiśniewska,PL,1900-01-01,Female,"",PL,15-668,"",Białystok,Upalna 20/4,""
+Mrs,P,Martin,EN,,Unknown,"",GB,SO45 1RH,"",Southampton,Hedley close,4
+Mr,D,Ponzi,EN,,Male,"",GB,NN8 3DG,"",Wellingborough,Stanwell way,25
+Herr,Iskender,Özerdem,DE,1900-01-01,Male,"",DE,59192,"",Bergkamen,August-bebel-str 3,""
+Mrs,Samantha,Walton,EN,,Female,"",GB,WV6 9NJ,"",Wolverhampton,Aldersley road,163
+Miss,Soňa,Neščáková,SK,1900-01-01,Female,"",SK,915 01,"",Nové mesto nad váhom,Hviezdoslaovva,14
+"",Fabio,Di guardo,IT,1900-01-01,Male,"",IT,95028,Catania,Valverde,Via delle gardenie,29
+Ms,V,Williams,EN,,Female,"",GB,G34 9BN,"",Glasgow,Shandwick street,22b
+"",Nicola,Damato,IT,1900-01-01,Male,"",IT,37131,Verona,Verona,Via altichiero,11
+Mr,Gf,Cope,EN,1900-01-01,Male,"",GB,EN6 1ER,"",Potters bar,5 mountway,""
+Mrs,B,O'rourke,EN,,Unknown,"",IE,"",Waterford,Waterford city,Hillview,""
+Dr.,Roberto,Miradola,IT,1900-01-01,Unknown,"",IT,30020,"",Marcon,Via zuccarello,13
+Herr,Danilo,Castellani,DE,1900-01-01,Male,"",CH,6596,"",Gordola,Via al fiume 43,""
+"",Sergio,Riganelli,IT,1900-01-01,Male,"",IT,62024,Macerata,Matelica,Via alcide de gasperi,83
+Monsieur,Claude,Hizer,FR,1900-01-01,Male,"",FR,06200,"",Nice,10 boulevard napoleon iii,""
+Mrs,Ij,Fitch,EN,1900-01-01,Female,"",GB,TD7 4AT,"",Selkirk,42 kingsland avenue,""
+Mrs,"",Windows,EN,,Unknown,"",GB,TA6 7JY,Somerset,Bridgwater,Quantock meadow,25
+Mrs,J,Edwards,EN,,Female,"",GB,CF42 6DG,Mid glamorgan,Treorchy,Windsor street,12
+Sig.,Cristiano,Bosco,IT,1900-01-01,Male,"",IT,35010,Padova,Massanzago,Via papa giovanni xxiii,14
+Mr.,Bekjarvik,Gjesgiveri,NO,1900-01-01,Male,"",NO,5397,"",Bekkjarvik,Bekkjarvik,""
+Mrs,J,Nikola,EN,1900-01-01,Female,"",GB,EN11 9FG,"",Hoddesdon,10 gosse close,""
+Mrs,P,Mulqueen,EN,,Unknown,"",IE,"","",Kilmaallock co limerick,Ballyguile,""
+Mr,S,Gavin,EN,,Unknown,"",IE,W91 C6W7,Kildare,Naas,Sallins bridge,100
+Ms,/,Keillor,EN,1900-01-01,Female,"",GB,DD11 4EP,"",Arbroath,21,""
+Firma,Prohaus,Immobilienverwaltu,DE,1900-01-01,Unknown,"",DE,81379,"",München,Pognerstr 40,""
+Frau,Constanze,Röhrs,DE,1900-01-01,Female,"",DE,27367,"",Hassendorf,Bahnhofstr 25a,""
+Mrs,"",Mahmood,EN,,Unknown,"",GB,BL1 4LG,"",Bolton,Gilnow gardens,25
+Mr,J,Rees,EN,1900-01-01,Male,"",GB,CF47 0ST,"",Merthyr tydfil,77 aneurin crescent,""
+Miss,M,Jackson,EN,1900-01-01,Female,"",GB,PE19 8JS,"",Eaton socon,10 crown walk,""
+Mrs,"",Beardsmore,EN,,Female,"",GB,E8 4RE,"",London,Beck road,3
+Madame,Marie-josé,Dumont,FR,1900-01-01,Female,"",BE,5081,"",Saint-denis-bovesse,Rue du moulin,46
+Mr,H,Moradi,EN,,Male,"",GB,KT6 7SZ,Surrey,Surbiton,Tolworth road,""
+Mrs,Sarah,Robson,EN,,Unknown,"",GB,TW20 8XD,Surrey,Egham,Wards place,19
+Ms.,Janina,Brøker,DA,1900-01-01,Female,"",DK,2400,"",København nv,Glentevej 10 lejlighed 4-05,""
+Mr,D,Atkinson,EN,,Unknown,"",GB,CW8 3HR,Cheshire,Northwich,Brookside,6
+Mr,Paul,Dutton,EN,,Male,"",GB,GU7 3BD,Surrey,Godalming,Summers road,47
+Mrs,S,Derome,EN,,Female,"",GB,B79 8QN,Staffordshire,Tamworth,Queens way,58
+Mrs,Ann,Richardson,EN,,Female,"",GB,B42 1NE,"",Birmingham,Kingsdown avenue,183
+Pán,Peter,Trnovský,SK,1900-01-01,Male,"",SK,010 08,"",Žilina,Námestie ľudovíta fullu 15,""
+Fam.,"",Willems leopold,NL,1900-01-01,Unknown,"",BE,3800,"",Sint truiden,Spiegelstraat,28
+Mr,G,Rider,EN,,Unknown,"",GB,HG4 2EY,North yorkshire,Ripon,Kirkby road,35
+Sig.ra,Maria luisa,Franceschini,IT,1900-01-01,Female,"",IT,19037,"",Santo stefano di magra,Via san michele 1,""
+Pani,Emilia,Urbaniak,PL,1900-01-01,Female,"",PL,05-250,"",Radzymin,Armii krajowej,8/15
+Mrs,Eileen,Perkins,EN,,Female,"",GB,DN35 7TU,"",Cleethorpes,Reynolds street,18
+Madame,Dominique,Simonetti,FR,1900-01-01,Female,"",FR,01990,"",Baneins,Clos de la vigne,""
+"",Edwin,Schmitt,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Sig.,Carlo,Felicetti,IT,1900-01-01,Male,"",IT,38035,Trento,Moena,Strada de sèn roch,38
+Miss,Heidi,Broadbent,EN,,Unknown,"",GB,WF4 1LE,"",Wakefield,Beech avenue,24
+Pani,Iwona,Czapska-grudek,PL,1900-01-01,Female,"",PL,21-030,"",Radawiec duży,Radawiec duży 251 b,""
+Frau,Petra,Mayr,DE,1900-01-01,Female,"",DE,35043,"",Bauerbach,Lilienstrasse,2
+Frau,Stephanie -doppelt,Hofecker,DE,,Female,"",AT,2491,"",Neufeld an der leitha,Jutepark 2/1/9,2/1/9
+Mr,J,Crossan,EN,,Male,"",GB,ML5 5FG,"","",Portree avenue,10
+Miss,Claire,Scarborough,EN,,Female,"",GB,S41 0LF,Derbyshire,Chesterfield,Fernwood close,9
+Dr.,Margherita,Nardi,IT,1900-01-01,Unknown,"",IT,36072,Vicenza,Chiampo,Via ludovico ariosto,4
+Mrs,Maria,Dunning,EN,,Unknown,"",GB,DH3 2HY,"",Gateshead,Glenluce,32
+Mr,Noel,Staunton,EN,1900-01-01,Male,"",GB,TA3 6BW,"",Somerset,Little thatch,""
+Mrs,T,Cleverly,EN,1900-01-01,Female,"",GB,TN38 0QU,"",East sussex,5 dane road,""
+"",Carole,Rota treguer,FR,1900-01-01,Unknown,"",FR,"","","","",""
+Mr,T,Moomui,EN,,Male,"",GB,G78 1JT,"",Glasgow,Kerr street,10
+Mr,"",Harrison,EN,,Unknown,"",GB,BL4 9RR,"",Bolton,Pear tree drive,2
+"","","",FR,1900-01-01,Unknown,"",FR,"","","","",""
+Mr,Gary,Richardson,EN,,Male,"",GB,DL1 1LP,"",Darlington,Paton way,15
+Madame,Carole,Fievez,FR,1900-01-01,Female,"",BE,5000,"",Namur,Avenue albert 1er,19
+Mrs,Karen,Caruso,EN,,Female,"",GB,PE10 0GE,"","",Cowslip crescent,2
+Mr.,Jukka,Malinen,FI,1900-01-01,Male,"",FI,90510,"",Oulu,Mesaanitie 6 a 26,""
+Herr,Thorsten,Schneider,DE,1900-01-01,Male,"",DE,71159,"",Mötzingen,Zahnengartenstr 19,""
+"",A,Sisson,EN,1900-01-01,Unknown,"",GB,"","","",107 springfield gardens,""
+Sr.,Jordi,Verdugo,ES,1900-01-01,Male,"",ES,08458,"",Sant pere de vilamajor,San bernat 25,""
+Herr,Thorsten,Gubisch,DE,1900-01-01,Male,"",DE,24223,"",Schwentinental,Eiderstr 6,""
+Sig.,Federico,Righetti,IT,1900-01-01,Male,"",IT,40018,"",San pietro in casale,Via armando stagni 60l,""
+Ms,Irene,Pitcher,EN,,Female,"",GB,TW3 1SX,"",Hounslow,Pears road,25
+Pani,Krystyna,Maszlonka,PL,1900-01-01,Female,"",PL,40-578,"",Katowice,Wodospady 64 a m 8,""
+Mej.,E,Rest,NL,1900-01-01,Female,"",NL,1324 SZ,"",Almere,'s-gravenhagehof,40
+Miss,C,Moch,EN,,Female,"",GB,LU7 3WJ,"",Leighton buzzard,Millstream way,45
+Sra.,Vanesa,Dominguez,ES,1900-01-01,Female,"",ES,08033,"",Barcelona,Las agudes 134 3 1,""
+"","",Dassy,FR,1900-01-01,Unknown,"",FR,13015,"",Marseille 15,171 avenue roger salengro,""
+Mevr.,Nathalie,Vandenbrouck,NL,1900-01-01,Female,"",BE,2580,"",Putte,Kapelhof,6
+Ms,K,Lewis,EN,,Female,"",GB,RG9 1SG,"",Henley-on-thames,Holly lodge,""
+Sr.,Delvino,Dominguez ferreira,ES,1900-01-01,Male,"",ES,36380,"",Gondomar,Carrasquedo de abaixo 9 casa,""
+Herr,Eckhard,Tack,DE,1900-01-01,Male,"",DE,18119,"",Rostock,An den buhnen 5,""
+Mr,Kevin,Smith,EN,,Male,"",GB,ME7 5NE,"",Gillingham,Eva road,10
+Frau,Petra,Müller petra,DE,,Female,"",DE,25524,"",Itzehoe,Am paradies,2
+Mrs,P,Nsimba,EN,,Female,"",GB,E14 8AH,"",London,Three colt street,""
+Mr,Gerald,Irvine,EN,,Male,"",GB,E6 5RB,"",London,Sapphire cl,10
+Frau,Bettina,Rosigkeit,DE,,Female,"",DE,53115,"",Bonn,Kaufmannstr,57
+Ms.,Christina britt-sofi,Allgulander,SV,,Female,"",SE,218 33,"",Bunkeflostrand,Pärlugglevägen 32,""
+Mr,Robert,Taylor,EN,,Unknown,"",GB,NG33 5PE,Lincolnshire,Grantham,Chestnut grove,10
+Herr,Leonhard,Körlin,DE,1900-01-01,Male,"",DE,17194,"",Vollrathsruhe,Hallaliter weg 23,""
+Frau,Heidi,Schmidt,DE,1900-01-01,Female,"",DE,04600,"",Altenburg,Dreschaer dorfstr 2,""
+Mr,"",Griffith,EN,,Unknown,"",GB,LE10 2TR,Leicestershire,Hinckley,Burbage road,19
+Herr,Christian,Escher,DE,,Male,"",DE,52076,"",Aachen,Trierer str,942
+Mr,S,Ali,EN,,Unknown,"",GB,HD2 2JR,"",Huddersfield,Bradford road,650
+"",Monica,Santoni,IT,1900-01-01,Unknown,"",IT,60027,"",Osimo,Strigola,28
+"",Rosano,Di maro,IT,1900-01-01,Unknown,"",IT,80078,"",Pozzuoli,Via vecchia delle vigne,11
+Mr,B,Sibanda,EN,,Unknown,"",GB,PO9 4AQ,Hampshire,Havant,Freeley road,29
+Mrs,"",Rushton,EN,1900-01-01,Female,"",GB,DN7 6SQ,"",Doncaster,68 amanda drive,""
+Mrs,D,Spencer,EN,1900-01-01,Female,"",GB,DE45 1RD,"",Bakewell,Flat 10 riverside court,""
+Herr,Albert,Volk,DE,1900-01-01,Male,"",DE,"","","","",""
+Frau,Svenja,Liefländer,DE,1900-01-01,Female,"",DE,30853,"",Langenhagen,Tempelhofer str 8,""
+Mr,D,Matthews,EN,,Male,"",GB,NR31 7PA,"",Great yarmouth,Isis close,1
+Mrs,S,Anderson,EN,,Female,"",GB,GU16 8BS,Surrey,Camberley,Ansell road,7
+Fam.,"",Kop,NL,1900-01-01,Unknown,"",NL,6102 EP,"",Echt,In de planten,19
+"","","",,,"","",FR,75008,"",Paris 8,49/51 rue de ponthieu,""
+Pan,Adam,Szczur,PL,1900-01-01,Male,"",PL,36-002,"",Jasionka,Stobierna 743,""
+Mr,Richard,Hunt,EN,,Unknown,"",GB,NN7 4BW,"",Northampton,Orchard way,20
+Ms,"",Chang,EN,,Unknown,"",GB,EN5 4BL,Hertfordshire,Barnet,Wood street,61
+Mr,Malcolm,Randall,EN,1900-01-01,Male,"",GB,TQ12 5DN,"",Newton abbot,12 rosehill gardens,""
+Monsieur,A,Stallaerts francoise,FR,1900-01-01,Male,"",FR,91210,"",Draveil,54 avenue des ormes,""
+Frau,Herta,Scholze,DE,1900-01-01,Female,"",DE,98617,"",Meiningen,Am kiliansberg 52,""
+Mrs,C,Cross,EN,,Female,"",GB,PL31 1BW,"",Bodmin,Halgavor road,15
+Firma,Kindertagessstätte,St nicolai,DE,1900-01-01,Unknown,"",DE,44139,"",Dortmund,Kreuzstr 66b,""
+"",Marek,Šuľan,SK,1900-01-01,Unknown,"",SK,925 21,"",Sládkovičovo,J dalloša 10916,""
+"",Gallicola,Chirico,IT,1900-01-01,Unknown,"",IT,81100,Caserta,Caserta,Viale abramo lincoln,47
+Madame,"",Mathys,FR,1900-01-01,Female,"",CH,1971,"",Grimisuat,Route des combes 87,""
+Mrs,"",Wiliss,EN,,Unknown,"",GB,DA2 7AZ,"",Dartford,Tredegar road,60
+Sig.ra,Santa maria,Mandala,IT,,Female,"",IT,20138,Milan,Milano,Via guido ucelli di nemi,17
+Miss,Maria carmen,Lorenzo,ES,1900-01-01,Female,"",ES,08031,"",Barcelona,Valle de ordesa 1 4º 3º,""
+Mrs,S,Patterson,EN,1900-01-01,Female,"",GB,NE29 7NA,"",North shields,50 balkwell green,""
+Mr,A,Ali,EN,,Male,"",GB,DY2 8EF,"",Dudley,Buffery road,90
+Dr.,Giovanna,Turetta,IT,1900-01-01,Unknown,"",IT,35132,"",Padova,Via tullio lombardo,14
+Dr.,Filippo,Marzullo,IT,1900-01-01,Unknown,"",IT,20811,Monza e brianza,Cesano maderno,Via nicolò copernico,6
+Monsieur et  Madame,"",Goffaux,FR,,Unknown,"",BE,4218,"",Héron,Rue simon,13
+Pani,Dorota,Mrozowska,PL,1900-01-01,Female,"",PL,16-406,"",Rutka-tartak,Kupowo 25,""
+Pan,"",Kalabis,CS,1900-01-01,Male,"",CZ,160 00,"",Praha 6,"",""
+Herr,Peter,Meurer,DE,1900-01-01,Male,"",DE,51063,"",Köln,Edith-stein-str 10,""
+Mademoiselle,Helene,Torchard,FR,1900-01-01,Female,"",FR,28630,"",Gellainville,15 rue de corancez,""
+"","",Turbo,FR,1900-01-01,Unknown,"",FR,83470,"",Seillons source d argens,740 chemin de la clemenciere,""
+"",Hilde,Elisabeth walstad,,,Unknown,"",NO,1444,"",Drøbak,Jørnsebakken 28,""
+Mr,Barry,Seaman,EN,,Unknown,"",GB,W7 2LU,"",London,Studley grange road,17
+Mrs,J,Leek,EN,,Female,"",GB,LU3 3XP,"","",Milverton green,35
+Mr,"",Copping,EN,,Unknown,"",GB,NE63 0DL,Northumberland,Ashington,Kingfisher close,9
+Herr,Alexander,Kelborm,DE,1900-01-01,Male,"",DE,89257,"",Illertissen,Von-kleist-str 7,""
+"",Silvia,Romei,IT,1900-01-01,Female,"",IT,00118,Rome,Roma,Placanica,38
+Frau,Doloris,Puscas,DE,1900-01-01,Female,"",DE,73760,"",Ostfildern,Panoramastr 93,""
+Ms,L,Rogers,EN,1900-01-01,Female,"",GB,B90 3RT,"",Solihull,19 radbourne road,""
+Mademoiselle,Florence,Lacroix,FR,1900-01-01,Female,"",FR,66750,"",Saint cyprien plage,Imp edgard varese,""
+"",Griffin,Honor,EN,1900-01-01,Unknown,"",GB,NR28 0HB,"",North walsham/norfolk,Bridge court 2 cromer road,""
+Mr,M,Clayton,EN,,Unknown,"",GB,SO15 8PG,"",Southampton,Regents park road,54
+Mr,Dylan,Williams,EN,,Unknown,"",GB,LL65 2AD,"",Holyhead,Pen gerddi,12
+Mrs,C,Webb,EN,,Female,"",GB,CT10 2XJ,Kent,Broadstairs,Binnie close,6
+Mevr.,"",Van genechten,NL,1900-01-01,Male,"",BE,2650,"",Edegem,Prins boudewijnlaan,233
+Monsieur,Michel,Maillet,FR,1900-01-01,Male,"",FR,49150,"",Baug,16 chemin de rigne,""
+Mrs,"",Blanchard,EN,1900-01-01,Female,"",GB,HU15 2DS,"",Brough,Cedar lodge nine gates,""
+Mrs,D,Riley,EN,,Female,"",GB,SO53 2PX,Hampshire,Eastleigh,Octavia gardens,8
+Frau,Hasbije,Kadrija,DE,,Female,"",DE,88299,"",Leutkirch im allgäu,Heggelbach,17
+Mrs,Roxanne,Mckale,EN,,Female,"",GB,NE5 2ND,"",Newcastle upon tyne,Wellfield lane,""
+Mrs,Mrs,Begum,EN,,Unknown,"",GB,LU1 1NZ,"",Luton,Shirley road,38
+Sig.,Paolo,Girlanda,IT,1900-01-01,Male,"",IT,44011,"",Consandolo,Via di mezzo 18,""
+Mr,M,Scully,EN,1900-01-01,Male,"",GB,SY13 7DR,"","",Ottobank cottage,""
+Sig.,Giovanni,Castagnola,IT,1900-01-01,Male,"",IT,16039,Genova,Sestri levante,Villa scorza,6
+Madame,Yvonne,Dault,FR,1900-01-01,Female,"",FR,76130,"",Mont st aignan,23 r asp j boutrolle estaimbuc,""
+Mr,W,Tomlinson,EN,,Unknown,"",GB,DN40 2DS,"",Immingham,Steeping drive,41
+Mr,J,Townsend,EN,,Unknown,"",GB,NN5 5NP,"",Northampton,Ellesmere avenue,33
+Mrs,"",Brock,EN,,Unknown,"",GB,DL1 4BA,County durham,Darlington,Leonard street,26
+"","",Iper conad,IT,1900-01-01,Unknown,"",IT,71016,"",San severo,Zannotti,100
+Frau,"",A0387337,DE,1900-01-01,Female,"",DE,03818,"","",7337830a,""
+Frau,Kerstin,Röder,DE,,Female,"",DE,61191,"",Rosbach vor der höhe,Hessenring,20
+"",Laurent,Moussy,FR,1900-01-01,Unknown,"",FR,51530,"",St martin d'ablois,Rue ferrte 2,""
+Herr,Günter,Röpnack,DE,1900-01-01,Male,"",DE,06449,"",Aschersleben,Helmut-welz-str 31,""
+Miss,Shauna,Cameron,EN,,Female,"",GB,M12 4LN,"",Manchester,Lidbrook walk,10
+Monsieur,Daniel,Margot,FR,1900-01-01,Male,"",FR,04130,"",Volx,Rue mendes france,""
+Sr.,Maria virginia,Pimenta,PT,1900-01-01,Male,"",PT,3350,"",Arganil,Mote friio benfeita,""
+Ms,Lisa,Henderson,EN,,Female,"",GB,HR9 7HB,"","",Three crosses road,65
+Pan,Łukasz,Buczyński,PL,1900-01-01,Male,"",PL,63-720,"",Koźmin wielkopolski,Klasztorna 37/4,""
+Mr,D,Mcdonalds,EN,,Male,"",GB,EH19 3NW,Midlothian,Bonnyrigg,Myredale,36
+Mrs,Samantha,Blackley,EN,,Unknown,"",GB,HA3 6LN,Middlesex,Harrow,Courtenay avenue,126
+Frau,Liselotte,Krapp,DE,1900-01-01,Female,"",DE,90461,"",Nürnberg,Nibelungenstr 9,""
+Miss,"",Buck,EN,,Unknown,"",GB,NG31 7BY,Lincolnshire,Grantham,Harris way,36
+"","",Øyen kurt,NO,1900-01-01,Unknown,"",NO,9441,"",Fjelldal,Auraveien 4,""
+Mr,T,Napier,EN,,Male,"",GB,M41 7EQ,"",Manchester,Lewis avenue,8
+Frau,Clara,Stebner,DE,1900-01-01,Female,"",DE,71522,"",Backnang,Bromberger straße 8/1,""
+Herr,Emre,Basaran,DE,1900-01-01,Male,"",DE,63071,"",Offenbach am main,Dornbuschstr 47,""
+"",Souboul,Ekrame,FR,1900-01-01,Unknown,"",FR,95110,"",Sannois,Rue jacques desforges 4,""
+Frau,Luzia,Heider,DE,1900-01-01,Female,"",DE,63933,"",Mönchberg,Nelkenweg 2,""
+Mrs,M,Bramwell,EN,,Unknown,"",GB,ST2 8HA,"",Stoke-on-trent,Birchfield road,9
+Mrs,J,Jordan,EN,,Female,"",GB,DA12 1LZ,Kent,Gravesend,Armoury drive,1
+Mevr.,F,Heerik,NL,1900-01-01,Female,"",NL,3332 PK,"",Zwijndrecht,Heemraad,86
+Frau,Charlotte,Prommnitz,DE,1900-01-01,Female,"",DE,13189,"",Berlin,Granitzstr,""
+Frau,Nadine,Jansen,DE,1900-01-01,Female,"",DE,52068,"",Aachen,Joseph-von-görres-str 12,""
+Mrs,Samantha,Dussy,EN,,Female,"",GB,B49 5NT,"",Alcester,Dunnington,29
+Sig.,Samantha,Mele,IT,,Male,"",IT,26010,Cremona,Cremosano,Donizzetti,8
+Mrs,M,Palmer,EN,,Unknown,"",GB,PO20 8NU,West sussex,Chichester,Stocks lane,83
+Frau,Gisela,Trakowski,DE,1900-01-01,Female,"",DE,28777,"",Bremen,Lämmerweg 4,""
+Mr.,Vidar,Hansen,NO,1900-01-01,Male,"",NO,9034,"",Oldervik,Skotsætvegen 2,""
+Mr,A,Miller,EN,,Male,"",GB,KY2 6HN,Fife,Kirkcaldy,Barassie drive,29
+Sig.,Renato,Argenio,IT,1900-01-01,Male,"",IT,20146,Milan,Milano,Via giorgio washington,98
+Frau,Karin,Beyer,DE,1900-01-01,Female,"",DE,15345,"",Eggersdorf,Pappelstr 24,""
+"",Sebastiano,Barotto,IT,1900-01-01,Male,"",IT,12032,Cuneo,Barge,Via cardè in crocera,83
+Mr,B,Butt,EN,,Unknown,"",GB,E9 6FB,"",London,Chatham place,""
+"",Sig,Di nardo,IT,1900-01-01,Male,"",IT,80126,Naples,Napoli,Via alberto moravia,39
+Madame,Maria,Nelissen,FR,1900-01-01,Female,"",FR,77500,"",Chelles,21 boulevard alsace lorraine,""
+Miss,A,Graham,EN,,Unknown,"",IE,"",Louth,Louth,Tullyallen,""
+Ms,Victoria,Otneg,EN,,Female,"",GB,W10 5LN,"",London,Barlby road,163
+Mrs,Lilian,Pryde,EN,,Female,"",GB,EH41 3PX,"",Haddington,Vert court,16
+Mrs,Nicola,Cater,EN,,Unknown,"",GB,S8 7LE,"",Sheffield,Lowedges road,97
+"",Britt-anita,J engelsjord,NO,1900-01-01,Unknown,"",NO,7620,"",Skogn,Blilivegen 20,""
+"","","",,,"","",DE,26340,"",Zetel,Ellens 2,""
+Frau,Ralf,Rauch,DE,1900-01-01,Female,"",DE,65474,"",Bischofsheim,Am mainweg 13,""
+Mrs,G,Galloway,EN,,Female,"",GB,LS14 5QH,"",Leeds,Woodview court,2
+Frau,"",A0246546,DE,1900-01-01,Female,"",DE,26180,"","",6456420a,""
+Herr,Karl-heinz,Gruber,DE,1900-01-01,Male,"",DE,94469,"",Deggendorf,Donaustr 12,""
+Mrs,"",Clarkeson,EN,,Unknown,"",GB,NR26 8XL,Norfolk,Sheringham,Cowslip lane,21
+Pan,Grzegorz,Sitkowski,PL,1900-01-01,Male,"",PL,40-719,"",Katowice,Gdańska 17/75,""
+Miss,A,Crawford,EN,,Unknown,"",GB,KA30 9HH,Ayrshire,Largs,Holehouse court,""
+Madame,Christine,Charles,FR,1900-01-01,Female,"",FR,22590,"",Tremeloir,5 rue du goelo,""
+Sig.,"",Brogelli,IT,1900-01-01,Male,"",IT,16035,"",Rapallo,Betti,167
+Mrs,"",Mckillop,EN,,Unknown,"",GB,BT36 5DU,County antrim,Newtownabbey,Sandyknowes way,9
+Mr,E,Crane,EN,,Unknown,"",GB,MK41 6DT,"",Bedford,Highbury grove,65
+"","",Cossu,FR,1900-01-01,Unknown,"",FR,84240,"",Sannes,0 rue du vieux moulin,""
+"",Jakub,Hájek,CS,1900-01-01,Unknown,"",CZ,643 00,"",Brno,Blumlova 26,""
+Herr,Temel,Sahin,DE,1900-01-01,Male,"",DE,47055,"",Duisburg,Michaelstr 12,""
+Miss,H,Sealey,EN,,Female,"",GB,DE22 3EX,"",Derby,Cheviot street,4
+Sig.ra,Cristina,Pozzi,IT,1900-01-01,Female,"",IT,25048,"",Sonico,Località ponte faeto,""
+Mrs,"",Spencer,EN,1900-01-01,Female,"",GB,LE10 0EA,"",Hinckley,3 stoke road,""
+Mrs,Im,Gray,EN,1900-01-01,Female,"",GB,EX4 9EJ,"",Exeter,14 gareth crescent,""
+Miss,Chloe,Morris,EN,,Unknown,"",GB,NP26 4GY,"",Church road,Grove gardens,4
+Mr,W,B,EN,,Male,"",GB,G84 0HW,"",Kilcreggan,Greenhill cottage,""
+Dr.,Merendoni,Mistri,IT,1900-01-01,Unknown,"",IT,50019,"",Sesto fiorentino,Via pietro mascagni,18
