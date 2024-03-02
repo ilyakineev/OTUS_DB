@@ -209,3 +209,232 @@ db.user.deleteOne({ _id: ObjectId('65e2f9a8b8afc9a23e46ae86') })
 OTUS> db.user.deleteOne({ _id: ObjectId('65e2f9a8b8afc9a23e46ae86') })
 { acknowledged: true, deletedCount: 1 }
 ```
+
+# Для проверки эффективности индексов проведем сравнения поиска по странам
+
+# Выборка всех значений
+```shell
+OTUS> db.user.explain().find()
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'OTUS.user',
+    indexFilterSet: false,
+    parsedQuery: {},
+    queryHash: '8880B5AF',
+    planCacheKey: '8880B5AF',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: { stage: 'COLLSCAN', direction: 'forward' },
+    rejectedPlans: []
+  },
+  command: { find: 'user', filter: {}, '$db': 'OTUS' },
+  serverInfo: {
+    host: '629c94964182',
+    port: 27017,
+    version: '7.0.6',
+    gitVersion: '66cdc1f28172cb33ff68263050d73d4ade73b9a4'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted'
+  },
+  ok: 1
+}
+```
+# Поиск по country: 'DE'
+```shell
+db.user.find({ country: 'DE' }).explain("executionStats")
+```
+
+```shell
+OTUS> db.user.find({ country: 'DE' }).explain("executionStats")
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'OTUS.user',
+    indexFilterSet: false,
+    parsedQuery: { country: { '$eq': 'DE' } },
+    queryHash: 'B752FA80',
+    planCacheKey: 'B752FA80',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: {
+      stage: 'COLLSCAN',
+      filter: { country: { '$eq': 'DE' } },
+      direction: 'forward'
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 185,
+    executionTimeMillis: 1,
+    totalKeysExamined: 0,
+    totalDocsExamined: 1154,
+    executionStages: {
+      stage: 'COLLSCAN',
+      filter: { country: { '$eq': 'DE' } },
+      nReturned: 185,
+      executionTimeMillisEstimate: 0,
+      works: 1155,
+      advanced: 185,
+      needTime: 969,
+      needYield: 0,
+      saveState: 1,
+      restoreState: 1,
+      isEOF: 1,
+      direction: 'forward',
+      docsExamined: 1154
+    }
+  },
+  command: { find: 'user', filter: { country: 'DE' }, '$db': 'OTUS' },
+  serverInfo: {
+    host: '629c94964182',
+    port: 27017,
+    version: '7.0.6',
+    gitVersion: '66cdc1f28172cb33ff68263050d73d4ade73b9a4'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted'
+  },
+  ok: 1
+}
+```
+
+# Устанавливаем индекс по country
+```shell
+OTUS> db.user.createIndex({ country: 1 })
+country_1
+```
+
+# Выполняем повторный поиск по country: 'DE'
+```shell
+OTUS> db.user.find({ country: 'DE' }).explain("executionStats")
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'OTUS.user',
+    indexFilterSet: false,
+    parsedQuery: { country: { '$eq': 'DE' } },
+    queryHash: 'B752FA80',
+    planCacheKey: 'AD016A77',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: {
+      stage: 'FETCH',
+      inputStage: {
+        stage: 'IXSCAN',
+        keyPattern: { country: 1 },
+        indexName: 'country_1',
+        isMultiKey: false,
+        multiKeyPaths: { country: [] },
+        isUnique: false,
+        isSparse: false,
+        isPartial: false,
+        indexVersion: 2,
+        direction: 'forward',
+        indexBounds: { country: [ '["DE", "DE"]' ] }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 185,
+    executionTimeMillis: 4,
+    totalKeysExamined: 185,
+    totalDocsExamined: 185,
+    executionStages: {
+      stage: 'FETCH',
+      nReturned: 185,
+      executionTimeMillisEstimate: 0,
+      works: 186,
+      advanced: 185,
+      needTime: 0,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      docsExamined: 185,
+      alreadyHasObj: 0,
+      inputStage: {
+        stage: 'IXSCAN',
+        nReturned: 185,
+        executionTimeMillisEstimate: 0,
+        works: 186,
+        advanced: 185,
+        needTime: 0,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        keyPattern: { country: 1 },
+        indexName: 'country_1',
+        isMultiKey: false,
+        multiKeyPaths: { country: [] },
+        isUnique: false,
+        isSparse: false,
+        isPartial: false,
+        indexVersion: 2,
+        direction: 'forward',
+        indexBounds: { country: [ '["DE", "DE"]' ] },
+        keysExamined: 185,
+        seeks: 1,
+        dupsTested: 0,
+        dupsDropped: 0
+      }
+    }
+  },
+  command: { find: 'user', filter: { country: 'DE' }, '$db': 'OTUS' },
+  serverInfo: {
+    host: '629c94964182',
+    port: 27017,
+    version: '7.0.6',
+    gitVersion: '66cdc1f28172cb33ff68263050d73d4ade73b9a4'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted'
+  },
+  ok: 1
+}
+```
+
+# Вывод
+### Без использования индекса:
+
+- **Количество документов, возвращенных запросом**: 185
+- **Общее количество документов, просканированных для выполнения запроса**: 1154
+- **Метод выполнения запроса**: COLLSCAN (сканирование всей коллекции)
+
+### После добавления индекса на поле `country`:
+
+- **Количество документов, возвращенных запросом**: 185
+- **Общее количество документов, просканированных для выполнения запроса**: 185
+- **Метод выполнения запроса**: IXSCAN (поиск с использованием индекса)
