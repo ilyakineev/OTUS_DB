@@ -214,7 +214,7 @@ OTUS> db.user.deleteOne({ _id: ObjectId('65e2f9a8b8afc9a23e46ae86') })
 
 # Выборка всех значений
 ```shell
-OTUS> db.user.explain().find()
+OTUS> db.user.find().explain("executionStats")
 {
   explainVersion: '1',
   queryPlanner: {
@@ -228,6 +228,27 @@ OTUS> db.user.explain().find()
     maxScansToExplodeReached: false,
     winningPlan: { stage: 'COLLSCAN', direction: 'forward' },
     rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 1154,
+    executionTimeMillis: 1,
+    totalKeysExamined: 0,
+    totalDocsExamined: 1154,
+    executionStages: {
+      stage: 'COLLSCAN',
+      nReturned: 1154,
+      executionTimeMillisEstimate: 0,
+      works: 1155,
+      advanced: 1154,
+      needTime: 0,
+      needYield: 0,
+      saveState: 1,
+      restoreState: 1,
+      isEOF: 1,
+      direction: 'forward',
+      docsExamined: 1154
+    }
   },
   command: { find: 'user', filter: {}, '$db': 'OTUS' },
   serverInfo: {
